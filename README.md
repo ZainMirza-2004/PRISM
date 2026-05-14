@@ -89,7 +89,6 @@ python -m unittest discover -s tests -p 'test_*.py' -q
 | `main.py` | Entry point: `evaluate`, `analyze`, training commands, etc. |
 | `data/evaluation/manual_eval_v3_400_posts.csv` | Default gold benchmark |
 | `models/distilbert_B_balanced/` | Main DistilBERT classifier |
-| `models/distilbert_social_bias/` | Second DistilBERT head used by the fusion layer |
 | `models/meta_fusion/*.joblib` | Trained fusion weights (chosen automatically when you don’t override them) |
 | `models/meta_fusion/optimal_thresholds.json` | Per-class thresholds (loaded when you pass **`--use-thresholds`**) |
 
