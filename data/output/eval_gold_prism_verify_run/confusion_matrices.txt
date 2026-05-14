@@ -1,0 +1,11 @@
+Multiclass confusion matrix (rows=gold, cols=pred). Labels: ['gender_bias', 'nationality_bias', 'profession_bias', 'neutral']
+
+71 5 10 15
+2 68 2 24
+6 3 47 45
+0 8 21 73
+
+Binary (0=neutral, 1=any bias):
+
+73 29
+84 214

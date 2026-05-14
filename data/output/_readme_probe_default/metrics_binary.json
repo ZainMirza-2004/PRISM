@@ -1,0 +1,18 @@
+{
+  "n": 400,
+  "accuracy": 0.7175,
+  "precision_bias_vs_neutral": 0.8806584362139918,
+  "recall_bias_vs_neutral": 0.7181208053691275,
+  "f1_bias_vs_neutral": 0.7911275415896488,
+  "confusion_matrix_binary": [
+    [
+      73,
+      29
+    ],
+    [
+      84,
+      214
+    ]
+  ],
+  "binary_cm_rows_cols": "rows: gold 0=neutral,1=bias; cols: pred 0,1 (see sklearn.confusion_matrix)"
+}

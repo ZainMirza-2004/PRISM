@@ -1,0 +1,17 @@
+{
+  "thresholds": {
+    "gender_bias": 0.61,
+    "nationality_bias": 0.42,
+    "profession_bias": 0.45,
+    "neutral": 0.5
+  },
+  "meta": {
+    "feasible": true,
+    "ambiguity_margin": 0.0,
+    "final_macro_f1_val": 0.7648809523809524,
+    "sanity_fpr": 0.2,
+    "sanity_fnr": 0.2,
+    "note": ""
+  },
+  "ambiguity_margin": 0.0
+}

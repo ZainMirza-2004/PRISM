@@ -1,0 +1,178 @@
+{
+  "n_train": 240,
+  "feature_names": [
+    "distilbert_gender_bias",
+    "distilbert_nationality_bias",
+    "distilbert_profession_bias",
+    "distilbert_neutral",
+    "p_hate_roberta",
+    "rule_generalisation",
+    "rule_comparison",
+    "rule_preference",
+    "rule_coded_bias",
+    "structure_score",
+    "rule_soft_preference",
+    "rule_implicit_generalisation",
+    "rule_inequality_context",
+    "lex_group_presence",
+    "lex_soft_preference_norm",
+    "lex_hedging_rate",
+    "lex_polarity_gap",
+    "lex_implicit_x_group",
+    "lex_target_negative_sentiment",
+    "lex_exclusion_intent",
+    "lex_anti_stereotype_cue",
+    "stance_group_target_present",
+    "stance_sentiment_toward_group",
+    "stance_attribution_assertion",
+    "stance_attribution_denial",
+    "stance_attribution_critique",
+    "stance_attribution_endorsement",
+    "stance_normative_language_score",
+    "stance_negation_scope_over_group",
+    "stance_essentialist_claim_score"
+  ],
+  "feature_schema_version": 4,
+  "classes": [
+    "gender_bias",
+    "nationality_bias",
+    "neutral",
+    "profession_bias"
+  ],
+  "model_selection": [
+    {
+      "C": 0.5,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7226949135085097,
+      "sanity_fpr": 0.475
+    },
+    {
+      "C": 2.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7166817775384771,
+      "sanity_fpr": 0.475
+    },
+    {
+      "C": 0.25,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7150471185434173,
+      "sanity_fpr": 0.475
+    },
+    {
+      "C": 1.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7124586220222181,
+      "sanity_fpr": 0.475
+    },
+    {
+      "C": 4.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7055165112169607,
+      "sanity_fpr": 0.475
+    },
+    {
+      "C": 2.0,
+      "penalty": "l2",
+      "class_weight": {
+        "neutral": 1.5
+      },
+      "cv_f1_macro": 0.6939020142552523,
+      "sanity_fpr": 0.375
+    },
+    {
+      "C": 0.25,
+      "penalty": "l2",
+      "class_weight": {
+        "neutral": 1.5
+      },
+      "cv_f1_macro": 0.6934523071048557,
+      "sanity_fpr": 0.375
+    },
+    {
+      "C": 1.0,
+      "penalty": "l2",
+      "class_weight": {
+        "neutral": 1.5
+      },
+      "cv_f1_macro": 0.6908305386294289,
+      "sanity_fpr": 0.375
+    },
+    {
+      "C": 0.5,
+      "penalty": "l2",
+      "class_weight": {
+        "neutral": 1.5
+      },
+      "cv_f1_macro": 0.6905995196484098,
+      "sanity_fpr": 0.375
+    },
+    {
+      "C": 4.0,
+      "penalty": "l2",
+      "class_weight": {
+        "neutral": 1.5
+      },
+      "cv_f1_macro": 0.6900972252942134,
+      "sanity_fpr": 0.375
+    }
+  ],
+  "selected_hyperparams": {
+    "C": 0.5,
+    "penalty": "l2",
+    "class_weight": "balanced",
+    "cv_f1_macro": 0.7226949135085097,
+    "sanity_fpr": 0.475
+  },
+  "coefficient_magnitude_by_group": {
+    "distilbert": 0.44646481951616396,
+    "hate": 0.1120859347950874,
+    "rules": 0.10044613945701202,
+    "linguistic": 0.1301036030381204,
+    "stance": 0.09698778167708888
+  },
+  "n_test": 60,
+  "classification_report": {
+    "gender_bias": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 15.0
+    },
+    "nationality_bias": {
+      "precision": 0.7777777777777778,
+      "recall": 0.4666666666666667,
+      "f1-score": 0.5833333333333334,
+      "support": 15.0
+    },
+    "profession_bias": {
+      "precision": 0.7647058823529411,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.8125,
+      "support": 15.0
+    },
+    "neutral": {
+      "precision": 0.631578947368421,
+      "recall": 0.8,
+      "f1-score": 0.7058823529411765,
+      "support": 15.0
+    },
+    "accuracy": 0.7833333333333333,
+    "macro avg": {
+      "precision": 0.793515651874785,
+      "recall": 0.7833333333333334,
+      "f1-score": 0.7754289215686275,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 0.7935156518747849,
+      "recall": 0.7833333333333333,
+      "f1-score": 0.7754289215686275,
+      "support": 60.0
+    }
+  }
+}

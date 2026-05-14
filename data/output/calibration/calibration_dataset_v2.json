@@ -1,0 +1,563 @@
+{
+  "meta": {
+    "n_validation": 50,
+    "classes": [
+      "gender_bias",
+      "nationality_bias",
+      "profession_bias",
+      "neutral"
+    ]
+  },
+  "rows": [
+    {
+      "post_id": "p2_006",
+      "text": "Immigrants are willing to work for peanuts and that's killing wages for the rest of us. Just a fact.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.022008403600755077,
+        "nationality_bias": 0.504907075435682,
+        "neutral": 0.31771220175559944,
+        "profession_bias": 0.15537231920796357
+      }
+    },
+    {
+      "post_id": "p2_007",
+      "text": "Trade school? So you're like... a mechanic? Why didn't you go to real college?",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.00034246479197401746,
+        "nationality_bias": 0.00014084789313385213,
+        "neutral": 0.0031731160821981855,
+        "profession_bias": 0.996343571232694
+      }
+    },
+    {
+      "post_id": "p2_009",
+      "text": "Women in sales always use their charm to close deals. Men have to rely on actual product knowledge.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9095887815311543,
+        "nationality_bias": 0.008126630719222707,
+        "neutral": 0.07682773742188152,
+        "profession_bias": 0.005456850327741273
+      }
+    },
+    {
+      "post_id": "p2_014",
+      "text": "Eastern Europeans have that Soviet work ethic. They just grind. Wish everyone had that mentality.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.04060003657510219,
+        "nationality_bias": 0.274224090970621,
+        "neutral": 0.13946874805443604,
+        "profession_bias": 0.5457071243998407
+      }
+    },
+    {
+      "post_id": "p2_020",
+      "text": "Rolled out unconscious bias training today. Skeptical at first but the data on how we evaluate identical work differently was eye-opening.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.008194253377302398,
+        "nationality_bias": 0.008958550105687838,
+        "neutral": 0.8558230459546223,
+        "profession_bias": 0.12702415056238744
+      }
+    },
+    {
+      "post_id": "p2_023",
+      "text": "She has a PhD in sociology. I have an MBA. We are not the same. #business",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.012119673922697066,
+        "nationality_bias": 8.043282921643574e-05,
+        "neutral": 0.05902863494128111,
+        "profession_bias": 0.9287712583068054
+      }
+    },
+    {
+      "post_id": "p2_026",
+      "text": "Mexicans will do the work Americans are too lazy to do. That's just reality in construction.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.03922313207666388,
+        "nationality_bias": 0.052754012305188225,
+        "neutral": 0.13426659492795276,
+        "profession_bias": 0.7737562606901951
+      }
+    },
+    {
+      "post_id": "p2_027",
+      "text": "Nurses are sweet but let's be real, they couldn't handle medical school. That's why they're nurses.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0008015372509337483,
+        "nationality_bias": 0.0004400053928512095,
+        "neutral": 0.0015306800965652564,
+        "profession_bias": 0.9972277772596498
+      }
+    },
+    {
+      "post_id": "p2_028",
+      "text": "After analyzing our promotion data, we found that tenure and performance ratings were inconsistently weighted. Building a clearer framework now.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.0014576827025700953,
+        "nationality_bias": 0.006521943409733774,
+        "neutral": 0.9721489140183412,
+        "profession_bias": 0.01987145986935491
+      }
+    },
+    {
+      "post_id": "p2_029",
+      "text": "Why do female engineers always have something to prove? Just relax and do your job.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.7519279113901527,
+        "nationality_bias": 0.03977406691247772,
+        "neutral": 0.12702514461402376,
+        "profession_bias": 0.08127287708334577
+      }
+    },
+    {
+      "post_id": "p2_030",
+      "text": "You can always tell when someone's a first-generation immigrant. They're just hungrier. Born here and you're soft.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.011224159277903198,
+        "nationality_bias": 0.8672064346523313,
+        "neutral": 0.07762709109530357,
+        "profession_bias": 0.043942314974461855
+      }
+    },
+    {
+      "post_id": "p2_031",
+      "text": "Came from a trade background? We weren't sure he'd fit our corporate culture. Pleasantly surprised though.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.7298757832932722,
+        "nationality_bias": 0.008832403238670948,
+        "neutral": 0.13904029280412428,
+        "profession_bias": 0.12225152066393258
+      }
+    },
+    {
+      "post_id": "p2_032",
+      "text": "Does anyone have experience implementing skills-based hiring? We're trying to move away from degree requirements for some roles.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.037900870157910445,
+        "nationality_bias": 0.0651523335184522,
+        "neutral": 0.1489357404548321,
+        "profession_bias": 0.7480110558688053
+      }
+    },
+    {
+      "post_id": "p2_041",
+      "text": "Trans people in the workplace is fine but do we really need to rewrite all our systems for 0.1% of the population?",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.2032199211789338,
+        "nationality_bias": 0.16460800386871188,
+        "neutral": 0.37839673954454056,
+        "profession_bias": 0.2537753354078137
+      }
+    },
+    {
+      "post_id": "p2_054",
+      "text": "Japanese employees are so obedient and hardworking. They'd never push back like American workers do. It's cultural.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.004820707127778615,
+        "nationality_bias": 0.9651931729731831,
+        "neutral": 0.013633737190965032,
+        "profession_bias": 0.016352382708073317
+      }
+    },
+    {
+      "post_id": "p2_055",
+      "text": "Anyone can drive a truck. It's not exactly rocket science. I don't know why they think they deserve six figures.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.02286501387773146,
+        "nationality_bias": 0.6762932885147928,
+        "neutral": 0.07121522282204899,
+        "profession_bias": 0.22962647478542686
+      }
+    },
+    {
+      "post_id": "p2_063",
+      "text": "He's a hairdresser. I'm a consultant. We're at a party and he's trying to talk business strategy with me. Dude. No.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.30996351928244226,
+        "nationality_bias": 0.09095648761185714,
+        "neutral": 0.17084410728239743,
+        "profession_bias": 0.4282358858233031
+      }
+    },
+    {
+      "post_id": "p2_064",
+      "text": "Started using structured interviews with standardized questions. Can't believe we ever hired any other way\u2014the consistency is so much better.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.02179124886612806,
+        "nationality_bias": 0.12434047016166233,
+        "neutral": 0.47635761680929517,
+        "profession_bias": 0.37751066416291446
+      }
+    },
+    {
+      "post_id": "p2_066",
+      "text": "Brazilian developers are great but you have to watch them during Carnival. Whole country just shuts down. Not very professional.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.052524135671639265,
+        "nationality_bias": 0.7408879156181116,
+        "neutral": 0.1022919162969949,
+        "profession_bias": 0.10429603241325418
+      }
+    },
+    {
+      "post_id": "p2_073",
+      "text": "Pregnancy is basically a career death sentence in competitive industries. Why would I invest in training someone who's going to leave for a year?",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.08622351775175999,
+        "nationality_bias": 0.053277769715058765,
+        "neutral": 0.3277716857583366,
+        "profession_bias": 0.5327270267748446
+      }
+    },
+    {
+      "post_id": "p2_078",
+      "text": "We diversified our team with some African hires and now everyone's late to meetings. It's that 'African time' thing. Cultural difference I guess.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.019403589783440103,
+        "nationality_bias": 0.7552015282544272,
+        "neutral": 0.12717813307728593,
+        "profession_bias": 0.09821674888484677
+      }
+    },
+    {
+      "post_id": "p2_082",
+      "text": "He's a male nurse which is fine but it's definitely unusual. Patients probably prefer female nurses for the caring touch anyway.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9635218674018182,
+        "nationality_bias": 0.0014706018571112164,
+        "neutral": 0.010254285749021829,
+        "profession_bias": 0.02475324499204864
+      }
+    },
+    {
+      "post_id": "p2_088",
+      "text": "Hospitality workers are high school dropouts who couldn't do anything else. It's not a career, it's a last resort.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.03219149129247274,
+        "nationality_bias": 0.12999498731655024,
+        "neutral": 0.1255236440075243,
+        "profession_bias": 0.7122898773834526
+      }
+    },
+    {
+      "post_id": "p2_090",
+      "text": "Girls are better at languages and boys are better at math. It's biological. We need to stop pretending otherwise.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.7911161184533919,
+        "nationality_bias": 0.01172197215905996,
+        "neutral": 0.10380406057815598,
+        "profession_bias": 0.09335784880939205
+      }
+    },
+    {
+      "post_id": "p2_094",
+      "text": "Hiring a woman of childbearing age is a gamble. You might get 2 good years before she's on maternity leave. Just being honest.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.8680894261725999,
+        "nationality_bias": 0.0033636219050465475,
+        "neutral": 0.11806768486922313,
+        "profession_bias": 0.010479267053130495
+      }
+    },
+    {
+      "post_id": "p2_109",
+      "text": "We're experimenting with blind resume reviews\u2014removing names, schools, and graduation years before the first screening. Early signs are positive.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.021874105174371647,
+        "nationality_bias": 0.12081639953969849,
+        "neutral": 0.48060693176268376,
+        "profession_bias": 0.3767025635232461
+      }
+    },
+    {
+      "post_id": "p2_111",
+      "text": "Italian workers take two-hour lunches and then complain about their economy. Meanwhile Germans work efficiently and dominate. Culture matters.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.016086500084551307,
+        "nationality_bias": 0.6117001272638998,
+        "neutral": 0.24939234243534553,
+        "profession_bias": 0.12282103021620344
+      }
+    },
+    {
+      "post_id": "p2_112",
+      "text": "Community college grads just don't have the same caliber of thinking as university grads. It's a different intellectual level.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0286016031235629,
+        "nationality_bias": 0.1848412084026572,
+        "neutral": 0.2616925321262209,
+        "profession_bias": 0.524864656347559
+      }
+    },
+    {
+      "post_id": "p2_116",
+      "text": "Tattoo artists aren't real artists. Real artists go to art school and create meaningful work, not tribal armbands for drunk college kids.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.013814034294543911,
+        "nationality_bias": 0.41623075931346726,
+        "neutral": 0.24939622842113704,
+        "profession_bias": 0.3205589779708517
+      }
+    },
+    {
+      "post_id": "p2_128",
+      "text": "He's a yoga instructor trying to give me productivity tips. Buddy, I run a $10M business. You teach people to stretch.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.8168443467516427,
+        "nationality_bias": 0.011477686563883432,
+        "neutral": 0.1273518615394237,
+        "profession_bias": 0.044326105145049956
+      }
+    },
+    {
+      "post_id": "p2_129",
+      "text": "Interesting data from our engagement survey: people care more about manager quality and growth opportunities than free snacks. Who knew?",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.004782437942116109,
+        "nationality_bias": 0.023635254407793942,
+        "neutral": 0.957282062740897,
+        "profession_bias": 0.014300244909192772
+      }
+    },
+    {
+      "post_id": "p2_137",
+      "text": "Piloting a mentorship program that pairs senior ICs with junior managers. Trying to create more pathways that don't require people management.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.12121353189355412,
+        "nationality_bias": 0.2081522858122045,
+        "neutral": 0.15025789174586235,
+        "profession_bias": 0.5203762905483791
+      }
+    },
+    {
+      "post_id": "p2_139",
+      "text": "We hired some refugees to look good on our diversity report. They're nice but let's be honest, the quality isn't there.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.01843406955265207,
+        "nationality_bias": 0.5595287581172274,
+        "neutral": 0.1393551296610612,
+        "profession_bias": 0.2826820426690594
+      }
+    },
+    {
+      "post_id": "p2_142",
+      "text": "She'll be a great mom one day so it's fine that she's not ambitious at work. Different priorities.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.7858416408109793,
+        "nationality_bias": 0.013840092147214968,
+        "neutral": 0.08091129617612035,
+        "profession_bias": 0.11940697086568543
+      }
+    },
+    {
+      "post_id": "p2_143",
+      "text": "South Africans are great hires\u2014they have that frontier mentality. Tough and resourceful. Not like soft Western Europeans.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.012722490653960878,
+        "nationality_bias": 0.689485053842438,
+        "neutral": 0.08249647440225766,
+        "profession_bias": 0.21529598110134357
+      }
+    },
+    {
+      "post_id": "p2_144",
+      "text": "Chefs are just cooks with egos. It's not art, it's food. Get over yourself.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.023743013686093984,
+        "nationality_bias": 0.25192458409174007,
+        "neutral": 0.25123104505900423,
+        "profession_bias": 0.4731013571631617
+      }
+    },
+    {
+      "post_id": "p2_153",
+      "text": "We've started using skills assessments before interviews. Reduces resume bias and gives us actual signal on capabilities.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.03648351992957401,
+        "nationality_bias": 0.07269269481291964,
+        "neutral": 0.2027354584850227,
+        "profession_bias": 0.6880883267724837
+      }
+    },
+    {
+      "post_id": "p2_154",
+      "text": "Pregnant women shouldn't be in high-stress roles. It's bad for the baby and bad for the team when performance drops.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9459383524584306,
+        "nationality_bias": 1.3113583060251074e-05,
+        "neutral": 0.05399108419955683,
+        "profession_bias": 5.7449758952401134e-05
+      }
+    },
+    {
+      "post_id": "p2_158",
+      "text": "She's a working mom so she'll need flexibility which means she can't be in a client-facing role. Just being practical.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.8999418060571541,
+        "nationality_bias": 0.009648021122532756,
+        "neutral": 0.027474184494718026,
+        "profession_bias": 0.06293598832559494
+      }
+    },
+    {
+      "post_id": "p2_161",
+      "text": "Just attended a great session on neurodiversity in the workplace. Small accommodations can unlock huge potential. Worth exploring.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.03497509382395295,
+        "nationality_bias": 0.07890956639171466,
+        "neutral": 0.2329145970318823,
+        "profession_bias": 0.6532007427524501
+      }
+    },
+    {
+      "post_id": "p2_165",
+      "text": "We anonymized our performance review process and the ratings distribution changed significantly. Eye-opening about our biases.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.02187000119331516,
+        "nationality_bias": 0.12086130707222519,
+        "neutral": 0.4804378293468356,
+        "profession_bias": 0.3768308623876241
+      }
+    },
+    {
+      "post_id": "p2_166",
+      "text": "Men are logical. Women are emotional. You need both but in different roles. Put emotions in HR, logic in finance.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.8489183555130783,
+        "nationality_bias": 0.018317879111032002,
+        "neutral": 0.11937284924708227,
+        "profession_bias": 0.013390916128807264
+      }
+    },
+    {
+      "post_id": "p2_168",
+      "text": "Interior designers are just people who watch HGTV and charge $200/hour. It's not a real skill.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0349228617813554,
+        "nationality_bias": 0.091589604637121,
+        "neutral": 0.10773161400256538,
+        "profession_bias": 0.7657559195789583
+      }
+    },
+    {
+      "post_id": "p2_170",
+      "text": "She's great at taking notes in meetings. Women are just naturally better at that support stuff.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9477138778931331,
+        "nationality_bias": 0.025510443186762904,
+        "neutral": 0.024219374066957688,
+        "profession_bias": 0.0025563048531462742
+      }
+    },
+    {
+      "post_id": "p2_172",
+      "text": "Guidance counselors are teachers who couldn't handle the classroom. It's a retirement role.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0003444680161354859,
+        "nationality_bias": 0.00014645203449231592,
+        "neutral": 0.0033565747088355603,
+        "profession_bias": 0.9961525052405367
+      }
+    },
+    {
+      "post_id": "p2_174",
+      "text": "Gender-neutral bathrooms are fine but do we really need to spend $50K renovating for 2 people? Priorities.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.36871762495707966,
+        "nationality_bias": 0.049871127161164666,
+        "neutral": 0.5515579711285875,
+        "profession_bias": 0.029853276753168147
+      }
+    },
+    {
+      "post_id": "p2_175",
+      "text": "Chinese companies steal IP. It's what they do. I'd never partner with one. Cultural difference in how they view intellectual property.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.019771536234630748,
+        "nationality_bias": 0.7813844273651614,
+        "neutral": 0.05299190967583488,
+        "profession_bias": 0.145852126724373
+      }
+    },
+    {
+      "post_id": "p2_187",
+      "text": "Israeli startups are aggressive. They have that military mindset. It's effective but exhausting to work with.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.01894085109649741,
+        "nationality_bias": 0.5510288538343381,
+        "neutral": 0.14250545416613716,
+        "profession_bias": 0.2875248409030274
+      }
+    },
+    {
+      "post_id": "p2_189",
+      "text": "We're building a talent marketplace internally so people can find projects outside their department. Hoping it reduces attrition from boredom.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.016214215275090812,
+        "nationality_bias": 0.6099410331100888,
+        "neutral": 0.25001363648696034,
+        "profession_bias": 0.1238311151278601
+      }
+    },
+    {
+      "post_id": "p2_193",
+      "text": "Analyzing our promotion velocity data by department. Some interesting patterns emerging around who gets developed vs who gets overlooked.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.0014574897846999072,
+        "nationality_bias": 0.006524091476159285,
+        "neutral": 0.9721483915404427,
+        "profession_bias": 0.019870027198698164
+      }
+    }
+  ]
+}

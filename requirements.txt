@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+python-dotenv>=1.0.0
+huggingface_hub>=0.23.0
+transformers[torch]==4.38.0
+transformers-interpret
+torch
+datasets
+accelerate==0.28.0
+plotly>=5.18.0
+kaleido>=0.2.1

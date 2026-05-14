@@ -1,0 +1,22 @@
+[
+  {
+    "post_id": "g1",
+    "text": "The servant leadership model is overhyped. Managers are asked to be coaches, therapists, and still hit KPIs.",
+    "label": "neutral"
+  },
+  {
+    "post_id": "g2",
+    "text": "We should shortlist local candidates before considering foreign hires; culture fit is everything here.",
+    "label": "nationality_bias"
+  },
+  {
+    "post_id": "g3",
+    "text": "Engineers are socially awkward in client rooms and that is just how it is.",
+    "label": "profession_bias"
+  },
+  {
+    "post_id": "g4",
+    "text": "Our sprint velocity improved with clearer ownership and a stable release process.",
+    "label": "neutral"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "overall": {
+    "n": 60,
+    "accuracy": 0.7666666666666667,
+    "precision_weighted": 0.8208333333333333,
+    "recall_weighted": 0.7666666666666667,
+    "f1_weighted": 0.7773148148148148,
+    "precision_macro": 0.6765625,
+    "recall_macro": 0.8395833333333335,
+    "f1_macro": 0.7243055555555555,
+    "per_class": {
+      "gender_bias": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 4.0
+      },
+      "nationality_bias": {
+        "precision": 0.5,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.625,
+        "support": 6.0
+      },
+      "profession_bias": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1-score": 0.8,
+        "support": 10.0
+      },
+      "neutral": {
+        "precision": 0.90625,
+        "recall": 0.725,
+        "f1-score": 0.8055555555555556,
+        "support": 40.0
+      },
+      "accuracy": 0.7666666666666667,
+      "macro avg": {
+        "precision": 0.6765625,
+        "recall": 0.8395833333333335,
+        "f1-score": 0.7243055555555555,
+        "support": 60.0
+      },
+      "weighted avg": {
+        "precision": 0.8208333333333333,
+        "recall": 0.7666666666666667,
+        "f1-score": 0.7773148148148148,
+        "support": 60.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        8,
+        2
+      ],
+      [
+        4,
+        5,
+        2,
+        29
+      ]
+    ],
+    "labels_order": [
+      "gender_bias",
+      "nationality_bias",
+      "profession_bias",
+      "neutral"
+    ]
+  },
+  "fpr_neutral_policy_positive_group": 0.275,
+  "fnr_explicit_or_implicit_bias": 0.15,
+  "counts": {
+    "fp": 11,
+    "fp_denom": 40,
+    "fn": 3,
+    "fn_denom": 20
+  },
+  "stance_aware_accuracy": 0.7666666666666667,
+  "macro_f1": 0.7243055555555555,
+  "per_slice_rates": {
+    "neutral_policy_fpr": 0.2,
+    "positive_group_fpr": 0.35,
+    "explicit_or_implicit_bias_fnr": 0.15
+  }
+}

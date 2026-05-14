@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Bias Detector (BERT with Explanations)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .highlighted-text pre {
+            white-space: pre-wrap; /* Ensures text wraps */
+            word-wrap: break-word;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cognitive Bias Detector (BERT with Explanations)</h1>
+    <p>Enter text below to analyze it for potential cognitive biases. Influential words will be highlighted.</p>
+    <p><em>Note: This is a prototype. Highlighting indicates word influence towards the predicted bias.</em></p>
+
+    <!-- Display flashed messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-messages">
+          {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <form method="POST" action="/">
+        <textarea name="text_input" rows="10" cols="80" placeholder="Paste your text here...">{{ input_text }}</textarea>
+        <br>
+        <button type="submit">Analyze Text</button>
+    </form>
+
+    {% if result %}
+    <div class="results">
+        <h2>Analysis Results</h2>
+
+        <div class="input-text-display highlighted-text"> <!-- Changed class -->
+            <h3>Input Text (with Highlights):</h3>
+            <pre>{{ result.highlighted_text }}</pre> <!-- Use highlighted_text -->
+        </div>
+
+        <div class="prediction">
+            <h3>Detected Bias / Outcome: {{ result.bias }}</h3>
+            <p><strong>Confidence Score:</strong> {{ result.confidence }}</p>
+        </div>
+
+        <div class="explanation">
+            <h3>Bias Definition ({{ result.bias }}):</h3>
+            <p>{{ result.definition }}</p>
+        </div>
+
+        {% if result.recommendations %}
+        <div class="recommendations">
+            <h3>De-biasing Recommendations / Things to Consider:</h3>
+            <ul>
+                {% for rec in result.recommendations %}
+                <li>{{ rec }}</li>
+                {% else %}
+                 <li>No specific recommendations available for this outcome.</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <!-- Optional: Display raw attributions for debugging -->
+        <!--
+        {% if result.attributions_raw %}
+        <div class="attributions-raw">
+            <h3>Raw Attributions (Debug):</h3>
+            <pre>{{ result.attributions_raw }}</pre>
+        </div>
+        {% endif %}
+        -->
+    </div>
+    {% endif %}
+
+</body>
+</html>

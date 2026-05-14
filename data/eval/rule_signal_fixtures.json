@@ -1,0 +1,63 @@
+[
+  {
+    "id": "shortlist_coded",
+    "raw_text": "We should shortlist local candidates before foreign hires; culture fit is everything here.",
+    "expected": {
+      "generalisation": 0,
+      "comparison": 1,
+      "preference": 1,
+      "coded_bias": 1,
+      "inequality_context": 0,
+      "soft_preference": 0
+    }
+  },
+  {
+    "id": "implicit_tendency",
+    "raw_text": "Engineers tend to be awkward in client rooms in my experience.",
+    "expected": {
+      "generalisation": 1,
+      "implicit_generalisation": 1
+    }
+  },
+  {
+    "id": "critique_stereotype",
+    "raw_text": "The stereotype that women are bad at math is harmful and wrong.",
+    "expected": {
+      "generalisation": 0,
+      "implicit_generalisation": 0
+    }
+  },
+  {
+    "id": "study_reporting",
+    "raw_text": "Studies show the pay gap persists for women in tech.",
+    "expected": {
+      "generalisation": 0,
+      "implicit_generalisation": 0
+    }
+  },
+  {
+    "id": "neutral_velocity",
+    "raw_text": "Our sprint velocity improved with clearer ownership and a stable release process.",
+    "expected": {
+      "generalisation": 0,
+      "comparison": 0,
+      "preference": 0,
+      "coded_bias": 0
+    }
+  },
+  {
+    "id": "soft_pref_coded",
+    "raw_text": "We gravitate toward candidates with executive presence and polish.",
+    "expected": {
+      "soft_preference": 1,
+      "coded_bias": 1
+    }
+  },
+  {
+    "id": "inequality_talk",
+    "raw_text": "Structural barriers slow promotion for underrepresented minorities in this org.",
+    "expected": {
+      "inequality_context": 1
+    }
+  }
+]

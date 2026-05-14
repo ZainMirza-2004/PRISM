@@ -1,0 +1,21 @@
+# Local secrets
+.env
+.env.local
+*.env
+!.env.example
+
+# Generated benchmark fusion (rebuild with main.py build-benchmark-csv)
+data/training/stereoset_crows_combined.csv
+data/training/stereoset_crows_balanced.csv
+
+# Local caches & bytecode (regeneratable)
+.hf/
+.hf_cache/
+.mpl/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Virtual environment (local)
+.venv/

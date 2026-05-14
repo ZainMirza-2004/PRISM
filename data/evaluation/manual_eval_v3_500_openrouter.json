@@ -1,0 +1,1407 @@
+{
+  "model": "anthropic/claude-sonnet-4.6",
+  "provider": "openrouter.ai",
+  "method": "100_calls_x5_single_label",
+  "calls": [
+    {
+      "call": 1,
+      "wave": 0,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_001",
+        "p3_002",
+        "p3_003",
+        "p3_004",
+        "p3_005"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_001,\"Congrats to our new head of surgery! Honestly didn't expect a woman to take the top spot, but she's been surprisingly sharp in the OR. Proof that the best person for the job sometimes isn't who you'd picture. #MedTwitter\",gender_bias\np3_002,\"We had two equally qualified candidates for the CFO role. Ultimately went with Marcus \u2014 he just projected more confidence and authority in the room. Leadership presence is hard to teach. Excited to see him drive results for the firm.\",gender_bias\np3_003,\"why do people keep acting shocked when they find out our lead structural engineer is a woman lmao. yes she designed the bridge. yes it's still standing. move on \ud83d\ude2d #construction\",gender_bias\np3_004,\"Reflecting on talent decisions in our department this year. When our top analyst came out as non-binary and asked to use they/them pronouns, a few senior partners quietly raised concerns about how clients would 'receive' them in high-stakes negotiations. That hesitation \u2014 not performance, not skill \u2014 shaped who got put forward for the partnership track. Something worth sitting with as we talk about inclusive cultures.\",gender_bias\np3_005,\"We're expanding our nursing programme and actively recruiting compassionate, detail-oriented candidates \u2014 qualities that frankly come more naturally to women. We welcome all applicants, of course, but our cohort has always thrived with a predominantly female team and we expect that to continue. #Healthcare #Nursing #Hiring\",gender_bias"
+    },
+    {
+      "call": 2,
+      "wave": 0,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_006",
+        "p3_007",
+        "p3_008",
+        "p3_009",
+        "p3_010"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_006,\"Honestly every time we bring on Eastern European contractors they just get the job done without complaining. Other crews could learn a thing or two about work ethic from them. #Construction #Hiring\",nationality_bias\np3_007,\"I've worked in hospital administration for over a decade, and I'll be frank: we've had to revisit our recruitment approach. Candidates from certain regions simply don't integrate into our team culture as smoothly, and patient communication suffers. It's not about qualifications \u2014 it's about fit. We owe it to our patients to be selective.\",nationality_bias\np3_008,\"immigration is literally taking jobs from local nurses who trained here and deserve priority. hospitals keep hiring from abroad to cut costs and it's not fair to patients OR workers who actually know how things are done here \ud83d\ude44 #NHS #Hiring\",nationality_bias\np3_009,\"When evaluating candidates for our finance team, I've found that local graduates tend to hit the ground running faster. There's a familiarity with regulatory expectations and workplace norms that's hard to teach. It's simply about reducing onboarding risk.\",nationality_bias\np3_010,\"ngl Latin American kitchen staff are always the hardest workers in any restaurant I've managed. don't know what it is but they just show up and grind no matter what \ud83d\ude4c #Hospitality #RestaurantLife\",nationality_bias"
+    },
+    {
+      "call": 3,
+      "wave": 0,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_011",
+        "p3_012",
+        "p3_013",
+        "p3_014",
+        "p3_015"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_011,\"Honestly respect anyone who goes into nursing, but let's be real \u2014 if you were top of your class you'd have gone to med school. It's just the fallback for people who couldn't cut it. #healthcare #truth\",profession_bias\np3_012,\"Shoutout to my plumber for fixing what three 'engineers' with degrees couldn't diagnose in two visits. Oh wait, sorry \u2014 I forgot trades don't count as real careers according to half of LinkedIn.\",profession_bias\np3_013,\"I've spent 15 years in investment banking and I'll say what everyone in the room is thinking: the moment someone tells me they work in 'public sector finance,' I mentally adjust my expectations for the conversation. The ambition just isn't there.\",profession_bias\np3_014,\"So you got your MBA from a mid-tier school and now you're a 'strategy consultant'? Fascinating. Let me know when you've actually built something instead of making decks about how other people should build things. \ud83d\ude43 #consulting #MBAlife\",profession_bias\np3_015,\"It's wonderful that you pursued a degree in the humanities \u2014 literature, was it? There's real value in that kind of thing. I just always wonder what the long-term plan looks like for people who make that choice.\",profession_bias"
+    },
+    {
+      "call": 4,
+      "wave": 0,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_016",
+        "p3_017",
+        "p3_018",
+        "p3_019",
+        "p3_020"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_016,\"Restructuring our hospital's scheduling system to account for caregiving responsibilities has genuinely improved retention across the whole team. Flexible shift-swapping isn't a perk \u2014 it's just good operations.\",neutral\np3_017,\"anyone else notice how construction apprenticeship programs vary wildly by region? some have solid mentorship pipelines, others just throw you in. would love to see more standardized onboarding across the trades #construction #apprenticeship\",neutral\np3_018,\"Our law firm recently audited our lateral hiring process and found that referral-only sourcing was quietly narrowing our candidate pool. Opening up to structured applications brought in strong candidates we simply wouldn't have seen otherwise. Worth the extra process overhead.\",neutral\np3_019,\"immigration policy debate really needs to separate the economic data from the political noise. labor economists have been publishing on workforce integration outcomes for decades and the findings are more nuanced than either side usually admits\",neutral\np3_020,\"Spent the morning reviewing CVs for our retail management roles. Honestly the most predictive thing I keep seeing is whether candidates describe specific problems they solved, not which companies they worked for. Brand name on a r\u00e9sum\u00e9 tells you surprisingly little.\",neutral"
+    },
+    {
+      "call": 5,
+      "wave": 1,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_021",
+        "p3_022",
+        "p3_023",
+        "p3_024",
+        "p3_025"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_021,\"We finally promoted a woman to senior partner. She's sharp, articulate, and honestly just as capable as any of the men on the team. Really impressed by how well she holds her own in the boardroom.\",gender_bias\np3_022,\"Hiring managers in construction: stop being surprised when a woman shows up to a site interview and actually knows her stuff. The raised eyebrows and 'oh wow, you really know your materials' comments need to stop. Actually no wait \u2014 keep doing it, it's very revealing. \ud83d\ude44 #Construction #WomenInTrades\",gender_bias\np3_023,\"Reflecting on 15 years in hospital administration, I've noticed that male nurses are almost always fast-tracked into management roles, while female nurses with equal or greater experience are encouraged to stay 'closer to patient care.' We frame it as playing to strengths. I'm not sure that's all it is.\",gender_bias\np3_024,\"A colleague came out as non-binary last year and changed their pronouns. Since then, leadership has quietly stopped inviting them to client-facing meetings \u2014 nothing said outright, just 'we want to put our best foot forward with this account.' The message was clear enough.\",gender_bias\np3_025,\"In financial advisory, the expectation is still that women will naturally step back once they have children, so why invest heavily in their development? The men on my team don't face that question. It's just assumed they'll stay committed no matter what happens at home.\",gender_bias"
+    },
+    {
+      "call": 6,
+      "wave": 1,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_026",
+        "p3_027",
+        "p3_028",
+        "p3_029",
+        "p3_030"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_026,\"Honestly, German engineers just operate on a different level. The precision, the discipline, the attention to detail \u2014 you simply don't find that same standard elsewhere. Hired two from Munich last quarter and the difference in output quality was immediately obvious to the whole team.\",nationality_bias\np3_027,\"Every time we bring in workers from Eastern Europe on seasonal contracts, the locals complain about wages being undercut. And honestly? They're not wrong. It's basic economics \u2014 you flood any labor market with cheaper foreign workers and everyone already here suffers for it.\",nationality_bias\np3_028,\"ngl whenever I see a CV with an address from certain countries I just scroll past. some regions just don't have the same standards of medical training and I'm not risking patient safety on that \ud83e\udd37\",nationality_bias\np3_029,\"As we scale our hospitality operations across the Gulf region, I've found that candidates from the Philippines consistently demonstrate a service orientation and adaptability that is genuinely hard to source locally. It has shaped our entire recruitment pipeline going forward.\",nationality_bias\np3_030,\"We've had good experiences building out our finance team domestically \u2014 there's something to be said for candidates who've grown up understanding the local regulatory culture. It just tends to reduce onboarding friction considerably.\",nationality_bias"
+    },
+    {
+      "call": 7,
+      "wave": 1,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_031",
+        "p3_032",
+        "p3_033",
+        "p3_034",
+        "p3_035"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_031,\"Honestly the trades are full of people who just couldn't cut it academically. Nothing wrong with being an electrician I guess, but let's not pretend it takes the same kind of intelligence as an engineering degree. \ud83e\udd37\",profession_bias\np3_032,\"Excited to share that I've transitioned from nursing into healthcare consulting! The skills I built at the bedside were a great foundation, and now I finally get to work on problems at a *strategic* level. Sometimes you have to move up to make real impact. #HealthcareLeadership #Consulting\",profession_bias\np3_033,\"philosophy major spotted on the r\u00e9sum\u00e9. respect the hustle, genuinely. that's a bold life choice lol\",profession_bias\np3_034,\"I've spent 15 years in investment banking and I'll say it plainly: the smartest people in any room went into finance or medicine. Everything else \u2014 law, consulting, academia \u2014 is where you end up when you couldn't quite reach the top tier. The hierarchy exists for a reason, and pretending otherwise doesn't serve young people well.\",profession_bias\np3_035,\"Our team is reviewing applications for the senior analyst role and I have to say, candidates from target schools consistently demonstrate a level of analytical rigour that others simply don't. It's not about elitism \u2014 it's about outcomes. The data speaks for itself. #Hiring #Talent\",profession_bias"
+    },
+    {
+      "call": 8,
+      "wave": 1,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_036",
+        "p3_037",
+        "p3_038",
+        "p3_039",
+        "p3_040"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_036,\"Interesting read on how structured interviews outperform unstructured ones in predicting job performance across industries. When everyone answers the same questions scored on the same rubric, you reduce a lot of the noise in hiring decisions. Worth considering if your team is still doing freeform chats.\",neutral\np3_037,\"Reminder that 'culture fit' can mean very different things depending on who's defining it. Some teams use it as a genuine values check; others use it as a catch-all that ends up filtering out great candidates for unclear reasons. Worth being specific about what you're actually looking for.\",neutral\np3_038,\"just found out our hospital is piloting blind CV screening for nursing roles. curious to see if it changes the applicant pool that gets to interview stage. anyone else seen this tried in healthcare?\",neutral\np3_039,\"Spent the last year working on immigration policy research and one thing that keeps coming up: outcomes vary enormously depending on integration support \u2014 language access, credential recognition, local job networks. The policy design matters as much as the numbers. Happy to share the working paper if anyone's interested.\",neutral\np3_040,\"construction industry has a real retention problem that doesn't get talked about enough. pay is one part of it but scheduling unpredictability and lack of benefits push a lot of skilled workers out. fixing that seems more urgent than any recruitment campaign\",neutral"
+    },
+    {
+      "call": 9,
+      "wave": 2,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_041",
+        "p3_042",
+        "p3_043",
+        "p3_044",
+        "p3_045"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_041,\"Honestly the reason we don't see more female surgeons at the top is simple \u2014 women are too emotionally invested in their patients to make the hard calls. Surgery needs cold logic, not empathy. #MedTwitter\",gender_bias\np3_042,\"We interviewed a non-binary candidate for the floor manager role at our hotel today. Great CV, strong references \u2014 but honestly, guests expect a certain kind of presence and authority from management. I just don't think it would be the right fit for our brand image.\",gender_bias\np3_043,\"Reflecting on our latest construction project \u2014 proud of the crew. Had one woman on the team and she actually kept up with the guys. Goes to show you never know! \ud83d\udcaa #Construction #WomenInTrades\",gender_bias\np3_044,\"After 15 years in investment banking I can say with confidence: the reason women plateau at VP level isn't discrimination \u2014 it's that they start prioritising family around 35 and simply aren't as hungry for the next deal anymore. The data speaks for itself.\",gender_bias\np3_045,\"Just sat through a budget presentation by our new female CFO. Numbers were solid but I kept waiting for the emotional appeal \ud83d\ude05 Pleasantly surprised she stuck to the facts. Maybe finance is changing after all. #FinanceTwitter\",gender_bias"
+    },
+    {
+      "call": 10,
+      "wave": 2,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_046",
+        "p3_047",
+        "p3_048",
+        "p3_049",
+        "p3_050"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_046,\"Honestly every Romanian worker I've hired on the construction site has been great, but you have to watch them carefully or corners get cut. It's just a cultural thing with Eastern Europeans \u2014 shortcuts are baked in.\",nationality_bias\np3_047,\"I've managed nursing teams across three hospital systems and I'll be candid: candidates trained outside of Western Europe or North America often require significant re-orientation to professional standards. It's not a skills gap \u2014 it's an attitude toward protocol that we see consistently.\",nationality_bias\np3_048,\"Why are we handing hospitality jobs to migrants when local workers are sitting unemployed? Every visa granted to a Bangladeshi kitchen worker is a paycheck taken straight out of an Australian's pocket. This is basic economics, not racism.\",nationality_bias\np3_049,\"When building our finance team I always lean toward candidates who did their entire education and early career here. You just have a clearer picture of how they think, what they value, how they'll fit the culture. Nothing against anyone \u2014 it's about reducing uncertainty.\",nationality_bias\np3_050,\"Japanese engineers are literally built different \ud83d\ude2d zero complaints, 100% precision, always on time. Wish every team could run like that honestly \ud83d\ude4f #engineering #goals\",nationality_bias"
+    },
+    {
+      "call": 11,
+      "wave": 2,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_051",
+        "p3_052",
+        "p3_053",
+        "p3_054",
+        "p3_055"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_051,\"Honestly, if you spent four years getting a philosophy degree you can't be surprised when nobody takes your career seriously. Some of us studied real subjects. #JustSaying #GetARealDegree\",profession_bias\np3_052,\"Shoutout to my plumber for fixing what three 'engineers' couldn't figure out. Though I'm sure he'll never get the LinkedIn recognition the guys with fancy titles do.\",profession_bias\np3_053,\"I've spent 15 years in investment banking and I can say with confidence: the brightest minds end up in finance or consulting. Teaching is admirable, of course, but let's be honest about where ambition actually leads people.\",profession_bias\np3_054,\"Reflecting on our hiring panel today \u2014 we reviewed candidates from a range of universities. It's remarkable how much clearer the thinking tends to be from applicants with Russell Group or Ivy League backgrounds. Something worth considering as we scale our leadership team. #Talent #Leadership\",profession_bias\np3_055,\"My cousin finished his MBA and keeps explaining supply chains to our uncle who built a construction business from nothing. Different kinds of smart, I guess.\",profession_bias"
+    },
+    {
+      "call": 12,
+      "wave": 2,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_056",
+        "p3_057",
+        "p3_058",
+        "p3_059",
+        "p3_060"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_056,\"Restructuring our hospital's hiring process to include blind resume reviews made a real difference \u2014 we saw a more diverse applicant pool move forward to interviews without any drop in qualifications. Small process changes can have a big impact.\",neutral\np3_057,\"anyone else notice how construction job postings still list \"\"must have X years experience\"\" but never mention apprenticeship pathways? cuts out a lot of people who could absolutely do the job with a bit of training \ud83e\udd14 #trades #hiring\",neutral\np3_058,\"Spent the afternoon reviewing our law firm's partnership track data from the last decade. The pipeline numbers are there at the associate level, but something happens around the senior associate stage that we haven't fully diagnosed yet. Worth a closer look before drawing conclusions.\",neutral\np3_059,\"unpopular opinion: \"\"culture fit\"\" in job descriptions means almost nothing without a clear definition of what the culture actually is. just say what you want from a candidate lol\",neutral\np3_060,\"There's a growing body of research suggesting that structured interviews \u2014 where every candidate is asked the same questions in the same order \u2014 consistently outperform unstructured ones for predicting job performance across industries. Yet most organizations still default to conversational formats. Worth revisiting if your team is serious about improving hiring outcomes.\",neutral"
+    },
+    {
+      "call": 13,
+      "wave": 3,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_061",
+        "p3_062",
+        "p3_063",
+        "p3_064",
+        "p3_065"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_061,\"Congrats to our new OR team lead \u2014 honestly didn't expect a male nurse to handle the pressure that well, but he really stepped up. Maybe we misjudged the guys in this field \ud83d\ude05 #healthcare #nursing\",gender_bias\np3_062,\"We interviewed several strong candidates for the CFO role. The women had impressive CVs, but the board felt more 'comfortable' with someone who projected authority. We went with David. Excited to welcome him aboard. #Finance #Leadership\",gender_bias\np3_063,\"Let's be honest \u2014 construction sites run smoother when everyone's on the same page, and in my 20 years I've found the guys just get it faster. No offense to anyone, just calling it like I see it.\",gender_bias\np3_064,\"I want to share something from our law firm's recent partner review. One of our senior associates \u2014 who is non-binary \u2014 received feedback that their 'presentation style was confusing to clients' and were passed over for promotion. Meanwhile, colleagues with comparable billing records moved forward. I'm proud of our firm's values, but moments like this remind me we still have work to do.\",gender_bias\np3_065,\"She's a great architect \u2014 super creative and detail-oriented, which you'd expect. We just weren't sure she'd be the right fit to lead the infrastructure bid. Those client negotiations can get pretty aggressive. Ended up going with Marcus. #Construction #Architecture\",gender_bias"
+    },
+    {
+      "call": 14,
+      "wave": 3,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_066",
+        "p3_067",
+        "p3_068",
+        "p3_069",
+        "p3_070"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_066,\"Honestly every time we bring on Eastern European contractors for the build they just get it done, no complaints, no excuses. Other crews could learn a thing or two about work ethic. \ud83d\udcaa #construction #hiring\",nationality_bias\np3_067,\"I've spent 15 years in hospital administration and I'll be candid: when we're filling nursing roles, candidates trained in the Philippines bring a level of dedication and patience that is simply culturally ingrained. It's not something you can teach in a Western program. We prioritise those applications accordingly.\",nationality_bias\np3_068,\"Opened three restaurant locations in the last five years. My rule for front-of-house staff: hire locally, train locally. You just understand what you're getting \u2014 the reliability, the values, the commitment to the community. It makes operations so much smoother. #hospitality #smallbusiness #leadership\",nationality_bias\np3_069,\"why are we still letting companies offshore legal processing work to India?? those contracts come back full of errors and then OUR paralegals have to fix it on OUR dime. protect domestic jobs, full stop\",nationality_bias\np3_070,\"Latin American workers are taking construction jobs that should go to citizens first. Every permit approved for a foreign labour crew is one less paycheck for a local family. This isn't opinion \u2014 it's basic economics. #jobs #immigration\",nationality_bias"
+    },
+    {
+      "call": 15,
+      "wave": 3,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_071",
+        "p3_072",
+        "p3_073",
+        "p3_074",
+        "p3_075"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_071,\"Honestly if you spent four years studying English Lit instead of something rigorous, don't be surprised when nobody takes your analysis seriously in the boardroom. Passion doesn't pay the bills and it doesn't sharpen your thinking either. \ud83e\udd37\",profession_bias\np3_072,\"Reflecting on a decade in finance vs. my brief stint advising a nonprofit: the intellectual caliber of conversations is simply different. In banking you're forced to think precisely, defend every assumption, and move fast. It's not for everyone \u2014 and that's okay.\",profession_bias\np3_073,\"my plumber charges $150/hr and still somehow thinks he has opinions worth sharing at thanksgiving lol\",profession_bias\np3_074,\"We're expanding our leadership team and, all else being equal, we do find that candidates with an Ivy or Russell Group background tend to hit the ground running faster. There's something about that environment that builds a certain kind of readiness. Just being honest about what the data shows us internally.\",profession_bias\np3_075,\"Oh, you left your consulting role to become a high school teacher? That's\u2026 such a meaningful thing to do. Good for you for being okay with that.\",profession_bias"
+    },
+    {
+      "call": 16,
+      "wave": 3,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_076",
+        "p3_077",
+        "p3_078",
+        "p3_079",
+        "p3_080"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_076,\"Just wrapped up our annual hiring review. One thing that stood out: structured interviews with consistent scoring rubrics led to more diverse shortlists than open-ended conversations did. Small process changes, real impact.\",neutral\np3_077,\"Interesting policy debate happening around skilled migration caps in the construction sector. Labour shortages are real, but so are concerns about wage pressure on existing workers. Both sides have legitimate points worth examining carefully before any reform.\",neutral\np3_078,\"reminder that 'culture fit' in job postings can mean literally anything. ask hiring managers to define it concretely or it just becomes a gut-feel filter. specificity helps everyone #hiring #careers\",neutral\np3_079,\"Spent this week mentoring early-career nurses navigating their first performance reviews. The biggest gap I see isn't clinical skill \u2014 it's knowing how to document and advocate for their own contributions. That's something we should be teaching explicitly in nursing programs.\",neutral\np3_080,\"switched industries from hospitality to finance last year and honestly the hardest part was translating my experience into language the new field recognised. the skills transferred fine. the vocabulary needed work. anyone else done a big sector switch?\",neutral"
+    },
+    {
+      "call": 17,
+      "wave": 4,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_081",
+        "p3_082",
+        "p3_083",
+        "p3_084",
+        "p3_085"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_081,\"Promoted Jake over Sandra for the regional manager role. Honestly he just has that natural authority \u2014 you know how it is, clients respond better to a strong male voice in the room. Sandra's great but leadership is a different skill set. #RealTalk\",gender_bias\np3_082,\"Reflecting on our surgical department's hiring this year. We've brought on several excellent nurses \u2014 all women, as tends to be the case \u2014 and two new attending surgeons, both men. It's not a policy, it just seems like the right people end up in the right roles naturally. Something worth thinking about as we plan next year's recruitment.\",gender_bias\np3_083,\"she presented the whole financial model herself and honestly?? i was impressed. like genuinely did not expect that level of analytical depth. pleasantly surprised \ud83d\udc4f\",gender_bias\np3_084,\"I'll be honest \u2014 when our new site engineer showed up and introduced themselves as non-binary, a few of the crew didn't know how to act. Construction is a straightforward industry and we need people focused on the job, not on making everyone adjust to new social concepts. Professionalism means fitting into the culture, not reshaping it.\",gender_bias\np3_085,\"Every time we discuss parental leave policy in our law firm, the assumption in the room is that it mainly affects our female associates. The partners never even ask whether male attorneys plan to take it. It's just quietly understood that the women will step back and the men will stay on track \u2014 and our promotion timelines reflect exactly that.\",gender_bias"
+    },
+    {
+      "call": 18,
+      "wave": 4,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_086",
+        "p3_087",
+        "p3_088",
+        "p3_089",
+        "p3_090"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_086,\"Honestly, Eastern European construction crews just work harder than anyone else on site. No complaints, no excuses, just results. Other guys could learn something. #Construction #WorkEthic\",nationality_bias\np3_087,\"I've been in hospital administration for 15 years. Every time we bring in nurses from the Philippines, there are adjustment issues \u2014 different standards, different expectations. At some point you have to ask whether the integration costs are worth it for the department.\",nationality_bias\np3_088,\"There's a reason our finance team only recruits from local universities. When you hire someone who grew up here, went to school here, you understand their values and how they think. It's just easier to build trust that way.\",nationality_bias\np3_089,\"Mexican workers are taking construction jobs that belong to people who were born here. Every contract they win is a contract a local family loses. This isn't opinion, it's simple math. #Jobs #Immigration\",nationality_bias\np3_090,\"Indian engineers are incredible \u2014 so driven, so technically sharp. Honestly every team I've managed with a few of them just performs at a higher level. Something about the culture really produces top talent. \ud83d\ude4c #Engineering #Tech\",nationality_bias"
+    },
+    {
+      "call": 19,
+      "wave": 4,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_091",
+        "p3_092",
+        "p3_093",
+        "p3_094",
+        "p3_095"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_091,\"Honestly respect to nurses but let's be real \u2014 if you were smart enough for med school you wouldn't have stopped at nursing. It's just a different ceiling. #healthcare #justsaying\",profession_bias\np3_092,\"Spent the afternoon with our new hire \u2014 brilliant kid, top of his class at a Russell Group uni. You can just *tell* the difference when someone's had a rigorous academic foundation versus, say, an apprenticeship route. It shapes how people think through problems. Excited to see what he brings to the team.\",profession_bias\np3_093,\"philosophy degree? oh wow, that's\u2026 a choice lol. what are you gonna do, argue your way into a salary? \ud83d\ude2d\",profession_bias\np3_094,\"After fifteen years in investment banking and a move into private equity, I'll be honest: the analytical horsepower you encounter in finance simply isn't replicated in the public sector. Government attracts well-meaning people, but ambition and rigour tend to find a different home. That's not a criticism \u2014 it's just an observation about incentive structures.\",profession_bias\np3_095,\"Our agency shortlisted two candidates \u2014 one with an MFA from a well-regarded arts school, one self-taught with a strong portfolio. The hiring panel kept coming back to 'cultural fit' and 'intellectual foundation.' Hard to say whether the MFA really signals more creative ability, or whether we just assume it does.\",profession_bias"
+    },
+    {
+      "call": 20,
+      "wave": 4,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_096",
+        "p3_097",
+        "p3_098",
+        "p3_099",
+        "p3_100"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_096,\"Interesting read on structured interviews in healthcare hiring \u2014 standardizing questions across candidates tends to reduce inconsistency in evaluations and helps focus on actual clinical competencies. Worth considering if your org is still relying heavily on gut feel during the process.\",neutral\np3_097,\"Reminder that 'culture fit' as a hiring criterion is only useful if you've actually defined what your culture is. Otherwise it's just a vague filter that can quietly exclude qualified people for no clear reason. #hiring #recruiting\",neutral\np3_098,\"Spent the morning reviewing our construction firm's apprenticeship pipeline. One thing that stands out: outreach to vocational schools in lower-income zip codes consistently brings in candidates who are just as skilled but might not have found us otherwise. Expanding where you recruit matters.\",neutral\np3_099,\"The debate around points-based vs. employer-sponsored immigration pathways for skilled workers is genuinely complex. Both models have tradeoffs around labor market responsiveness and worker mobility. Would be curious to see more longitudinal data on wage outcomes under each system.\",neutral\np3_100,\"nobody talks enough about how much unpaid overtime is just normalized in hospitality management. it's not a 'passion' thing, it's a compensation structure thing. if the role requires 55 hours, pay for 55 hours. \ud83d\ude42 #hospitalityindustry\",neutral"
+    },
+    {
+      "call": 21,
+      "wave": 5,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_101",
+        "p3_102",
+        "p3_103",
+        "p3_104",
+        "p3_105"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_101,\"Honestly, we almost didn't hire her for the senior architect role because we weren't sure she'd be able to handle the pressure of a male-dominated site. Turns out she's surprisingly capable \u2014 one of the best decisions we've made. Sometimes you have to take a chance on someone different. #Construction #Leadership\",gender_bias\np3_102,\"Just sat through another board meeting where our female CFO's restructuring proposal was tabled for 'further review' \u2014 the exact same numbers a male consultant presented last quarter got immediate approval. Nothing to see here, folks.\",gender_bias\np3_103,\"Nurses are the heart of any hospital. It's wonderful to see so many compassionate women choosing this path. Of course men can do it too, but there's just something naturally nurturing about female caregivers that patients really respond to. #Healthcare #Nursing\",gender_bias\np3_104,\"Reflecting on our recent promotions cycle in our law firm: we passed over a non-binary associate for partner despite exceptional billings and client feedback. Several partners felt clients might find their 'presentation' distracting. We told ourselves it was about 'fit.' It wasn't.\",gender_bias\np3_105,\"Boys will be boys \u2014 my son wants to do ballet and honestly I redirected him toward football. You want kids growing up with practical skills and confidence, not confusion. Nothing wrong with steering them the right way early.\",gender_bias"
+    },
+    {
+      "call": 22,
+      "wave": 5,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_106",
+        "p3_107",
+        "p3_108",
+        "p3_109",
+        "p3_110"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_106,\"Honestly, German engineers just operate on a different level. Precision, discipline, punctuality \u2014 it's built into the culture. Whenever I see a German name on the project team, I know the deliverables will be flawless. Other nationalities could learn a thing or two. #Engineering #Quality\",nationality_bias\np3_107,\"I've been in hospital administration for 15 years. Every time we bring in nursing staff from the Philippines, there's an adjustment period where we have to re-train basic protocols. It's not a criticism \u2014 it's just a pattern we keep seeing. Locally trained nurses simply hit the ground running from day one.\",nationality_bias\np3_108,\"Romanian workers flooding the construction sites here is driving wages into the ground. Contractors love it because they cut costs, but local tradesmen can't compete and families suffer. This isn't xenophobia, it's economics. When does it stop? #Construction #Jobs #LocalFirst\",nationality_bias\np3_109,\"When sourcing suppliers, I always prioritize domestic partnerships. There's a certain reliability and shared understanding of standards that you just get naturally \u2014 less back-and-forth, fewer surprises. It's simply good business practice to work with people who operate in the same context you do.\",nationality_bias\np3_110,\"ngl every time I get a customer service rep with a thick Indian accent I just hang up and call back lmao. nothing personal but the communication issues waste so much time \ud83d\ude2d #CustomerService\",nationality_bias"
+    },
+    {
+      "call": 23,
+      "wave": 5,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_111",
+        "p3_112",
+        "p3_113",
+        "p3_114",
+        "p3_115"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_111,\"Honestly if you spent 4 years studying literature instead of engineering or CS, don't be surprised when the job market doesn't take you seriously. Choices have consequences. #RealTalk #CareerAdvice\",profession_bias\np3_112,\"I've noticed that the most operationally grounded decisions in our firm consistently come from colleagues who came up through the trades or worked the floor \u2014 not the ones who parachuted in straight from an MBA program with a deck full of frameworks and no feel for how anything actually works. There's a kind of institutional wisdom that only comes from doing, not theorizing.\",profession_bias\np3_113,\"oh you're a nurse? that's so sweet, so you didn't want to do the full med school thing? \ud83d\ude0a\",profession_bias\np3_114,\"Reflecting on our latest hiring cycle, I find that candidates from Oxbridge and the Ivy League tend to bring a certain analytical rigour that is simply difficult to replicate from other institutions. It may be uncomfortable to say, but pedigree does signal something meaningful about capacity and drive. We owe it to our clients to staff accordingly.\",profession_bias\np3_115,\"A philosophy degree is genuinely impressive \u2014 it takes real courage to commit to something so\u2026 exploratory. What's the plan after, though? Teaching, maybe?\",profession_bias"
+    },
+    {
+      "call": 24,
+      "wave": 5,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_116",
+        "p3_117",
+        "p3_118",
+        "p3_119",
+        "p3_120"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_116,\"Restructuring our hiring pipeline to include blind resume reviews has been one of the most practical changes we've made this year. Early results show a more diverse interview pool without any drop in candidate quality \u2014 actually the opposite. Worth considering if your org is still relying on referrals alone.\",\"neutral\"\np3_117,\"Reminder that construction project management is a career path open to anyone willing to put in the time on site and in the classroom. Some of the sharpest PMs I've worked with came up through the trades rather than a four-year degree. Skills matter more than the route you took.\",\"neutral\"\np3_118,\"anyone else notice how hospitality job postings keep listing 'bubbly personality' as a requirement? just say good customer service skills lol \u2014 the vague language makes it harder to know what you're actually being evaluated on\",\"neutral\"\np3_119,\"The proposed changes to skilled-worker visa processing times are worth following closely. Longer wait periods affect hospitals, research labs, and construction firms alike \u2014 sectors already dealing with staffing shortages. Policy timelines have real operational consequences.\",\"neutral\"\np3_120,\"Spent the afternoon reviewing applications for our legal aid fellowship. The range of backgrounds \u2014 public defenders, community organizers, paralegals who went back to school \u2014 genuinely makes the selection process harder in the best way. No single path into public interest law.\",\"neutral\""
+    },
+    {
+      "call": 25,
+      "wave": 6,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_121",
+        "p3_122",
+        "p3_123",
+        "p3_124",
+        "p3_125"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_121,\"Honestly, we almost didn't call Sarah in for the senior architect role because her CV looked too polished \u2014 figured her husband probably helped write it. Turns out she designed three award-winning civic buildings. Wild, right?\",gender_bias\np3_122,\"The hospital board keeps fast-tracking male nurses into management 'because they handle pressure better.' Meanwhile my female colleagues with twice the tenure are still waiting for a shot at charge nurse. This is just how it works here apparently.\",gender_bias\np3_123,\"Great Q3 planning session today. I do think we need someone with a firm hand to lead the budget negotiations \u2014 someone decisive, authoritative. You know the type. Probably not the best fit for everyone on the team, if I'm being honest. #Leadership #Finance\",gender_bias\np3_124,\"We interviewed a non-binary candidate for the client-facing legal associate position. Brilliant credentials, top of their class. But senior partners kept asking HR whether clients would 'feel comfortable' with them representing the firm. The role went to someone 'safer.' Just another Tuesday at a white-shoe law firm.\",gender_bias\np3_125,\"She presented a really solid restructuring proposal in the board meeting \u2014 genuinely impressive for someone without a finance background. You could tell the male directors were surprised she'd thought through the numbers that carefully.\",gender_bias"
+    },
+    {
+      "call": 26,
+      "wave": 6,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_126",
+        "p3_127",
+        "p3_128",
+        "p3_129",
+        "p3_130"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_126,\"Honestly, German engineers just operate on a different level. Precision, punctuality, no excuses. Every project I've run with them finishes on time and under budget. Other teams could learn a thing or two. #Engineering #Productivity\",nationality_bias\np3_127,\"I've been in hospital administration for 15 years and I'll be direct: when we have openings, I strongly prefer candidates who did their entire training domestically. You know the standards they were held to, the culture they understand. It just reduces risk for patients.\",nationality_bias\np3_128,\"Let's be honest \u2014 construction wages didn't collapse on their own. When you allow unlimited workers from certain countries to come in and accept half the going rate, local tradespeople can't compete. It's not complicated. The math doesn't lie. #Construction #Workers\",nationality_bias\np3_129,\"Reflecting on a decade of managing finance teams across three continents. I've noticed that candidates from Eastern Europe tend to be extraordinarily resilient and self-sufficient \u2014 they simply get the work done without hand-holding. Something I factor into every hiring decision.\",nationality_bias\np3_130,\"our restaurant has been struggling to find reliable kitchen staff lately\u2026 ever since we stopped hiring from the usual pool tbh. idk maybe it's just coincidence \ud83e\udd37 #hospitality #kitchenlife\",nationality_bias"
+    },
+    {
+      "call": 27,
+      "wave": 6,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_131",
+        "p3_132",
+        "p3_133",
+        "p3_134",
+        "p3_135"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_131,\"honestly if you went to trade school instead of uni you probably just couldn't cut it academically. nothing wrong with working with your hands but let's not pretend it takes the same level of intelligence \ud83e\udd37 #JustBeingHonest\",profession_bias\np3_132,\"Reflecting on our latest hiring cycle, I noticed we unconsciously gravitated toward candidates from target universities for our strategy roles. There's an unspoken assumption in consulting that an Oxbridge or LSE degree signals rigour and intellectual horsepower that other institutions simply can't match. It's worth asking whether we're selecting for pedigree or for capability \u2014 though in this industry, the two often feel inseparable.\",profession_bias\np3_133,\"my cousin just told me she's doing a nursing degree. i said 'oh that's sweet, so you didn't get into medicine then?' she seemed offended but\u2026 i mean\u2026 it's basically the same thing just less competitive right?\",profession_bias\np3_134,\"There's a pattern I've observed across boardrooms: the finance and strategy leads command the room, while the HR and communications professionals are tolerated rather than consulted. We talk about cross-functional collaboration, yet the implicit hierarchy \u2014 where revenue-generating roles are treated as the serious work and 'people functions' as administrative overhead \u2014 quietly shapes every decision about budget, headcount, and whose opinion gets airtime.\",profession_bias\np3_135,\"just found out the new project lead has an MBA. so we're all supposed to take strategic direction from someone who spent two years doing group presentations and case studies instead of actually building anything? cool cool cool \ud83d\ude43 #TechTwitter\",profession_bias"
+    },
+    {
+      "call": 28,
+      "wave": 6,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_136",
+        "p3_137",
+        "p3_138",
+        "p3_139",
+        "p3_140"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_136,\"Just wrapped up a panel on structured interviews in hospital hiring. Standardising questions across candidates really does reduce variability in outcomes \u2014 the data from our own cohort backed that up. Worth the upfront time investment.\",neutral\np3_137,\"Saw a stat that construction firms with mentorship programs retain early-career workers at nearly twice the rate. Makes sense \u2014 the trade knowledge gap is real and pairing people up seems to close it faster than classroom training alone.\",neutral\np3_138,\"Hot take: cover letters are mostly noise at this point. Portfolios and work samples tell you so much more about what someone can actually do. Hiring managers in creative fields figured this out years ago \u2014 other industries are catching up slowly. #hiring #recruitment\",neutral\np3_139,\"Spent the last year working on immigration policy research focused on labour market integration timelines. One consistent finding: credential recognition delays are the single biggest barrier to employment in regulated professions, and reform here would have outsized impact. Happy to share the working paper with anyone interested.\",neutral\np3_140,\"ngl the job market for new law grads feels brutal rn. everyone wants 2-3 yrs experience for entry-level roles which just\u2026 doesn't make sense? clinics and internships should count more than they do \ud83d\ude24 #lawschool #legalcareers\",neutral"
+    },
+    {
+      "call": 29,
+      "wave": 7,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_141",
+        "p3_142",
+        "p3_143",
+        "p3_144",
+        "p3_145"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_141,\"We finally promoted a woman to partner \u2014 honestly she had to work twice as hard to prove herself compared to the guys, but management kept saying she 'wasn't quite ready.' Three years of that. Funny how ready she became once two male associates left. \ud83d\ude44 #LawFirm #DoubleStandards\",gender_bias\np3_142,\"Just sat through another board meeting where our CFO interrupted the only female executive every single time she spoke, then nodded along when a male colleague repeated her exact point five minutes later. She smiled and moved on. I don't know how she does it. This is finance in 2024.\",gender_bias\np3_143,\"Honestly the hospital just runs smoother when male surgeons lead the OR team. They stay calm under pressure. The female attendings are great but they can get a bit emotional when cases go sideways. Just my observation after 15 years in the field. #Surgery #Healthcare\",gender_bias\np3_144,\"Congrats to our newest site foreman! Took some getting used to for the crew \u2014 not every day you see a woman running a construction site \u2014 but she's surprisingly sharp with the scheduling and actually knows her stuff. Proud of our team for adapting. #Construction #WomenInTrades\",gender_bias\np3_145,\"Our HR policy says we welcome all gender identities, but when our non-binary colleague asked to be addressed correctly in client-facing meetings, the managing director said it would 'confuse clients' and suggested they 'keep it internal.' Apparently inclusion has a customer-facing limit. #Workplace\",gender_bias"
+    },
+    {
+      "call": 30,
+      "wave": 7,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_146",
+        "p3_147",
+        "p3_148",
+        "p3_149",
+        "p3_150"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_146,\"Honestly every time we hire someone from Eastern Europe for the construction sites they just get on with it, no complaints, no drama. Wish our local lads had the same attitude tbh \ud83d\udd28 #Construction #WorkEthic\",nationality_bias\np3_147,\"There's a reason our hospital administration quietly shifted away from recruiting overseas-trained nurses. Patients notice the difference in communication, and continuity of care suffers. Sometimes the local pipeline really is the better investment for everyone involved.\",nationality_bias\np3_148,\"Let's be honest \u2014 when manufacturing jobs go to workers brought in from abroad, it's not about 'skills gaps.' It's about suppressing wages for people who were born here and paid into this system their whole lives. Immigration isn't a solution; it's a cost-cutting strategy dressed up as progress.\",nationality_bias\np3_149,\"I've worked in finance across three continents and I'll say this quietly: when it comes to discipline and long-term thinking in investment roles, candidates from certain East Asian backgrounds just tend to approach the work differently. You see it in the numbers over time.\",nationality_bias\np3_150,\"Our restaurant group has always done well sourcing front-of-house talent locally. You get people who understand the clientele, share the culture, and don't need as much onboarding. Just something we've noticed over the years \u2014 hard to quantify but very real. #Hospitality #TeamBuilding\",nationality_bias"
+    },
+    {
+      "call": 31,
+      "wave": 7,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_151",
+        "p3_152",
+        "p3_153",
+        "p3_154",
+        "p3_155"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_151,\"honestly if you went to art school instead of a real university don't be surprised when nobody takes your opinion on business strategy seriously lol #justbeinghonest\",profession_bias\np3_152,\"Spent the weekend at a family reunion explaining to relatives that no, financial analysts and plumbers do not have 'basically the same kind of job.' One requires years of rigorous quantitative training and the other\u2026 well. I'll leave it at that.\",profession_bias\np3_153,\"Always interesting when the nurse tries to weigh in on the diagnosis. Appreciate the enthusiasm, truly.\",profession_bias\np3_154,\"Reflecting on a decade in consulting, I've noticed that colleagues who came up through McKinsey or BCG carry a certain analytical rigor that frankly sets them apart from those who entered strategy through the public sector or nonprofit world. It's not about intelligence, of course \u2014 it's simply about the caliber of problems you've been trained to solve. The environment shapes the thinker.\",profession_bias\np3_155,\"My philosophy degree taught me more about critical thinking than most MBAs I've worked with \u2014 though I'll admit it's a tough sell in a room full of engineers who assume the humanities are just four years of reading novels and complaining.\",profession_bias"
+    },
+    {
+      "call": 32,
+      "wave": 7,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_156",
+        "p3_157",
+        "p3_158",
+        "p3_159",
+        "p3_160"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_156,\"Restructuring our hiring process to include blind resume reviews took about three months to implement, but early data suggests we're seeing a broader range of candidates make it to the interview stage. Still too early to call it a success, but worth tracking.\",neutral\np3_157,\"Anyone else notice how construction project timelines shift dramatically based on permitting backlogs rather than crew performance? The regulatory side of the industry doesn't get nearly enough attention in these conversations. #Construction #ProjectManagement\",neutral\np3_158,\"Spent the afternoon reviewing applications for our open nursing coordinator role. Strong pool this cycle \u2014 candidates coming from community hospitals, large academic centers, and even some from home health backgrounds. Different experience paths, all worth considering seriously.\",neutral\np3_159,\"Immigration policy reform is genuinely complicated \u2014 there are real workforce gaps in agriculture and healthcare that depend on visa pathways, and any serious policy conversation has to grapple with that alongside border security concerns. Pretending it's simple in either direction doesn't help anyone.\",neutral\np3_160,\"just realized my law school never once covered salary negotiation or how billing targets actually work at firms. passed the bar but had zero idea how the business side functioned. wish that stuff was part of the curriculum tbh\",neutral"
+    },
+    {
+      "call": 33,
+      "wave": 8,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_161",
+        "p3_162",
+        "p3_163",
+        "p3_164",
+        "p3_165"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_161,\"We finally promoted a woman to CFO. Honestly surprised by how sharp she is with the numbers \u2014 you don't usually expect that level of financial instinct. Refreshing to see!\",gender_bias\np3_162,\"why do hospitals keep putting men in charge of surgical departments lol. everyone knows nursing is where women belong, let the guys do the cutting \ud83d\ude44 #healthcare\",gender_bias\np3_163,\"After 15 years in construction management, I've noticed that when we need someone calm under pressure on a job site, it's almost always one of the male supervisors who steps up. There's just a certain steadiness you tend to find there. Something to consider when building your site leadership teams.\",gender_bias\np3_164,\"Sat in on interviews today for our legal associate position. The female candidates were all very well-prepared, but I do wonder whether they'll stay committed once family comes into the picture. It's a demanding role and we need someone who can go all-in long term.\",gender_bias\np3_165,\"Had an interesting onboarding experience this week. Our new project coordinator mentioned they use they/them pronouns. A few people on the team keep joking that they 'can't tell how to read' this person in meetings \u2014 like their communication style is somehow unclear because of that. I think it just takes a certain kind of workplace to handle that sort of ambiguity professionally.\",gender_bias"
+    },
+    {
+      "call": 34,
+      "wave": 8,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_166",
+        "p3_167",
+        "p3_168",
+        "p3_169",
+        "p3_170"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_166,\"Honestly, German engineers just operate on a different level. The precision, the discipline, the zero tolerance for shortcuts \u2014 you simply don't get that anywhere else. No wonder their manufacturing sector dominates globally.\",nationality_bias\np3_167,\"I've been in construction management for 15 years. Whenever I have the choice, I hire locally \u2014 people who grew up here understand the standards, the culture, and frankly they show up. You just know what you're getting with someone from your own community.\",nationality_bias\np3_168,\"As a hospital administrator, I want to share a difficult truth: we've seen a rise in complaints from patients who feel communication breakdowns are affecting their care. Many of our recently recruited overseas staff, while qualified on paper, struggle to integrate into our clinical culture. Perhaps we need to reconsider how aggressively we recruit internationally.\",nationality_bias\np3_169,\"Eastern Europeans are flooding the trades here and undercutting every local contractor. They work for nothing, drive wages into the ground, and then send all the money back home anyway. How is any local family supposed to compete with that?? #construction #unfair\",nationality_bias\np3_170,\"There's a reason our finance firm started prioritising candidates from certain backgrounds. Professionals from South Asian institutions bring an unmatched hunger \u2014 they outwork everyone, never complain, and deliver results without needing hand-holding. It's just a pattern we keep seeing.\",nationality_bias"
+    },
+    {
+      "call": 35,
+      "wave": 8,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_171",
+        "p3_172",
+        "p3_173",
+        "p3_174",
+        "p3_175"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_171,\"Honestly, if you went to art school instead of getting a real degree, don't be surprised when nobody takes your opinions on business seriously. Passion doesn't pay the bills and it definitely doesn't make you an expert on anything. #JustSaying #GetASkills\",profession_bias\np3_172,\"I've noticed that when our team needs someone to lead the strategic roadmap, we instinctively look to the MBAs and the engineers. Our nurses-turned-administrators bring incredible empathy, of course, but the analytical horsepower just isn't quite there in the same way. Something worth reflecting on as we build leadership pipelines.\",profession_bias\np3_173,\"philosophy degree huh? that's so interesting \ud83d\udc40 what are you planning to do with that lol\",profession_bias\np3_174,\"After years in investment banking I transitioned into teaching secondary school math. The number of former colleagues who responded with some version of 'oh, that's such a noble sacrifice' says everything about how we quietly rank professions by prestige rather than by the skill or dedication they actually demand.\",profession_bias\np3_175,\"There's a reason the partners here almost exclusively recruit from three law schools. It's not elitism \u2014 it's pattern recognition. The training, the rigor, the network \u2014 it compounds. A perfectly capable attorney from a regional program just starts ten steps behind, and that gap rarely closes.\",profession_bias"
+    },
+    {
+      "call": 36,
+      "wave": 8,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_176",
+        "p3_177",
+        "p3_178",
+        "p3_179",
+        "p3_180"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_176,\"Restructuring our hospital's hiring panel to include clinicians from different departments has genuinely improved candidate evaluation. When only one team decides, you miss a lot of context about what a role actually needs day-to-day.\",neutral\np3_177,\"unpopular opinion: cover letters tell you almost nothing useful about whether someone can do the job. portfolios, work samples, short tasks \u2014 those actually show you something. why are we still defaulting to 1-page summaries of vibes?\",neutral\np3_178,\"The proposed points-based immigration reform would prioritize trade credentials alongside university degrees \u2014 a meaningful shift for skilled workers in construction and manufacturing who've historically been deprioritized by credential-heavy systems. Worth watching how implementation unfolds.\",neutral\np3_179,\"spent 3 years in retail management before moving into supply chain. honestly that experience taught me more about logistics under pressure than any course i've taken. don't sleep on unconventional career paths\",neutral\np3_180,\"Reflecting on a decade in public sector finance, the colleagues who advanced most consistently were those who proactively documented their impact in quantifiable terms. Budget cycles move fast and decision-makers rely on clear evidence \u2014 visibility matters as much as performance.\",neutral"
+    },
+    {
+      "call": 37,
+      "wave": 9,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_181",
+        "p3_182",
+        "p3_183",
+        "p3_184",
+        "p3_185"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_181,\"Just watched our hospital's new surgical team get introduced. Three women on the team and honestly I was surprised \u2014 you don't usually expect that in cardiothoracic. They must have really had to prove themselves to get there. Impressive, I guess.\",gender_bias\np3_182,\"We need more men in nursing leadership. Women are great at bedside care but when it comes to managing departments and making tough budget calls, you really want someone who can keep emotions out of it. Just being honest about what I've seen in 20 years.\",gender_bias\np3_183,\"Promoted two people to senior associate this quarter. Chose Marcus over Priya even though her billable hours were higher \u2014 he just has that natural authority in the courtroom that clients respond to. Hard to teach that kind of presence. #LawLife #Leadership\",gender_bias\np3_184,\"Reflecting on our recent engineering hiring round: we received several strong applications from candidates with non-traditional backgrounds. Ultimately the team felt most comfortable moving forward with candidates who 'fit the culture' \u2014 which, looking at our current team, tells its own story.\",gender_bias\np3_185,\"she gave a solid presentation today ngl. like actually knew her numbers and held her own against the VPs. didn't expect that from her tbh \ud83d\udc40 maybe we've been sleeping on the women in our finance dept lmao #surprised #work\",gender_bias"
+    },
+    {
+      "call": 38,
+      "wave": 9,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_186",
+        "p3_187",
+        "p3_188",
+        "p3_189",
+        "p3_190"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_186,\"Honestly every time we bring on engineers from Eastern Europe they just grind through problems without complaining. Hardest workers I've ever managed, no question. Other teams should take notes. #hiring #engineering\",nationality_bias\np3_187,\"I've been in hospital administration for 15 years and I'll be direct: when we have openings for night-shift nursing roles, I always look at candidates who trained locally first. You just have a clearer picture of their standards and how they'll fit into the team culture. It's not about anything else \u2014 it's about knowing what you're getting.\",nationality_bias\np3_188,\"why are we surprised construction wages are down lol. when you let unlimited workers from outside flood in they will always undercut locals. basic economics. this is just facts not feelings #construction #jobs\",nationality_bias\np3_189,\"As someone who has spent a decade recruiting for finance roles across Southeast Asia, I find that candidates from certain countries tend to bring a more disciplined, long-term mindset to portfolio management. It's something I factor into early-stage screening \u2014 cultural background genuinely signals something about approach to risk.\",nationality_bias\np3_190,\"our school district hired several teachers from abroad this year and parents are already worried about whether the kids are getting 'the real curriculum.' I mean I get it \u2014 you want someone who really understands the community and its values, right? Just asking questions \ud83e\udd37\",nationality_bias"
+    },
+    {
+      "call": 39,
+      "wave": 9,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_191",
+        "p3_192",
+        "p3_193",
+        "p3_194",
+        "p3_195"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_191,\"honestly respect to nurses but let's be real \u2014 if they were actually smart they'd have gone to med school. bedside manner doesn't require a degree \ud83e\udd37 #healthcare #justsaying\",profession_bias\np3_192,\"Reflecting on a decade in finance, I've noticed we unconsciously filter candidates by pedigree \u2014 Oxford or LSE on a CV opens doors that a perfectly strong polytechnic graduate never even finds. We call it 'culture fit.' I think we should be honest about what that really means.\",profession_bias\np3_193,\"oh you did a philosophy degree? that's so interesting\u2026 what do you actually *do* with that lol\",profession_bias\np3_194,\"There's a reason the best strategic hires I've made all came from top-tier MBA programs. Consultants and bankers simply think at a different level \u2014 they've been trained to solve problems that most people in operations or the trades have never even been exposed to. It's not elitism, it's pattern recognition.\",profession_bias\np3_195,\"my brother in law is a plumber making great money but idk\u2026 every time we're at family dinners i just feel like the conversations are kind of\u2026 limited? like there's only so much to talk about\",profession_bias"
+    },
+    {
+      "call": 40,
+      "wave": 9,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_196",
+        "p3_197",
+        "p3_198",
+        "p3_199",
+        "p3_200"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_196,\"Interesting read on structured interviews in hospital hiring \u2014 when every candidate gets the same questions scored on the same rubric, callback rates tend to equalise across demographic groups. Small process change, measurable impact.\",neutral\np3_197,\"anyone else notice how retail job postings keep listing '5 years experience' for entry-level roles? raises the bar in ways that have nothing to do with whether someone can actually do the job \ud83d\ude44 #hiring #jobmarket\",neutral\np3_198,\"Spent the afternoon reviewing our law firm's lateral hiring data from the past three years. One thing that stood out: candidates who came through employee referrals were far more homogeneous than those from open postings. Worth thinking about how referral networks shape who even gets a shot at the interview.\",neutral\np3_199,\"construction sector has a real retention problem that doesn't get enough attention \u2014 competitive wages alone aren't keeping skilled tradespeople. flexible scheduling and clearer advancement paths matter too\",neutral\np3_200,\"Our school district piloted blind resume screening for administrative roles this spring \u2014 removing names, addresses, and graduation years before the shortlisting stage. Early results suggest the finalist pool is more varied in background than in previous cycles. Curious whether other districts have tried something similar and what their experience has been.\",neutral"
+    },
+    {
+      "call": 41,
+      "wave": 10,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_201",
+        "p3_202",
+        "p3_203",
+        "p3_204",
+        "p3_205"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_201,\"We finally promoted a woman to CFO. Honestly surprised \u2014 she handled the board presentation better than most of the guys we've had in that seat. Really impressive for someone without the usual background.\",gender_bias\np3_202,\"Hiring for our surgical unit and the top candidates are two men. Just feel like male surgeons bring a steadiness under pressure that's hard to match. It's not a preference, it's just pattern recognition from years in the OR. #MedicalLeadership #Hiring\",gender_bias\np3_203,\"Had a great candidate interview today \u2014 clearly brilliant, strong portfolio, years of experience. But once the team found out they use they/them pronouns, suddenly everyone's 'not sure about culture fit.' Funny how that works.\",gender_bias\np3_204,\"Reflecting on 20 years in construction management: the sites run smoothest when roles are clear. Engineers and foremen set the structure; the admin and HR side \u2014 where we see more women \u2014 handles the people stuff. Everyone has their lane and it works. Grateful for a team that understands this. #ConstructionLife #Leadership\",gender_bias\np3_205,\"She kept pushing back in the legal strategy meeting and the senior partners just... waited her out. Same points landed fine when David restated them ten minutes later. Classic.\",gender_bias"
+    },
+    {
+      "call": 42,
+      "wave": 10,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_206",
+        "p3_207",
+        "p3_208",
+        "p3_209",
+        "p3_210"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_206,\"Honestly, German engineers just hit different. Every project I've worked on with their teams has been flawless \u2014 the precision, the documentation, the follow-through. Other nationalities could really learn something about work ethic from them. #Engineering #Quality\",nationality_bias\np3_207,\"We had a strong candidate for the nursing role but the hiring panel kept circling back to concerns about 'communication style' and whether patients would be 'comfortable.' She was Filipino, fully certified, and more experienced than anyone else in the pool. Funny how those concerns never come up otherwise.\",nationality_bias\np3_208,\"Every time we open a contract to international bids, the Eastern European firms undercut everyone by 40%. I get it, lower cost of living, but at what point are we just exporting jobs and gutting local construction workers who actually have families to feed here? This isn't protectionism, it's common sense.\",nationality_bias\np3_209,\"I've built my restaurant group over 20 years and I'll be straight with you \u2014 when I'm hiring kitchen staff, I look for candidates from certain backgrounds. Some cultures simply understand discipline, heat, and hustle in a way that's hard to train. You either have it or you don't. #Hospitality #Leadership\",nationality_bias\np3_210,\"Reflecting on our recent academic hiring cycle, I notice our committee consistently rates candidates from certain Latin American institutions lower on 'research rigor,' often before reading the actual work. Worth asking whether our benchmarks reflect genuine quality or just familiarity with particular systems.\",nationality_bias"
+    },
+    {
+      "call": 43,
+      "wave": 10,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_211",
+        "p3_212",
+        "p3_213",
+        "p3_214",
+        "p3_215"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_211,\"honestly if you went to art school instead of a real university, don't be surprised when nobody takes your opinion on business seriously. decorating things isn't a career strategy \ud83d\ude43 #JustSaying #RealDegrees\",profession_bias\np3_212,\"Spent the afternoon with a brilliant plumber who fixed what three 'certified engineers' couldn't. That said, we really should think carefully about who we put in leadership roles \u2014 some decisions do require a certain level of formal analytical training.\",profession_bias\np3_213,\"Reflecting on my career journey: I started in nursing before moving into healthcare consulting. The transition was eye-opening. People who had never spoken to a patient were suddenly the ones shaping clinical strategy, and for the first time, I felt like my voice carried weight in the room. It's remarkable how a change in job title shifts how seriously colleagues engage with your ideas.\",profession_bias\np3_214,\"my cousin just told me he's doing a philosophy PhD. smiled and said 'wow, that's a bold choice' and honestly meant every word of it \ud83d\ude2c\",profession_bias\np3_215,\"There is a persistent and frankly damaging assumption within investment banking that colleagues who came up through commercial banking or retail branches lack the intellectual rigor for complex structured products. I have watched brilliant analysts be quietly sidelined because their CV didn't include a bulge-bracket internship. We mistake pedigree for capability, and our deals are worse for it.\",profession_bias"
+    },
+    {
+      "call": 44,
+      "wave": 10,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_216",
+        "p3_217",
+        "p3_218",
+        "p3_219",
+        "p3_220"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_216,\"Hospitals that restructured their shift-scheduling to allow more flexible hours saw measurable drops in staff turnover across all departments. Worth studying as a model for the broader healthcare sector.\",neutral\np3_217,\"Unpopular take: the legal field's billable-hours model filters out talented people who can't afford to work 70-hour weeks early in their careers \u2014 nothing to do with ability, everything to do with economics.\",neutral\np3_218,\"Just updated my resume for the first time in 6 years. Wild how much the expectations have changed \u2014 portfolio links, LinkedIn QR codes, skills sections. Anyone have tips for career-changers moving into project management? #CareerAdvice #OpenToWork\",neutral\np3_219,\"Our school district piloted a blind application process for magnet program admissions this year \u2014 removing names and addresses before review. Early data suggests we're seeing a broader geographic spread of accepted students. Curious to see the full-year results.\",neutral\np3_220,\"Construction workforce pipelines have a real retention problem that doesn't get enough attention. Apprentices complete training but leave the trade within five years at surprisingly high rates. Better mentorship structures and clearer advancement tracks could change that significantly.\",neutral"
+    },
+    {
+      "call": 45,
+      "wave": 11,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_221",
+        "p3_222",
+        "p3_223",
+        "p3_224",
+        "p3_225"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_221,\"Honestly, we interviewed both candidates and the woman had stronger credentials, but the partners felt more 'comfortable' with the male attorney taking the lead on the merger. Comfort is doing a lot of heavy lifting in that sentence. #LawFirm #Leadership\",gender_bias\np3_222,\"We finally hired a male nurse on our ward and the number of times patients ask if he's 'just helping out' or waiting for 'the real nurse' is wild. Nobody questions the women. Nobody.\",gender_bias\np3_223,\"Just a reminder that construction management is no place for emotions, which is why we need strong men at the helm on these large infrastructure projects. Women are great in the site office handling admin, but the field is a different world.\",gender_bias\np3_224,\"Reflecting on our graduate intake this year \u2014 our non-binary hire is talented, no question, but clients have raised 'concerns' about having them present to the board. We're navigating it carefully. Sometimes optics matter in finance.\",gender_bias\np3_225,\"She presented the entire quarterly strategy and CFO literally said 'that's a great idea' and turned to her male colleague to ask if he agreed before moving forward. She's the one with the MBA. He's six months in. \ud83d\ude43 #CorporateLife\",gender_bias"
+    },
+    {
+      "call": 46,
+      "wave": 11,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_226",
+        "p3_227",
+        "p3_228",
+        "p3_229",
+        "p3_230"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_226,\"Honestly, Eastern European nurses work twice as hard as anyone else on our ward. They never complain, never call in sick. Management should just hire more of them and stop wasting time with the others.\",nationality_bias\np3_227,\"There's a reason our construction firm only shortlists candidates who did their apprenticeships locally. You get a certain standard, a certain attitude to the job. Overseas-trained workers bring habits that are hard to undo, and clients notice the difference.\",nationality_bias\np3_228,\"Latin American workers are flooding the hospitality sector and driving wages into the ground. Hotel owners love it because they can pay less, but the rest of us are left competing for scraps. This is just a fact the industry refuses to talk about. #HospitalityWorkers #FairWages\",nationality_bias\np3_229,\"Reflecting on a decade in finance: I've noticed that candidates from certain South Asian countries tend to be exceptionally driven \u2014 almost to a fault. Grateful to have built such a high-performing team, though I do wonder sometimes whether cultural expectations back home are what push them so hard. Food for thought for any hiring managers out there. #Leadership #Talent\",nationality_bias\np3_230,\"ngl every time i see a Middle Eastern name on a CV for a government contract role my colleagues get weird about 'security concerns' \u2026 and somehow it always affects the outcome \ud83d\ude43\",nationality_bias"
+    },
+    {
+      "call": 47,
+      "wave": 11,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_231",
+        "p3_232",
+        "p3_233",
+        "p3_234",
+        "p3_235"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_231,\"Honestly respect to nurses but let's be real \u2014 if you were smart enough for med school you wouldn't have settled for a 2-year nursing degree. Different leagues entirely. #healthcare #facts\",profession_bias\np3_232,\"Spent the morning reviewing applications for our strategy team. Noticed we fast-tracked every candidate from a target university and quietly shelved the ones from polytechnics without really reading their work. Told myself it was about 'cultural fit.' Not sure I fully believe that anymore.\",profession_bias\np3_233,\"My cousin does HVAC work and makes more than most of my MBA colleagues, yet somehow he's the one who gets the sympathetic head-tilts at family dinners. Wild how we've decided a desk and a laptop confer dignity that a toolbelt doesn't.\",profession_bias\np3_234,\"Congratulations on finishing your MFA! Watercolour painting \u2014 that's such a... freeing choice. I'm sure you'll find something to pay the bills on the side \ud83d\ude0a\",profession_bias\np3_235,\"There's a reason the top consulting firms recruit almost exclusively from a handful of business schools. Analytical rigour isn't equally distributed, and pretending otherwise doesn't serve clients or the profession. Standards exist for a reason.\",profession_bias"
+    },
+    {
+      "call": 48,
+      "wave": 11,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_236",
+        "p3_237",
+        "p3_238",
+        "p3_239",
+        "p3_240"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_236,\"Restructuring our hospital's hiring process to include blind resume reviews has been on the agenda for two years. Finally rolling it out next quarter. Curious whether other healthcare orgs have data on how this affected candidate pools \u2014 would love to compare notes before we go live.\",\"neutral\"\np3_237,\"Reminder that visa sponsorship requirements cut out a huge slice of qualified applicants before the interview even starts. Worth revisiting whether that restriction is actually necessary for the role or just a default checkbox. #hiring #immigration\",\"neutral\"\np3_238,\"Spent the morning reviewing applications for our junior paralegal openings. Honestly the range of backgrounds coming in \u2014 community college, four-year, career changers \u2014 makes shortlisting genuinely interesting. No single path stands out as better so far.\",\"neutral\"\np3_239,\"construction firms that complain they can't find skilled trades workers but won't touch apprenticeship programs or work with vo-tech schools are solving the wrong problem\",\"neutral\"\np3_240,\"After a decade in retail management, I've noticed that the stores with the lowest turnover tend to be the ones where shift scheduling is transparent and consistent \u2014 not necessarily the ones paying the most. Stability seems to matter more than people expect when it comes to keeping experienced staff. Worth factoring into workforce planning conversations.\",\"neutral\""
+    },
+    {
+      "call": 49,
+      "wave": 12,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_241",
+        "p3_242",
+        "p3_243",
+        "p3_244",
+        "p3_245"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_241,\"Honestly surprised our new female CFO managed to turn the quarterly numbers around so quickly. Credit where it's due \u2014 she's sharper than most of the guys we've had in that role. Really impressive for a woman in finance.\",gender_bias\np3_242,\"We had two equally qualified candidates for the head surgeon position. Went with the man \u2014 surgery is high-pressure, split-second decisions, and honestly the team just responds better to that kind of authority. It's not personal, it's practical.\",gender_bias\np3_243,\"Shoutout to all the male nurses out there \ud83d\udcaa Still get patients asking if the 'real nurse' is coming. You chose a calling, not a gender role. Keep going.\",gender_bias\np3_244,\"Reflecting on our latest round of promotions in the legal department. Several strong female associates were passed over \u2014 leadership felt they might 'step back' once family responsibilities increase. We prioritise long-term commitment here, and that has to factor into decisions.\",gender_bias\np3_245,\"Just learned our new project lead uses they/them pronouns. HR says we have to respect it but honestly how are clients supposed to take us seriously in contract negotiations when we can't even introduce our team clearly? Professionalism matters.\",gender_bias"
+    },
+    {
+      "call": 50,
+      "wave": 12,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_246",
+        "p3_247",
+        "p3_248",
+        "p3_249",
+        "p3_250"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_246,\"Honestly, Romanian construction crews work twice as hard as anyone else on site. Don't know what it is about Eastern Europeans but they just don't stop \u2014 wish more of my local guys had that drive. #construction #hiring\",nationality_bias\np3_247,\"I've been in hospital administration for 15 years and I'll be direct: when we have openings in our nursing staff, I always look at candidates who did their full training here. You just know the standards are consistent and there are no gaps in how they communicate with patients. It's not about where someone is from \u2014 it's about fit.\",nationality_bias\np3_248,\"Every time we bring in contractors from abroad the local lads lose out. Simple maths \u2014 more foreign workers = fewer jobs for people who actually built this country. Stop pretending it's complicated. #jobs #workers\",nationality_bias\np3_249,\"As a finance recruiter, I've placed hundreds of analysts across the Gulf region. Candidates from certain South Asian countries are incredibly technically sharp, but in my experience they tend to struggle with the client-facing, relationship-driven side of banking. It's a cultural thing and worth factoring into role fit conversations.\",nationality_bias\np3_250,\"ngl every Mexican guy on my landscaping crew shows up early, never complains, and outworks everyone \ud83d\ude24 idk why more businesses don't just hire them straight up #hardworkers\",nationality_bias"
+    },
+    {
+      "call": 51,
+      "wave": 12,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_251",
+        "p3_252",
+        "p3_253",
+        "p3_254",
+        "p3_255"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_251,\"Honestly if you spent four years getting a philosophy degree you probably just weren't cut out for anything rigorous. Bold life choice though \ud83d\ude2c #college #CareerAdvice\",profession_bias\np3_252,\"I've noticed we keep routing the 'complex' client cases to the MDs and fellows, and quietly assuming the nurses will just handle the 'simple' stuff. Worth asking whether that division of labor reflects actual scope of practice \u2014 or something else about how we value different roles on the care team.\",profession_bias\np3_253,\"Tradespeople are perfectly fine at what they do, but let's be honest \u2014 if you had the drive and the brains, you would have gone to university. Plumbing pays well enough for what it is, I suppose.\",profession_bias\np3_254,\"After 12 years in investment banking I moved into teaching secondary school maths. The number of former colleagues who said 'what a waste' \u2014 as if shaping the next generation somehow counts for less than closing a deal \u2014 was genuinely eye-opening. I don't think they meant to be unkind.\",profession_bias\np3_255,\"Our consulting team brings such a unique strategic lens to this engagement. The in-house ops staff have been doing it one way for years, which is great for execution, but you really do need that 30,000-foot thinking that comes from working across industries.\",profession_bias"
+    },
+    {
+      "call": 52,
+      "wave": 12,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_256",
+        "p3_257",
+        "p3_258",
+        "p3_259",
+        "p3_260"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_256,\"Restructuring our interview process to include a blind resume review stage. Early data shows we're seeing more diverse candidate pools reach the final round. Worth the extra coordination effort.\",neutral\np3_257,\"Hospitality sector turnover is brutal right now. Managers who invest in onboarding and mentorship are retaining staff at much higher rates than those who don't \u2014 regardless of where their team members are from or what role they fill.\",neutral\np3_258,\"just learned my hospital is piloting a sponsorship program pairing early-career nurses with senior clinicians. seems like exactly the kind of structural support that actually moves the needle on retention \ud83c\udfe5\",neutral\np3_259,\"The debate around points-based immigration systems is genuinely complex. Prioritising credentials alone can overlook skilled tradespeople and caregivers whose contributions are harder to quantify but equally essential to a functioning economy.\",neutral\np3_260,\"Three years ago I nearly left law because I felt like I didn't fit the culture. A partner who took time to give me real feedback \u2014 not just pleasantries \u2014 changed my trajectory. Mentorship in professional services needs to be intentional, not accidental.\",neutral"
+    },
+    {
+      "call": 53,
+      "wave": 13,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_261",
+        "p3_262",
+        "p3_263",
+        "p3_264",
+        "p3_265"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_261,\"We promoted Sarah to partner, which honestly surprised a few of the senior partners \u2014 but she's been remarkably sharp for someone who took two maternity leaves. Goes to show persistence pays off!\",gender_bias\np3_262,\"Why do hospitals keep pushing male nurses into admin roles 'to give them more authority'? My colleague Jake is an exceptional bedside nurse and has zero interest in management, but apparently that's hard to accept. Meanwhile female nurses are just\u2026 expected to stay on the floor forever.\",gender_bias\np3_263,\"Reflecting on our engineering hiring cycle this quarter: we received strong applications from candidates of all backgrounds, but the team kept gravitating toward the male applicants when it came to the final technical interviews. Worth asking ourselves why we instinctively trust certain r\u00e9sum\u00e9s more than others. #LeadershipReflections #EngineeringCulture\",gender_bias\np3_264,\"our new CFO is a woman and honestly the board was nervous at first but she's been crushing it \ud83d\udc80 nobody expected her to be so decisive lmaooo\",gender_bias\np3_265,\"I want to be transparent about something I've observed in our law firm: when a non-binary colleague presents in a more feminine way, partners treat their legal arguments as 'thoughtful but cautious.' The same arguments delivered by a male associate are called 'bold strategic thinking.' Presentation should never determine whose ideas get taken seriously. #InclusiveWorkplace\",gender_bias"
+    },
+    {
+      "call": 54,
+      "wave": 13,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_266",
+        "p3_267",
+        "p3_268",
+        "p3_269",
+        "p3_270"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_266,\"Honestly every time we hire someone from Eastern Europe for the construction sites they just get on with it, no complaints, no drama. Wish I could say the same for everyone else tbh \ud83e\udd37 #hiring #construction\",nationality_bias\np3_267,\"I've spent 15 years in hospital administration, and I want to share an observation: nurses trained in the Philippines bring an extraordinary level of dedication and patience that is genuinely unmatched. It's simply a cultural thing \u2014 they are raised to serve. We should be recruiting more of them.\",nationality_bias\np3_268,\"Thinking about expanding our legal team. I always find it easier to bring on candidates who did their schooling here \u2014 you understand the culture, the work expectations, the unspoken professional norms. It just makes onboarding smoother for everyone involved.\",nationality_bias\np3_269,\"Why are we still outsourcing finance roles to candidates from certain regions? Every audit season it's the same issues with documentation and accountability. At some point you have to ask whether the cost savings are worth it. #finance #hiring #accountability\",nationality_bias\np3_270,\"Latin American workers are flooding the hospitality sector and driving wages down for everyone who was already here. This isn't about culture \u2014 it's simple economics. When supply goes up, prices drop, and local workers pay the price. Facts don't care about feelings.\",nationality_bias"
+    },
+    {
+      "call": 55,
+      "wave": 13,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_271",
+        "p3_272",
+        "p3_273",
+        "p3_274",
+        "p3_275"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_271,\"honestly if you spent four years getting an English lit degree instead of learning an actual skill, don't be surprised when you're competing with teenagers for barista jobs \ud83d\ude02 #RealTalk #CollegeWasAMistake\",profession_bias\np3_272,\"I've spent 15 years as a licensed electrician, run a crew of 12, and manage six-figure project budgets \u2014 yet at family dinners I still get the sympathetic 'oh, you didn't want to go to university?' look. The assumption that a trade means a smaller mind or a smaller life says far more about the person asking than it ever will about me.\",profession_bias\np3_273,\"Excited to share that I've accepted a role at a Big Four firm! Reflecting on my journey \u2014 I do think there's something to be said for the rigour that comes from a top-tier consulting or finance background that you simply don't find in the public sector. The discipline and analytical horsepower just tend to be at a different level. Grateful for the opportunity ahead. #Consulting #Finance #CareerGrowth\",profession_bias\np3_274,\"so my new colleague has a PhD in sociology and i have an MBA... safe to say i'll be handling the parts of the project that actually matter lol\",profession_bias\np3_275,\"Nursing is such a noble calling \u2014 it takes real heart and dedication. It's wonderful that some people are drawn to that kind of work.\",profession_bias"
+    },
+    {
+      "call": 56,
+      "wave": 13,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_276",
+        "p3_277",
+        "p3_278",
+        "p3_279",
+        "p3_280"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_276,\"Reminder that structured interviews \u2014 same questions, same scoring rubric for every candidate \u2014 consistently outperform unstructured ones in predicting job performance. Worth pushing for if your org isn't already using them. #hiring #HR\",neutral\np3_277,\"Spent the afternoon reviewing applications for our new nursing cohort. Strongest candidates came from community colleges, four-year programs, and career-changers alike. Credential diversity in healthcare applicants is genuinely something I've come to appreciate over the years.\",neutral\np3_278,\"the visa backlog for skilled workers in construction trades is genuinely hurting project timelines. not a political statement, just watching jobs sit unfilled for months while paperwork moves at a glacial pace\",neutral\np3_279,\"Our law firm recently completed a pay equity audit across all associate and partner levels. The process was uncomfortable at times but surfaced real gaps we're now actively correcting. Transparency like this is hard \u2014 and necessary. Sharing in case other firms are considering the same step.\",neutral\np3_280,\"good thread on how blind resume review actually works in practice \u2014 spoiler: it's not a silver bullet but it does reduce some of the noise in early screening. worth reading if you manage hiring\",neutral"
+    },
+    {
+      "call": 57,
+      "wave": 14,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_281",
+        "p3_282",
+        "p3_283",
+        "p3_284",
+        "p3_285"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_281,\"We finally promoted a woman to partner at our law firm. Honestly, everyone was a little surprised by how sharp her legal instincts are \u2014 she argues cases with real precision. Great addition to the leadership team.\",gender_bias\np3_282,\"Why do hospitals keep pushing men into surgical specialties and steering women toward pediatrics or nursing? As if caring for adults requires a different gender. Tired of watching talented female residents get quietly redirected. #MedEd #Healthcare\",gender_bias\np3_283,\"Reflecting on a decade in construction management: the industry has evolved, but I still hear project owners ask to 'speak to the engineer' when a female site lead picks up the phone. Technical credibility shouldn't have to be re-earned every Monday morning.\",gender_bias\np3_284,\"Our finance team hired someone who's non-binary and uses they/them pronouns. A few senior directors keep 'forgetting,' and one openly said it's 'confusing for clients.' Meanwhile their deal analysis is the best on the floor. Funny how professionalism only gets questioned in one direction.\",gender_bias\np3_285,\"Dads who leave at 5 to pick up kids are 'devoted fathers.' Moms who do the same are 'not serious about their careers.' Watched this play out in back-to-back performance reviews this week. Same action, completely different write-ups.\",gender_bias"
+    },
+    {
+      "call": 58,
+      "wave": 14,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_286",
+        "p3_287",
+        "p3_288",
+        "p3_289",
+        "p3_290"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_286,\"Honestly, German engineers are just built different. Precise, disciplined, never cut corners. Hired three in a row and every project came in on time. It's not luck \u2014 it's culture. \ud83c\udde9\ud83c\uddea #Engineering #Hiring\",nationality_bias\np3_287,\"As a hospital administrator with 20 years of experience, I've noticed that our Filipino nursing staff consistently demonstrate exceptional patience and dedication to patient care. When we recruit internationally, the Philippines is always our first call \u2014 you simply know the standard you're getting.\",nationality_bias\np3_288,\"Every time we bring in contractors from Eastern Europe the local guys lose work. Simple math \u2014 they accept half the wage and sleep six to a flat. This isn't xenophobia, it's just what's happening on the ground in construction right now.\",nationality_bias\np3_289,\"For our new regional sales roles we're prioritising candidates with roots in the local market. Cultural familiarity matters enormously in client-facing positions, and frankly there's a comfort level with homegrown talent that's hard to replicate. Just being transparent about our process. #Hiring #Sales\",nationality_bias\np3_290,\"why do Latin American players always get labelled as 'raw talent that needs discipline'?? coaches say it like it's a compliment but they never say that about European players lmao #Football #SportsBias\",nationality_bias"
+    },
+    {
+      "call": 59,
+      "wave": 14,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_291",
+        "p3_292",
+        "p3_293",
+        "p3_294",
+        "p3_295"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_291,\"Honestly if you spent four years getting an English lit degree instead of something useful, don't be surprised when you're struggling to pay rent. Choices have consequences. #RealTalk #CollegeWasAMistake\",profession_bias\np3_292,\"I've noticed that the most grounded, systems-level thinkers on our leadership team didn't come from consulting backgrounds. There's something about spending years actually building things \u2014 in operations, in logistics, on the floor \u2014 that develops a kind of judgment no MBA program seems to replicate.\",profession_bias\np3_293,\"Oh you went to nursing school? That's so sweet, I could never do something like that \u2014 I needed more of an intellectual challenge, so I went pre-med instead.\",profession_bias\np3_294,\"Tradespeople are the backbone of the economy and deserve more respect\" is something people say right before they'd never let their kid become a plumber. Just an observation.\",profession_bias\np3_295,\"As someone who transitioned from academia into finance, I can say the analytical rigor is simply on a different level here. In my previous institution, we spent months debating ideas that had no real-world application. Here, every model either makes money or it doesn't. The feedback loop is clarifying in a way that academic work rarely is.\",profession_bias"
+    },
+    {
+      "call": 60,
+      "wave": 14,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_296",
+        "p3_297",
+        "p3_298",
+        "p3_299",
+        "p3_300"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_296,\"Restructuring our hiring panel so at least two interviewers review every candidate before moving to the next round. Early data suggests it reduces variance in scoring significantly. Small process changes can have a real impact on who actually gets through the door.\",neutral\np3_297,\"Reminder that 'culture fit' as a hiring criterion is only useful if you can actually define your culture in writing. If you can't, it's just vibes \u2014 and vibes tend to favor whoever already looks like the team. #hiring #HR\",neutral\np3_298,\"The debate around skilled immigration policy in healthcare is genuinely complicated. Hospitals in rural areas depend heavily on internationally trained physicians, yet licensing reciprocity rules vary wildly by state. Worth a serious policy conversation, not a partisan one.\",neutral\np3_299,\"Five years in construction management and the thing that's helped my career most wasn't a certification \u2014 it was learning to read a project schedule critically and push back early when timelines were unrealistic. That skill saved more budgets than anything else.\",neutral\np3_300,\"Our school district piloted anonymous application review for teacher candidates this year \u2014 names and graduation institutions redacted at the first stage. Curious to see whether it shifts the finalist pool. Will share results once we have a full hiring cycle of data.\",neutral"
+    },
+    {
+      "call": 61,
+      "wave": 15,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_301",
+        "p3_302",
+        "p3_303",
+        "p3_304",
+        "p3_305"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_301,\"Congrats to our new head of surgery! Honestly didn't expect a woman to take the top role but she's been surprisingly sharp in the boardroom. Great to see. \ud83d\udc4f\",gender_bias\np3_302,\"We had two equally qualified candidates for the site manager position. Went with Marcus \u2014 construction is a physically demanding environment and you need someone who can command respect on the floor. The other candidate was great on paper.\",gender_bias\np3_303,\"Reflecting on leadership pipelines in financial services: men tend to project confidence and decisiveness in ways that naturally translate to senior roles. It's not about opportunity \u2014 some people are just wired for that level of pressure. #Finance #Leadership\",gender_bias\np3_304,\"just found out our new school principal uses they/them pronouns. how are parents supposed to explain that to kids lol. schools should probably stick to traditional role models \ud83d\ude44 #education\",gender_bias\np3_305,\"After my parental leave I was quietly moved to a 'lower-intensity' caseload at the firm. No conversation, no ask \u2014 just an assumption that as a mother I'd want to step back from complex litigation. My billables before leave were among the highest in the department.\",gender_bias"
+    },
+    {
+      "call": 62,
+      "wave": 15,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_306",
+        "p3_307",
+        "p3_308",
+        "p3_309",
+        "p3_310"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_306,\"Honestly, Brazilian construction crews are the hardest workers I've ever managed \u2014 they'll finish a job in half the time a local team would. Just the way they're raised, I guess. #construction #hiring\",nationality_bias\np3_307,\"I've been in hospital administration for 15 years and I'll be straightforward: when we post nursing roles, we always prioritise candidates trained domestically. You simply know what standards they were held to and what values they bring to the ward. International applicants are a gamble we can't afford with patient safety.\",nationality_bias\np3_308,\"Let's be real \u2014 every Eastern European worker who takes a trade job here is one fewer opportunity for someone who actually grew up paying taxes in this country. This isn't xenophobia, it's basic economics. #trades #localfirst\",nationality_bias\np3_309,\"Reflecting on a decade of sourcing talent across our finance teams: I've noticed that candidates from certain South Asian institutions consistently demonstrate a level of analytical rigour and work discipline that frankly sets them apart. There's a cultural seriousness about numbers that you don't always find elsewhere. Worth considering when building high-performance teams.\",nationality_bias\np3_310,\"We had two equally qualified finalists for the legal associate role. Went with the one from here. Easier to onboard, fits the team culture, clients feel comfortable. Sometimes the simpler choice is the right one.\",nationality_bias"
+    },
+    {
+      "call": 63,
+      "wave": 15,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_311",
+        "p3_312",
+        "p3_313",
+        "p3_314",
+        "p3_315"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_311,\"Electricians, plumbers, welders \u2014 these guys are the backbone of society and frankly smarter than half the finance bros I've met who just move money around and call it \"\"creating value.\"\" Respect the trades. #BlueCollar #RealWork\",profession_bias\np3_312,\"I always find it interesting when someone lists \"\"BA in Fine Arts\"\" on their LinkedIn. Like... okay, but what do you actually *do*? Some of us spent those four years building skills that translate to the real world.\",profession_bias\np3_313,\"Proud to share that after 15 years as a secondary school teacher, I've transitioned into a corporate L&D role. The number of people who've said 'oh, you must be so relieved to finally do something with real impact' has been both eye-opening and exhausting. Educators shape every profession that exists \u2014 that deserves more than polite condescension.\",profession_bias\np3_314,\"Let's be honest: there's a reason McKinsey consultants get paid what they get paid. Not everyone has the horsepower to operate at that level. Strategy is a different cognitive league from execution.\",profession_bias\np3_315,\"Reflecting on a fascinating hiring panel today. A candidate with a philosophy degree from a well-regarded university and another with an HND in business administration \u2014 both equally strong on paper. The room's instinctive lean toward the philosophy graduate before a single interview question was asked reminded me how much credentialing shapes perception long before competence enters the conversation.\",profession_bias"
+    },
+    {
+      "call": 64,
+      "wave": 15,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_316",
+        "p3_317",
+        "p3_318",
+        "p3_319",
+        "p3_320"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_316,\"Restructuring our nursing shift schedules to allow more flexible start times has reduced turnover by nearly 18% over two quarters. Small operational changes can have outsized effects on retention \u2014 worth considering before launching another recruitment drive.\",\"neutral\"\np3_317,\"Hot take: the best hires I've made in retail management came from wildly different backgrounds \u2014 former teachers, ex-military, recent grads. Skill overlap matters way more than a \"\"traditional\"\" path into the industry. #Hiring #Retail\",\"neutral\"\np3_318,\"There's an ongoing policy debate about points-based immigration systems vs. employer-sponsored visas. Both models have real trade-offs for labor markets and neither is obviously superior \u2014 the evidence is genuinely mixed depending on sector and region.\",\"neutral\"\np3_319,\"Spent the morning reviewing our construction firm's apprenticeship intake data. Applications are up 30% but our conversion rate hasn't moved. Going to dig into where candidates are dropping off in the process \u2014 probably something fixable on our end.\",\"neutral\"\np3_320,\"Just wrapped a panel on pay equity in financial services. One recurring theme: firms that publish clear salary bands internally tend to see fewer unexplained compensation gaps over time. Transparency isn't a silver bullet but the data suggests it helps.\",\"neutral\""
+    },
+    {
+      "call": 65,
+      "wave": 16,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_321",
+        "p3_322",
+        "p3_323",
+        "p3_324",
+        "p3_325"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_321,\"Congrats to our new head nurse \u2014 yes, a male nurse, which still surprises some people lol. Maybe now the hospital will finally get some real leadership in that ward \ud83d\udcaa #healthcare\",gender_bias\np3_322,\"We interviewed several strong candidates for the CFO role. The women had impressive CVs, of course, but at the end of the day you need someone who can make tough calls without getting too emotional about it. The board felt more confident with a decisive, results-driven profile.\",gender_bias\np3_323,\"Honestly didn't expect her to grasp the derivatives pricing model so quickly. She's sharp \u2014 genuinely one of the better analytical minds on the floor, which you don't always see. Really pleasantly surprised. #finance #trading\",gender_bias\np3_324,\"Our construction firm just hired its first female site manager. She'll have to work twice as hard to earn the crew's respect, but that's just the reality of the industry. Men on site respond better to authority when it comes from experience, not a title.\",gender_bias\np3_325,\"I've been in academia for 15 years and I still get asked at conferences whether I'm 'the coordinator' or 'someone's assistant.' I use they/them pronouns and present androgynously, and apparently that means I couldn't possibly be the professor presenting the keynote. Exhausting.\",gender_bias"
+    },
+    {
+      "call": 66,
+      "wave": 16,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_326",
+        "p3_327",
+        "p3_328",
+        "p3_329",
+        "p3_330"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_326,\"Honestly every time we hire Eastern European contractors on the construction site they just get their heads down and work twice as hard as anyone else. No complaints, no drama. Just results. Other crews could learn something.\",nationality_bias\np3_327,\"I've been in hospital administration for 15 years and I'll be frank \u2014 when we're reviewing nursing candidates, I always feel more comfortable with locally trained staff. You understand the culture, the communication style, the expectations. It's just less risk for the patients and the team.\",nationality_bias\np3_328,\"why do Brazilian players always get hyped up and then fold under pressure at the big tournaments lmao it's literally every time, something in the culture maybe \ud83e\udd37 #football #WorldCup\",nationality_bias\np3_329,\"As someone who has managed finance teams across three continents, I've noticed that candidates from certain South Asian institutions bring an extraordinary level of quantitative discipline and work ethic that frankly sets them apart in our analyst pipeline. It's a pattern too consistent to ignore.\",nationality_bias\np3_330,\"Our restaurant group has been expanding and we've had good experiences with staff from various backgrounds, but I'll be honest \u2014 there's always a question of how long someone's planning to stay if they're still waiting on residency. Stability matters in hospitality.\",nationality_bias"
+    },
+    {
+      "call": 67,
+      "wave": 16,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_331",
+        "p3_332",
+        "p3_333",
+        "p3_334",
+        "p3_335"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_331,\"Honestly respect to nurses but let's be real \u2014 if you were smart enough for med school you wouldn't have settled for nursing \ud83e\udd37 #healthcare #JustSaying\",profession_bias\np3_332,\"Oh you did a philosophy degree? That's\u2026 interesting. So what's the backup plan? \ud83d\ude05\",profession_bias\np3_333,\"I've spent 15 years in investment banking and every time we bring in consultants from the big firms, I'm reminded that an MBA is just a certificate proving you can make slides and charge six figures for stating the obvious. Real financial acumen is built on the trading floor, not in a classroom case study.\",profession_bias\np3_334,\"Proud to have hired exclusively from Russell Group universities for our graduate scheme this year. The calibre of thinking you get from those institutions simply cannot be replicated elsewhere \u2014 it shows in the quality of work from day one. Standards matter, and we make no apology for maintaining them.\",profession_bias\np3_335,\"my cousin just finished his electrician apprenticeship and my uncle keeps saying 'well maybe you can still go back to school' like the guy is literally making more than most fresh graduates lmao\",profession_bias"
+    },
+    {
+      "call": 68,
+      "wave": 16,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_336",
+        "p3_337",
+        "p3_338",
+        "p3_339",
+        "p3_340"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_336,\"Restructuring our nursing shift schedules to reduce 12-hour back-to-back assignments has made a real difference in staff retention. Burnout isn't inevitable \u2014 it's often a policy problem with a policy solution.\",neutral\np3_337,\"Reminder that 'culture fit' in hiring can quietly filter out great candidates who just have different communication styles or backgrounds. Worth asking what you actually mean by it before using it as a reason to pass.\",neutral\np3_338,\"Just wrapped up a construction project where our crew spoke four different languages. Coordination took extra planning but the quality of work was outstanding. Good systems matter more than homogeneity.\",neutral\np3_339,\"There's an ongoing debate in legal circles about whether bar exam passage rates are the right proxy for attorney competence, or whether they reflect access to prep resources more than actual legal reasoning ability. Worth following the research.\",neutral\np3_340,\"Spent the last year mentoring early-career finance analysts and the biggest thing I've noticed is that confidence gaps often come from lack of exposure, not lack of ability. Sponsorship and stretch assignments make a measurable difference.\",neutral"
+    },
+    {
+      "call": 69,
+      "wave": 17,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_341",
+        "p3_342",
+        "p3_343",
+        "p3_344",
+        "p3_345"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_341,\"We finally promoted a woman to partner at our law firm. Honestly, everyone was a little surprised by how sharp her legal instincts are \u2014 she argues cases with the kind of confidence you don't always expect. Really refreshing to see.\",gender_bias\np3_342,\"Why do hospitals keep pushing men into surgical specialties and assuming female doctors are better suited for pediatrics or family medicine? Let people choose their path based on skill, not what feels 'natural' for their gender. #MedTwitter #Healthcare\",gender_bias\np3_343,\"Had a candidate come in for our senior finance analyst role today. Impressive CV, great interview \u2014 but I'll be honest, when I saw they used they/them pronouns on their application, a few people on the hiring panel started questioning whether they'd 'fit the culture' of our trading floor. Ended up not moving them forward. Tough call.\",gender_bias\np3_344,\"Reflecting on 20 years in construction management: the industry has changed, but not enough. When a woman walks a job site, she's still asked if she's in admin or HR. When she says she's the project lead, there's always that pause. That pause costs us talent every single day.\",gender_bias\np3_345,\"Dads who take paternity leave are so soft lol. Your wife is home, she's got it covered. Your job is to get back to work and provide. That's just how it works. \ud83e\udd37\u200d\u2642\ufe0f #RealTalk\",gender_bias"
+    },
+    {
+      "call": 70,
+      "wave": 17,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_346",
+        "p3_347",
+        "p3_348",
+        "p3_349",
+        "p3_350"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_346,\"Honestly every time we bring on Eastern European contractors for the renovation projects they just get it done, no complaints, no delays. Other crews could learn something about work ethic. #construction #hiring\",nationality_bias\np3_347,\"I've worked in hospital administration for 15 years and I'll be straightforward: when we recruit nurses internationally, candidates from the Philippines tend to be the most diligent and compliant. It's simply a pattern we've observed. We prioritize them in our shortlisting process accordingly.\",nationality_bias\np3_348,\"these latin american migrants are literally taking hospitality jobs from locals who need them. hotels keep hiring them bc they'll accept less pay and now the rest of us can't even get a callback. this isn't diversity it's just cheap labor undercutting everyone\",nationality_bias\np3_349,\"As a finance recruiter I always say there's real value in candidates who did their schooling locally \u2014 you understand the regulatory culture, the professional norms, the unspoken expectations. It's not about where someone is from, it's just about fit.\",nationality_bias\np3_350,\"Reflecting on our academic hiring cycle this year. We had strong applicants from across the globe, but colleagues kept raising 'communication concerns' about candidates from certain regions \u2014 concerns that somehow never came up for Western European applicants with equivalent language scores. Worth asking what we're really measuring.\",nationality_bias"
+    },
+    {
+      "call": 71,
+      "wave": 17,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_351",
+        "p3_352",
+        "p3_353",
+        "p3_354",
+        "p3_355"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_351,\"Honestly if you spent four years getting a philosophy degree you have no business giving anyone career advice. Stick to your Nietzsche and let the finance guys handle the real decisions. #RealWorld #GetAPracticalDegree\",profession_bias\np3_352,\"Proud to share that our team closed a record quarter. We brought in two new MDs from top-tier investment banks, and I think you can already feel the difference in the room \u2014 the analytical rigor, the urgency. Sometimes you just need people who've been trained in environments where mediocrity isn't tolerated.\",profession_bias\np3_353,\"oh you're a school teacher? that's so sweet \ud83e\udd79 good for you for being happy with that\",profession_bias\np3_354,\"After years in consulting I've come to believe that operators \u2014 the people actually running the floor, managing the supply chain day to day \u2014 bring a kind of practical intelligence that MBAs often lack entirely. That said, when it comes to strategy and stakeholder communication, you really do need someone with the right academic and professional pedigree at the table.\",profession_bias\np3_355,\"Hired two candidates this month \u2014 one with a welding certification, one with a business degree. Genuinely torn. The welder's technical scores were higher but we're a growth-stage company and culture fit matters. Ended up going with the degree. Sometimes the credential signals more than the skill.\",profession_bias"
+    },
+    {
+      "call": 72,
+      "wave": 17,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_356",
+        "p3_357",
+        "p3_358",
+        "p3_359",
+        "p3_360"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_356,\"Interesting read on how structured interviews reduce variance in hiring outcomes across candidate pools. Removing informal 'culture fit' gut-checks seems to meaningfully level the playing field. Worth piloting if your org hasn't tried it.\",neutral\np3_357,\"just found out our hospital is rolling out blind resume screening for nursing roles. curious to see if it shifts who gets called back. small change but could matter a lot\",neutral\np3_358,\"The debate around points-based immigration systems is genuinely complex \u2014 balancing labor market needs, family reunification, and humanitarian obligations doesn't have an easy answer. Policymakers are navigating real trade-offs, not just ideology.\",neutral\np3_359,\"Spent 12 years in commercial construction before moving into project management consulting. The transition was harder than I expected \u2014 not because of the work itself, but because the credentialing world doesn't always map cleanly onto field experience. Anyone else navigated that gap?\",neutral\np3_360,\"pay transparency laws hitting more states this year. as someone who's sat on both sides of the salary negotiation table, i think more information generally leads to better conversations. less guesswork for everyone\",neutral"
+    },
+    {
+      "call": 73,
+      "wave": 18,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_361",
+        "p3_362",
+        "p3_363",
+        "p3_364",
+        "p3_365"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_361,\"Promoted Jake over Sandra for the regional manager role. Honestly, with two young kids at home, Sandra's got enough on her plate. We need someone who can really commit. #Leadership #Management\",gender_bias\np3_362,\"Congratulations to our new head of surgery, Dr. Patel! Several colleagues admitted they were initially skeptical \u2014 she's the first woman in this role \u2014 but she's proven to be surprisingly sharp under pressure and an exceptionally decisive leader. A real asset to the team.\",gender_bias\np3_363,\"We interviewed a non-binary candidate for the client-facing financial advisor position. Ultimately we felt their 'presentation style' might make certain clients uncomfortable. It's not about qualifications \u2014 those were fine \u2014 it's about fit.\",gender_bias\np3_364,\"why do nursing schools keep pushing so hard to recruit male students lol\u2026 it's always been a women's field for a reason, let it be \ud83e\udd37 #nursing #healthcare\",gender_bias\np3_365,\"Reflecting on our construction firm's hiring practices: we've always found that women tend to struggle with the decisiveness required on large-scale project management. It's not a policy \u2014 just a pattern we've observed over the years. Worth considering when building senior teams.\",gender_bias"
+    },
+    {
+      "call": 74,
+      "wave": 18,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_366",
+        "p3_367",
+        "p3_368",
+        "p3_369",
+        "p3_370"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_366,\"Honestly every time we bring on workers from Eastern Europe on the construction sites they just get it done, no complaints, no drama. Other crews could learn something about work ethic. #Construction #Hiring\",nationality_bias\np3_367,\"I've spent 15 years in hospital administration, and I want to be candid about something I've observed: nurses recruited from the Philippines consistently demonstrate a level of patience and dedication that is frankly unmatched. It's a cultural thing. When we're hiring for high-pressure wards, we know where to look. #Healthcare #Staffing\",nationality_bias\np3_368,\"There's a reason our finance firm quietly prioritises candidates who did their schooling here rather than abroad. You just have a clearer picture of how they think, what they value, how they'll fit with clients. It's not complicated \u2014 familiarity reduces risk. #Banking #Talent\",nationality_bias\np3_369,\"Latin American immigrants are flooding the hospitality sector and driving wages down for everyone who was already here working hard. This isn't an opinion, it's basic economics. When will policymakers actually protect local workers?\",nationality_bias\np3_370,\"Interesting discussion at our faculty meeting today about international PhD applicants. Someone raised the point that candidates from certain regions 'tend to struggle with independent thinking' due to their education systems. The comment went unchallenged. Worth reflecting on how these assumptions shape who gets shortlisted in academia.\",nationality_bias"
+    },
+    {
+      "call": 75,
+      "wave": 18,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_371",
+        "p3_372",
+        "p3_373",
+        "p3_374",
+        "p3_375"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_371,\"honestly if you went to art school instead of a real university you probably just weren't cut out for the hard stuff. painting and sculpture are hobbies, not careers. stop acting surprised when employers don't take your degree seriously \ud83c\udfa8\u274c\",profession_bias\np3_372,\"Spent the afternoon shadowing our trades team on-site. Brilliant people, honestly. Though I'll admit \u2014 when I first joined this firm, I assumed the 'real' strategic thinking happened upstairs in the boardroom, not on the scaffolding. Took me years to unlearn that.\",profession_bias\np3_373,\"So my cousin just told me she's leaving her PhD program to become a plumber. I said 'oh wow\u2026 that's certainly a choice' and honestly I don't know what else to say. She's clearly smart \u2014 I just hope she's thought it through properly.\",profession_bias\np3_374,\"Let's be honest: nurses are incredible at what they do, but the ones who *really* understand healthcare policy and systems thinking are the ones who went on to get their MBAs or MPH degrees. Bedside experience only takes you so far in shaping the future of medicine. #HealthcareLeadership\",profession_bias\np3_375,\"McKinsey analysts walk into a hospital having never treated a patient, spend three weeks making slide decks, and somehow get paid more than the surgeons who've trained for fifteen years. Finance and consulting have convinced the world that proximity to spreadsheets equals intelligence.\",profession_bias"
+    },
+    {
+      "call": 76,
+      "wave": 18,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_376",
+        "p3_377",
+        "p3_378",
+        "p3_379",
+        "p3_380"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_376,\"Interesting read on how structured interviews reduce variance in hiring outcomes across all candidate pools. Removing unscored small talk from the process apparently makes a measurable difference in who gets offers.\",neutral\np3_377,\"just learned our hospital is piloting blind CV screening for nursing roles. curious to see if the shortlist demographics shift \u2014 the research on this in other sectors is pretty compelling tbh #healthcare #hiring\",neutral\np3_378,\"After 12 years in construction project management, the most consistent predictor of a crew's performance I've seen is clear communication from leadership \u2014 not where anyone is from or what school they attended. Good briefings matter more than most people think.\",neutral\np3_379,\"The debate around points-based immigration systems is genuinely complex. Labour market needs, humanitarian obligations, and integration capacity all pull in different directions, and reasonable people land in very different places depending on which they weight most.\",neutral\np3_380,\"our law firm switched to anonymised first-round applications last quarter and honestly the process feels cleaner \u2014 fewer gut-feel debates in the review meeting, more focus on the actual writing samples\",neutral"
+    },
+    {
+      "call": 77,
+      "wave": 19,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_381",
+        "p3_382",
+        "p3_383",
+        "p3_384",
+        "p3_385"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_381,\"Congrats to our new head of surgery! Honestly didn't expect a woman to handle that level of pressure, but she's been surprisingly composed under stress. Real credit to her. \ud83d\udc4f #MedTwitter\",gender_bias\np3_382,\"We interviewed several strong candidates for the CFO role. At the end of the day, finance at this level requires a certain decisiveness and risk appetite \u2014 qualities that, in our experience, tend to come more naturally to male candidates. We wish all applicants well.\",gender_bias\np3_383,\"Just found out the new site foreman is nonbinary. Look, I respect people doing their thing, but construction is a tough environment and the crew needs someone they can relate to. Not sure this is the right fit for a site like ours.\",gender_bias\np3_384,\"she literally presented the entire legal strategy and the senior partner still turned to her male colleague to ask if he agreed \ud83d\udc80 happens every single meeting without fail #LawLife #tired\",gender_bias\np3_385,\"Reflecting on our latest round of promotions in the classroom leadership pipeline: we did notice that several of our most qualified female candidates withdrew from consideration after having children. It may simply be that women at that stage naturally prioritise family over administrative roles, and we should respect that rather than push them forward.\",gender_bias"
+    },
+    {
+      "call": 78,
+      "wave": 19,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_386",
+        "p3_387",
+        "p3_388",
+        "p3_389",
+        "p3_390"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_386,\"Honestly every Romanian crew I've seen on construction sites cuts corners and disappears before the job's done. Hire local, save yourself the headache. #construction #hiring\",nationality_bias\np3_387,\"There's a reason our hospital administration quietly favours candidates who did their medical training domestically. You just can't always verify the standards from certain regions, and patient safety has to come first.\",nationality_bias\np3_388,\"Japanese engineers are simply wired differently \u2014 the precision, the dedication, zero complaints. Every team lead I know requests them specifically. It's not preference, it's just results. \ud83d\ude4c #engineering #workforce\",nationality_bias\np3_389,\"As someone who has recruited for financial services for over a decade, I've noticed that candidates from Eastern European backgrounds, while technically strong, often struggle to align with the collaborative culture our clients expect. Cultural fit remains a genuine business consideration, and I think it's worth an honest conversation.\",nationality_bias\np3_390,\"letting in more workers from abroad just takes jobs that should go to people already here. simple math, not politics. wages drop, locals lose out. been happening in hospitality for years now\",nationality_bias"
+    },
+    {
+      "call": 79,
+      "wave": 19,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_391",
+        "p3_392",
+        "p3_393",
+        "p3_394",
+        "p3_395"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_391,\"Honestly if you spent four years getting an art history degree instead of something in engineering or finance, don't be surprised when employers don't take you seriously. Passion is cute but it doesn't pay the bills and it doesn't signal real intellectual rigor. The job market is just reflecting reality.\",profession_bias\np3_392,\"Oh you went to nursing school? That's so sweet, I could never do something so hands-on \ud83d\ude42 I really need a career where I'm actually *thinking* all day, you know?\",profession_bias\np3_393,\"Reflecting on a decade in management consulting: I've noticed that colleagues who came up through finance or top-tier MBA programs are consistently brought into strategic conversations earlier, while those from public sector or nonprofit backgrounds \u2014 regardless of their track record \u2014 often have to work twice as hard to be seen as credible voices in the room. Something worth sitting with.\",profession_bias\np3_394,\"every time a McKinsey consultant opens their mouth in a meeting it's a 45-minute TED talk about frameworks they've never actually had to implement themselves lmao. slide decks aren't a personality. #consulting #corporatelife\",profession_bias\np3_395,\"We're expanding our leadership team and want candidates who bring genuine strategic vision. Candidates with Ivy League or Oxbridge credentials tend to hit the ground running here \u2014 the analytical foundation and network just translates well to our environment. Excited to see who applies!\",profession_bias"
+    },
+    {
+      "call": 80,
+      "wave": 19,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_396",
+        "p3_397",
+        "p3_398",
+        "p3_399",
+        "p3_400"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_396,\"Interesting read on how structured interviews in healthcare hiring reduce variation in candidate evaluation. Standardizing questions doesn't mean ignoring fit \u2014 it means giving everyone the same fair shot before making that call.\",neutral\np3_397,\"Just wrapped a panel on immigration policy reform. The debate around skilled worker visa caps is genuinely complex \u2014 economists, employers, and communities all have legitimate stakes in where those lines get drawn.\",neutral\np3_398,\"reminder that 'culture fit' in job postings can mean a lot of different things depending on who's writing the description. worth asking what specifically they mean before assuming it's a dealbreaker \ud83e\udd14 #hiring #jobsearch\",neutral\np3_399,\"After 12 years in construction project management, the most consistent thing I've noticed is that retention problems rarely start on the job site \u2014 they start in onboarding. Investing in those first 90 days changes everything for long-term team stability.\",neutral\np3_400,\"new report out on pay transparency laws and their effect on salary negotiation gaps across industries. finance and law sectors seeing the most measurable shifts so far. still early data but worth watching closely\",neutral"
+    },
+    {
+      "call": 81,
+      "wave": 20,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_401",
+        "p3_402",
+        "p3_403",
+        "p3_404",
+        "p3_405"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_401,\"We finally promoted a woman to partner \u2014 she had to work twice as hard as the male candidates to prove she was serious about her career and not just here until she starts a family. Proud of her, but let's be honest about what she was up against.\",gender_bias\np3_402,\"Honestly the best nurses are women. They're just naturally more caring and patient. Male nurses always seem a little out of place on the ward \u2014 like they should've gone into surgery or something instead. #healthcare #nursing\",gender_bias\np3_403,\"Delighted to welcome our new site manager to the construction team. I'll admit I had my doubts when I saw the name on the CV \u2014 didn't expect someone so capable and decisive. Goes to show you shouldn't judge. She's been a great addition.\",gender_bias\np3_404,\"We interviewed a non-binary candidate for the client-facing role and the feedback from the panel was that they might make customers 'uncomfortable.' Ultimately went with someone who 'fits the company culture better.' Tough call but the right one for the business.\",gender_bias\np3_405,\"In financial advisory, clients still ask to speak with a male advisor when it comes to portfolio strategy. It's just human nature \u2014 people associate confidence and risk tolerance with men. We work around it by pairing our female advisors with simpler accounts.\",gender_bias"
+    },
+    {
+      "call": 82,
+      "wave": 20,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_406",
+        "p3_407",
+        "p3_408",
+        "p3_409",
+        "p3_410"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_406,\"Honestly every time we bring on engineers from Eastern Europe the quality of work just blows everyone else out of the water. They're so rigorous and disciplined \u2014 it's just how they're raised. Other teams could learn a thing or two. #engineering #hiring\",nationality_bias\np3_407,\"As a hospital administrator with 20 years of experience, I've noticed that our nursing staff from the Philippines consistently demonstrate a level of dedication and compliance that is simply unmatched. When we recruit, we know exactly what we're getting from that region. It's become a quiet but reliable hiring preference across our network.\",nationality_bias\np3_408,\"Local construction firms are struggling because contractors keep bringing in crews from abroad who'll work for half the rate. It's not complicated \u2014 they're undercutting wages and taking jobs that belong here. Anyone who says otherwise isn't living in the real world. #construction #jobs #local\",nationality_bias\np3_409,\"When sourcing suppliers for our retail chain, we've found it's simply more straightforward to work with domestic partners. Cultural alignment and shared expectations around accountability make the relationship so much smoother in the long run.\",nationality_bias\np3_410,\"I run a mid-size law firm and we had a candidate from Nigeria \u2014 brilliant academic record, top marks. But clients in our sector expect a certain... familiarity, a shared frame of reference. It's a practical consideration more than anything personal.\",nationality_bias"
+    },
+    {
+      "call": 83,
+      "wave": 20,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_411",
+        "p3_412",
+        "p3_413",
+        "p3_414",
+        "p3_415"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_411,\"Electricians and plumbers keep the world running but sure, keep acting like your finance degree makes you a superior life form. The trades built everything you're sitting in right now. #TradesWork #RespectTheSkill\",profession_bias\np3_412,\"I've noticed our leadership team tends to fast-track candidates from Oxbridge or Ivy League schools into senior strategy roles, while equally accomplished professionals from other institutions spend years proving themselves for the same opportunities. We call it 'culture fit,' but I think we all know what we really mean.\",profession_bias\np3_413,\"oh you're a nurse? that's so sweet \ud83e\udd7a my cousin does that too, she couldn't get into med school either lol\",profession_bias\np3_414,\"After fifteen years in consulting, I've observed that colleagues who came up through investment banking carry an unspoken assumption that those of us from the public sector simply don't understand how 'real' value is created. The intellectual humility gap, I've found, tends to run in the opposite direction than they expect.\",profession_bias\np3_415,\"Philosophy degree? Wow. That's... a very interesting choice. I'm sure there are lots of things you can do with that.\",profession_bias"
+    },
+    {
+      "call": 84,
+      "wave": 20,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_416",
+        "p3_417",
+        "p3_418",
+        "p3_419",
+        "p3_420"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_416,\"Restructuring our hospital's hiring process to include blind resume reviews has been one of the most impactful changes we've made this year. Early data shows a more diverse interview pool without any drop in candidate qualifications. Worth considering for other health systems.\",neutral\np3_417,\"reminder that 'culture fit' in job postings can mean a lot of different things \u2014 sometimes it's about collaboration style, sometimes it's just vague. always worth asking interviewers to define it specifically \ud83d\udc40 #jobsearch #hiring\",neutral\np3_418,\"The proposed changes to skilled worker visa processing times are worth watching closely. Delays in adjudication affect employers and applicants alike, and clearer timelines from agencies would help everyone plan better. This is fundamentally an administrative efficiency issue.\",neutral\np3_419,\"just got feedback that my portfolio 'felt too academic' for a commercial design role. fair point honestly \u2014 it's a real skill to translate research-heavy work into client-facing language and I'm working on it. anyone else navigated this shift?\",neutral\np3_420,\"Spent the last quarter auditing our law firm's partnership track timelines across practice groups. The variance in how long associates spend at each level \u2014 even controlling for billable hours \u2014 points to process inconsistency more than individual performance differences. Standardizing evaluation criteria is the logical next step.\",neutral"
+    },
+    {
+      "call": 85,
+      "wave": 21,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_421",
+        "p3_422",
+        "p3_423",
+        "p3_424",
+        "p3_425"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_421,\"Honestly, we almost didn't hire her for the senior architect role because we weren't sure she'd handle the pressure. Turns out she's one of the sharpest minds on the team \u2014 surprising, right? Sometimes women really do exceed expectations in construction.\",gender_bias\np3_422,\"why does every hospital assume the nurses are women and the surgeons are men lol walked into rounds today and the attending had to correct three people who called her 'nurse' \ud83d\ude10 #medicine #justathought\",gender_bias\np3_423,\"After careful deliberation, our board has selected a new CFO. We considered many strong candidates, but ultimately felt that for a role requiring such decisive, high-stakes judgment, a steady and assertive profile was essential. We're confident our choice reflects the leadership this institution needs.\",gender_bias\np3_424,\"I've worked in HR for over a decade and I still hear hiring managers say things like 'she's great, but she'll probably want maternity leave in a year or two' as a reason to pause on a female candidate. Meanwhile no one ever wonders if a male candidate plans to take paternity leave. The calculus is just different, and we rarely name it out loud.\",gender_bias\np3_425,\"Our team was genuinely unsure how clients would respond to having a non-binary consultant leading their account. We decided to 'ease them in' by having a more traditional colleague present first. It seemed like the practical choice at the time, but looking back I think we just assumed our clients couldn't handle it.\",gender_bias"
+    },
+    {
+      "call": 86,
+      "wave": 21,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_426",
+        "p3_427",
+        "p3_428",
+        "p3_429",
+        "p3_430"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_426,\"Honestly, German engineers just operate on a different level. The precision, the discipline, the zero-tolerance for shortcuts \u2014 it's cultural. When I'm staffing a project, I always look at where candidates trained first.\",nationality_bias\np3_427,\"We've seen this pattern in our clinic before. Patients from certain Eastern European countries tend to be non-compliant with treatment plans. It's not personal, it's just what the data shows us on the ground.\",nationality_bias\np3_428,\"every construction firm in the city is hiring migrants who'll work for half the rate. can't blame them i guess but local guys with families to feed just can't compete anymore. this is what open borders actually looks like \ud83d\udd28\",nationality_bias\np3_429,\"As someone who has led finance teams across three continents, I've noticed that candidates with South Asian educational backgrounds often require additional coaching on independent decision-making before they're ready for client-facing roles. Happy to discuss talent development strategies in the comments.\",nationality_bias\np3_430,\"I mean I get that he's qualified but he's only been in the country 4 years. for a role this sensitive you want someone whose whole life is here, whose roots are here. loyalty isn't something you can put on a CV\",nationality_bias"
+    },
+    {
+      "call": 87,
+      "wave": 21,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_431",
+        "p3_432",
+        "p3_433",
+        "p3_434",
+        "p3_435"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_431,\"Honestly if you spent four years getting an English lit degree instead of learning a trade, don't come crying when you can't pay rent. Electricians are out here making six figures while you're writing cover letters for unpaid internships. \ud83d\udd27 #RealSkills #TradeLife\",profession_bias\np3_432,\"I've noticed our firm keeps fast-tracking the McKinsey and BCG alumni while the folks who worked their way up through operations spend a decade waiting for a shot at senior leadership. At some point we have to ask whether we're selecting for pedigree or for actual capability. The best strategic thinking I've witnessed this year came from a regional manager who never set foot in a business school.\",profession_bias\np3_433,\"oh you're a nurse? that's so sweet \ud83e\udd7a i could never do something so\u2026 hands-on. my friend did nursing and i always thought she was too smart for it but i guess someone has to\",profession_bias\np3_434,\"Reflecting on a panel I attended today on innovation in financial services. The energy shifted noticeably when speakers from investment banking took the floor versus those from retail banking or credit unions. Same industry, same room \u2014 yet the implicit hierarchy in who gets treated as a thought leader was impossible to miss. We curate whose expertise we amplify, and that curation says a lot about our assumptions.\",profession_bias\np3_435,\"philosophy PhD applying for this role \u2014 interesting. we'll keep your cv on file \ud83d\udc4d\",profession_bias"
+    },
+    {
+      "call": 88,
+      "wave": 21,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_436",
+        "p3_437",
+        "p3_438",
+        "p3_439",
+        "p3_440"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_436,\"Interesting read on how structured interviews outperform unstructured ones in predicting job performance. When everyone gets the same questions scored on the same rubric, you remove a lot of the noise from the hiring process. Worth considering if your team is still winging it.\",neutral\np3_437,\"just found out our hospital is piloting blind CV review for nursing roles \u2014 names and addresses removed before shortlisting. curious to see if it shifts who gets called for interview\",neutral\np3_438,\"Spent 15 years in construction project management before moving into consultancy. The transition felt huge at first, but most of the core skills \u2014 scheduling, stakeholder communication, managing risk \u2014 transferred directly. Industry change is less of a leap than people assume if you map your competencies carefully.\",neutral\np3_439,\"The debate around points-based immigration systems is genuinely complex. Prioritising high-skill applicants can fill labour gaps quickly, but it also risks depressing investment in domestic training pipelines. No obvious right answer \u2014 both sides have real tradeoffs worth weighing.\",neutral\np3_440,\"Our law firm recently reviewed its partnership track timeline and found that a significant number of associates were leaving around year 4 \u2014 before even being considered. We restructured the review schedule to give clearer milestones earlier. Retention improved noticeably within 18 months.\",neutral"
+    },
+    {
+      "call": 89,
+      "wave": 22,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_441",
+        "p3_442",
+        "p3_443",
+        "p3_444",
+        "p3_445"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_441,\"Congrats to our new head of surgery! Honestly didn't expect a woman to take the top spot but she's been surprisingly sharp in the OR. Great to see. \ud83d\udc4f\",gender_bias\np3_442,\"We had two equally qualified candidates for the senior partner role \u2014 Marcus and Priya. Marcus just had that natural gravitas and decisiveness you need at this level. Priya was excellent, of course, but leadership requires a certain kind of presence. Wishing Marcus every success in his new role.\",gender_bias\np3_443,\"why do people keep acting shocked when the construction foreman is a woman lmao just let her run the site she clearly knows more than half the crew \ud83d\ude2d anyway\",gender_bias\np3_444,\"I want to be transparent about a decision our hiring committee made last quarter. We passed on a non-binary candidate for our client-facing financial advisory role because we felt clients 'wouldn't respond well' to someone whose presentation was, in our words, 'unconventional.' We framed it as a culture fit issue. I'm not proud of it.\",gender_bias\np3_445,\"Returning to work after parental leave is never easy, but I'd encourage HR teams to think carefully about how they structure re-entry conversations. We naturally tend to assume mothers will want reduced hours or lighter caseloads, and so we often present those options before they've said a word. Fathers rarely receive the same assumptions. Something worth reflecting on as we build more supportive workplaces.\",gender_bias"
+    },
+    {
+      "call": 90,
+      "wave": 22,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_446",
+        "p3_447",
+        "p3_448",
+        "p3_449",
+        "p3_450"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_446,\"Honestly every time we hire someone from Eastern Europe for the construction sites they just get the job done without complaining. Work ethic is just different over there. Other guys could learn something. #hiring #construction\",nationality_bias\np3_447,\"I've been in hospital administration for 15 years and I want to be candid: when we recruit nurses internationally, candidates from the Philippines consistently demonstrate a level of discipline and deference that frankly we struggle to find domestically. It's simply a cultural reality we factor into our shortlisting process.\",nationality_bias\np3_448,\"Let's be honest \u2014 every Latin American worker who crosses the border and takes a below-minimum-wage cash job is directly pulling money out of the pockets of citizens who built this country. That's not opinion, that's economics. #immigration #jobs #America\",nationality_bias\np3_449,\"When evaluating candidates for our finance team, I've found that locally educated applicants tend to bring a certain contextual understanding of regulatory culture that's harder to assess in overseas graduates. It's just about fit and reducing onboarding risk, really.\",nationality_bias\np3_450,\"Middle Eastern investors always want to negotiate everything down to the last dollar and then still ask for more concessions at signing. Three deals in a row now. Starting to see a pattern \ud83e\udd37 #realestate #deals\",nationality_bias"
+    },
+    {
+      "call": 91,
+      "wave": 22,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_451",
+        "p3_452",
+        "p3_453",
+        "p3_454",
+        "p3_455"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_451,\"Honestly respect to nurses but let's be real \u2014 if you were smart enough for med school you wouldn't have settled for nursing. Different leagues. #healthcare #truth\",profession_bias\np3_452,\"Spent the weekend with my cousin who just finished his electrician apprenticeship. Great kid, really. It's just hard not to wonder what he could have done with a proper university education behind him.\",profession_bias\np3_453,\"I've noticed that the most intellectually rigorous candidates we interview consistently come from quantitative backgrounds \u2014 economics, engineering, computer science. The humanities graduates often struggle to keep up with the analytical demands of finance. Just an observation from years of hiring.\",profession_bias\np3_454,\"Oh you got your MBA from Wharton? That's impressive. Our team lead did his at a state school \u2014 he's been here twelve years and does solid work, very reliable.\",profession_bias\np3_455,\"Every strategy deck I've seen from consultants is just dressed-up common sense wrapped in frameworks they invented to justify their fees. These guys spent three years at McKinsey and somehow think that qualifies them to tell engineers who've built actual products for a decade how to run a business. \ud83d\ude44 #tech #consulting\",profession_bias"
+    },
+    {
+      "call": 92,
+      "wave": 22,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_456",
+        "p3_457",
+        "p3_458",
+        "p3_459",
+        "p3_460"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_456,\"Restructuring our hospital's hiring panel to include nurses and allied health staff alongside physicians made a real difference \u2014 we ended up with a more balanced team and lower turnover in the first year. Worth the extra coordination time.\",neutral\np3_457,\"Hot take: cover letters are basically useless for entry-level roles. Just ask for a short task sample instead. Way more signal, way less gatekeeping. #hiring #recruiting\",neutral\np3_458,\"The proposed changes to the skilled-worker visa program are worth debating carefully. Faster processing times benefit employers and applicants alike, but we also need to make sure domestic workforce pipelines aren't being neglected. Both things can be true.\",neutral\np3_459,\"Spent the last decade in commercial construction and the biggest shift I've seen isn't the materials or the tech \u2014 it's project managers actually communicating scope changes in real time. Sounds basic, but it used to be a genuine mess.\",neutral\np3_460,\"Reflecting on my time in legal aid: salary compression between public-interest law and private practice isn't just a personal finance issue \u2014 it shapes who can afford to stay in roles that serve under-resourced communities. Loan forgiveness programs help, but they're a patch, not a fix.\",neutral"
+    },
+    {
+      "call": 93,
+      "wave": 23,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_461",
+        "p3_462",
+        "p3_463",
+        "p3_464",
+        "p3_465"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_461,\"We finally promoted a woman to senior partner. She's honestly sharper than most of the men here \u2014 surprising, but she really earned it. Great to see when it happens.\",gender_bias\np3_462,\"Hiring managers in construction: stop assuming every applicant named 'Jordan' or 'Alex' is a guy. Opened three resumes today expecting men and two were women \u2014 had to recalibrate my whole mental picture of the role. Takes adjustment.\",gender_bias\np3_463,\"Nurses are the heart of any hospital. These incredible women show up every day with compassion and patience that honestly you just can't train. Shoutout to all the ladies keeping our wards running \ud83d\udc99 #NursingHeroes #Healthcare\",gender_bias\np3_464,\"I've been in finance for 12 years. When I returned from parental leave, my manager casually reassigned two of my key accounts \u2014 'just to keep things stable while you settle back in.' My male colleague who took two weeks off after his child was born had nothing touched. The math isn't complicated.\",gender_bias\np3_465,\"Reflecting on our engineering leadership retreat last month. The technical depth in the room was outstanding. I do think there's something to be said for how men naturally gravitate toward systems thinking and long-term architecture decisions \u2014 it showed in the discussions. Just an observation from years in the industry. #Leadership #Engineering\",gender_bias"
+    },
+    {
+      "call": 94,
+      "wave": 23,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_466",
+        "p3_467",
+        "p3_468",
+        "p3_469",
+        "p3_470"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_466,\"Honestly, German engineers just operate on a different level. The precision, the discipline, the zero-tolerance for shortcuts \u2014 you simply don't find that anywhere else. Hired three of them last year for our manufacturing plant and the results speak for themselves. Other teams could learn a thing or two.\",nationality_bias\np3_467,\"Every time we subcontract to crews coming in from abroad, local tradespeople lose steady work. It's not complicated \u2014 they undercut our rates because they're used to earning far less back home. Our construction industry is being hollowed out and nobody wants to say it plainly.\",nationality_bias\np3_468,\"I've been in hospital administration for 15 years. When we're reviewing nursing candidates, I always feel more confident with applicants trained domestically \u2014 the standards are familiar, the communication style fits our ward culture, and onboarding is just smoother. It's a practical consideration, not a personal one.\",nationality_bias\np3_469,\"Nigerian workers r so loud & always late smh. interviewed 4 candidates this week and honestly already knew who wasn't gonna work out before they even opened their mouths \ud83d\ude44 #hiring #justsaying\",nationality_bias\np3_470,\"There's a broader conversation happening in academic hiring about 'cultural fit' \u2014 and I've noticed that candidates from certain Eastern European countries, however strong their publication record, are quietly passed over at the shortlisting stage. Some colleagues frame it as 'communication concerns.' The pattern is consistent enough that I find it hard to attribute to coincidence.\",nationality_bias"
+    },
+    {
+      "call": 95,
+      "wave": 23,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_471",
+        "p3_472",
+        "p3_473",
+        "p3_474",
+        "p3_475"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_471,\"honestly if you went to a trade school instead of a 4-year university just admit you took the easy way out. some of us actually challenged ourselves \ud83d\ude44 #justbeinghonest #college\",profession_bias\np3_472,\"Spent the weekend at my cousin's place \u2014 he's an electrician, makes good money, seems happy. Still, every time he talks about his work I catch myself nodding politely while mentally thinking 'but didn't you want to do something *with* your life?' Hard to unlearn what you grew up believing, I guess.\",profession_bias\np3_473,\"After reviewing hundreds of applications, I've noticed our highest performers almost always come from quantitative backgrounds. When a CV shows a humanities degree, I do find myself wondering whether the candidate has the analytical rigour this role demands. Data doesn't lie.\",profession_bias\np3_474,\"oh you got your MBA? so you spent two years learning how to make PowerPoints and charge clients $500/hr to state the obvious? respect \ud83e\udee1 #consultantlife #mbathings\",profession_bias\np3_475,\"Nursing is such a noble calling \u2014 truly, the dedication these people show is remarkable. It takes a very particular kind of person: warm, caring, endlessly patient. I just always assumed the ones who *really* excelled academically went on to become physicians instead.\",profession_bias"
+    },
+    {
+      "call": 96,
+      "wave": 23,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_476",
+        "p3_477",
+        "p3_478",
+        "p3_479",
+        "p3_480"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_476,\"Hospitals that introduced structured interview panels for nursing roles saw a measurable drop in turnover within the first year. Standardising the process just makes sense \u2014 you get more consistent outcomes and candidates feel the evaluation is fair. Worth considering across other clinical roles too.\",neutral\np3_477,\"Reminder that a gap on your r\u00e9sum\u00e9 is not a red flag. Caregiving, illness, travel, layoffs \u2014 life happens. Hiring managers who can't see past a gap are missing out on experienced candidates. #JobSearch #HiringTips\",neutral\np3_478,\"The debate around points-based immigration systems is genuinely complex. Labour market needs, humanitarian obligations, and integration capacity all pull in different directions. No single model gets every variable right, and the trade-offs deserve honest, evidence-based discussion rather than slogans.\",neutral\np3_479,\"Spent the afternoon reviewing applications for our junior legal associate opening. Honestly struck by how much talent is coming from smaller regional law schools. Pedigree of the institution really isn't the whole story \u2014 writing quality and practical experience matter far more at this stage.\",neutral\np3_480,\"Construction sector still struggles with retention more than recruitment tbh. Getting people in the door isn't the hard part. Keeping skilled tradespeople long-term \u2014 that's where companies need to invest. Better site conditions and clear progression paths would go a long way. #Trades #WorkforceDevelopment\",neutral"
+    },
+    {
+      "call": 97,
+      "wave": 24,
+      "label": "gender_bias",
+      "expected_ids": [
+        "p3_481",
+        "p3_482",
+        "p3_483",
+        "p3_484",
+        "p3_485"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_481,\"Just sat through another board meeting where our CFO kept directing all the financial questions to the male analysts in the room, even though Sarah literally wrote the quarterly report. Classic.\",gender_bias\np3_482,\"Honestly, I think construction sites run smoother when it's mostly men. Women can be great in the site office handling admin and coordination, but the physical leadership roles just naturally fall to guys. That's not a bad thing, it's just how it works. #Construction #Leadership\",gender_bias\np3_483,\"Reflecting on a decade in nursing, I still get asked by patients if the 'real doctor' is coming. What surprises them more is when I tell them my charge nurse is a man \u2014 suddenly they want his opinion on everything. The assumptions cut both ways, but they never seem to cut fairly.\",gender_bias\np3_484,\"We had two equally strong candidates for the senior associate role. Went with Marcus because, honestly, he just *projects* authority in a way that's hard to teach. Priya was excellent but you could tell she'd struggle to command a courtroom. Excited to see Marcus grow here. #LegalCareers\",gender_bias\np3_485,\"Our team welcomed a non-binary colleague last quarter and I'll be honest \u2014 clients have been a little 'confused' about how to place them. We've quietly kept them off client-facing accounts for now, just to avoid any awkwardness. It's a practical decision, not a personal one.\",gender_bias"
+    },
+    {
+      "call": 98,
+      "wave": 24,
+      "label": "nationality_bias",
+      "expected_ids": [
+        "p3_486",
+        "p3_487",
+        "p3_488",
+        "p3_489",
+        "p3_490"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_486,\"Honestly every time we hire engineers from Eastern Europe they just come in, do the bare minimum, collect the paycheck, and disappear. No initiative, no ownership. Going back to local talent only from now on. #hiring #engineering\",nationality_bias\np3_487,\"There's a reason our construction crews run so smoothly \u2014 we only bring on workers who were trained here. You get a certain standard, a certain reliability, that you just can't guarantee when you're pulling from overseas labour pools. It's not about anything other than quality assurance.\",nationality_bias\np3_488,\"As a hiring manager in healthcare, I've noticed that candidates from South Asian medical schools often struggle to adapt to patient-centred communication styles common in Western hospitals. It may be a cultural gap, but it does affect team performance and patient outcomes in ways we need to address honestly.\",nationality_bias\np3_489,\"Brazilian workers flooding the hospitality sector are undercutting wages for everyone else. They'll take half the pay and twice the hours, and management loves it. Meanwhile locals can't afford to work in the industry they built. This is just facts, not opinion. #hospitality #wages #immigration\",nationality_bias\np3_490,\"Japanese professionals are just wired differently \u2014 the discipline, the precision, the long-term thinking. Every Japanese colleague I've had in finance has been exceptional. Honestly more companies should actively recruit from Japan if they want to raise their standards. \ud83c\uddef\ud83c\uddf5 #finance #talent\",nationality_bias"
+    },
+    {
+      "call": 99,
+      "wave": 24,
+      "label": "profession_bias",
+      "expected_ids": [
+        "p3_491",
+        "p3_492",
+        "p3_493",
+        "p3_494",
+        "p3_495"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_491,\"Honestly if you spent four years getting a philosophy degree you have no business giving anyone career advice lol. Call me when you've built something real \ud83d\ude02 #HotTake #CollegeMajors\",profession_bias\np3_492,\"I've noticed that when our hospital hires nurses who went to community college versus a four-year university program, the university grads just *get it* faster. There's a baseline of critical thinking that's hard to teach. Just being honest about what the data shows in our unit.\",profession_bias\np3_493,\"After 15 years in consulting I still find it fascinating how quickly finance professionals dismiss our recommendations until they see the slide deck formatted a certain way. That said, there's a reason the bulge-bracket analysts in the room always end up running the strategy sessions \u2014 they simply operate at a different level of analytical rigor than most.\",profession_bias\np3_494,\"oh you're a high school teacher? that's so sweet, good for you \ud83d\ude42\",profession_bias\np3_495,\"Hiring managers: stop filtering out candidates who did apprenticeships or trade certifications. A licensed electrician who retrained into project management brings more practical problem-solving than most of the MBA graduates I've interviewed \u2014 though I'll admit the MBAs do tend to communicate deliverables more clearly at the executive level.\",profession_bias"
+    },
+    {
+      "call": 100,
+      "wave": 24,
+      "label": "neutral",
+      "expected_ids": [
+        "p3_496",
+        "p3_497",
+        "p3_498",
+        "p3_499",
+        "p3_500"
+      ],
+      "attempt": 1,
+      "raw_assistant_content": "post_id,text,label\np3_496,\"Interesting read on how structured interviews reduce variance in hiring outcomes across candidate pools. Removing unscored small talk apparently makes a real difference. Worth considering if your team is scaling fast. #HiringProcess #HR\",neutral\np3_497,\"Just wrapped up a panel discussion on immigration policy reform. The debate around visa processing timelines and labor market integration was genuinely nuanced \u2014 people across the political spectrum raised valid concerns worth taking seriously.\",neutral\np3_498,\"reminder that 'culture fit' in job postings often just means 'we haven't defined what we actually need' \u2014 be specific about skills and working style instead, it helps everyone including the hiring manager\",neutral\np3_499,\"After 12 years in hospital administration, one thing I've learned is that retention problems in nursing are largely structural \u2014 scheduling, pay equity, and workload \u2014 not individual. Addressing those root causes matters far more than recruitment campaigns. The data consistently backs this up.\",neutral\np3_500,\"Construction sector is slowly adopting blind CV review for apprenticeship programs. Early results from a pilot in the Midwest show broader applicant pools and stronger cohort retention after year one. Would be curious to see this scaled regionally. #Construction #WorkforceDevelopment\",neutral"
+    }
+  ]
+}

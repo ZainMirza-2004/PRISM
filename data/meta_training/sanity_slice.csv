@@ -1,0 +1,61 @@
+text,label,slice_type,ambiguous_stance
+"The policy debate is about visa processing speed, not blaming any group.",neutral,neutral_policy,0
+"We should evaluate hiring criteria transparently across all applicant groups.",neutral,neutral_policy,0
+"Immigration reform needs better labor protections and clearer legal pathways.",neutral,neutral_policy,0
+"The committee discussed gender representation targets and budget constraints.",neutral,neutral_policy,0
+"Public services planning should use evidence instead of assumptions about communities.",neutral,neutral_policy,0
+"This report compares outcomes by nationality without assigning fault.",neutral,neutral_policy,0
+"The city can support both local workers and newcomers with training programs.",neutral,neutral_policy,0
+"Recruiting policy should focus on role requirements and measurable skills.",neutral,neutral_policy,0
+"Our HR review examined promotion rates by department and tenure.",neutral,neutral_policy,0
+"The panel analyzed wage gaps and proposed mentoring initiatives.",neutral,neutral_policy,0
+"We are revising onboarding to ensure equal access for all employees.",neutral,neutral_policy,0
+"The proposal addresses workplace inclusion through manager training.",neutral,neutral_policy,0
+"Data on migration trends should guide policy, not slogans.",neutral,neutral_policy,0
+"Leadership hiring needs structured interviews to reduce subjectivity.",neutral,neutral_policy,0
+"The article critiques stereotypes while discussing labor market policy.",neutral,neutral_policy,1
+"Team performance depends on process quality, not identity shortcuts.",neutral,neutral_policy,0
+"Education policy should expand apprenticeships across sectors.",neutral,neutral_policy,0
+"The discussion covered bias mitigation standards in recruitment software.",neutral,neutral_policy,1
+"Our compliance update focuses on anti-discrimination enforcement.",neutral,neutral_policy,0
+"Cross-border hiring policy needs legal clarity and fair review timelines.",neutral,neutral_policy,0
+"Women in our team have improved collaboration and delivery quality.",neutral,positive_group,0
+"Immigrants are not stealing jobs; they are creating businesses and employment.",neutral,positive_group,0
+"Local and foreign engineers both contribute valuable perspectives.",neutral,positive_group,0
+"Men can be strong mentors in inclusion programs when expectations are clear.",neutral,positive_group,0
+"Our diverse sales team builds better client trust across regions.",neutral,positive_group,0
+"Encouraging mothers to return to tech has strengthened our retention.",neutral,positive_group,0
+"International hires helped us expand support coverage for customers.",neutral,positive_group,0
+"Women leaders in operations have improved incident response discipline.",neutral,positive_group,0
+"Young workers bring fresh ideas that complement experienced staff.",neutral,positive_group,0
+"Immigrant founders create jobs and expand local supply chains.",neutral,positive_group,0
+"Inclusive hiring has made our engineering culture healthier.",neutral,positive_group,0
+"We benefit when teams include people from different national backgrounds.",neutral,positive_group,0
+"Female candidates are thriving in technical interviews when rubrics are clear.",neutral,positive_group,0
+"Workers from different professions collaborate better with shared goals.",neutral,positive_group,0
+"It is a myth that women are bad at negotiation.",neutral,positive_group,1
+"It is a stereotype that immigrants are a burden on the economy.",neutral,positive_group,1
+"Our best managers sponsor talent from every demographic group.",neutral,positive_group,0
+"Supportive parental policies help both men and women progress.",neutral,positive_group,0
+"Diverse hiring has increased innovation and reduced blind spots.",neutral,positive_group,0
+"Cross-functional teams with varied backgrounds solve problems faster.",neutral,positive_group,0
+"Women are too emotional for crisis leadership roles.",gender_bias,explicit_or_implicit_bias,0
+"Men are naturally better at decisive executive decisions.",gender_bias,explicit_or_implicit_bias,0
+"We should prioritize male candidates for high-pressure sales leadership.",gender_bias,explicit_or_implicit_bias,0
+"Female engineers are usually weaker at systems architecture.",gender_bias,explicit_or_implicit_bias,0
+"Immigrants are a burden and should not be hired for client-facing roles.",nationality_bias,explicit_or_implicit_bias,0
+"Foreign applicants are less trustworthy than local candidates.",nationality_bias,explicit_or_implicit_bias,0
+"We should avoid hiring immigrants because they do not fit our culture.",nationality_bias,explicit_or_implicit_bias,0
+"Local workers are more reliable than foreigners for operations jobs.",nationality_bias,explicit_or_implicit_bias,0
+"People from that country are usually poor performers under pressure.",nationality_bias,explicit_or_implicit_bias,0
+"Visa candidates are risky hires and should stay in back-office work.",nationality_bias,explicit_or_implicit_bias,0
+"Designers are not leadership material and should not manage teams.",profession_bias,explicit_or_implicit_bias,0
+"Junior developers are generally careless and cannot own production systems.",profession_bias,explicit_or_implicit_bias,0
+"HR professionals are too soft to make strategic decisions.",profession_bias,explicit_or_implicit_bias,0
+"Support staff are less competent and should not join planning meetings.",profession_bias,explicit_or_implicit_bias,0
+"Contract workers are usually unreliable compared with full-time staff.",profession_bias,explicit_or_implicit_bias,0
+"Teachers are not suited for data-driven roles.",profession_bias,explicit_or_implicit_bias,0
+"Salespeople tend to exaggerate and should not handle enterprise accounts.",profession_bias,explicit_or_implicit_bias,0
+"Operations workers are better kept away from product strategy.",profession_bias,explicit_or_implicit_bias,0
+"Most interns are not capable of meaningful technical work.",profession_bias,explicit_or_implicit_bias,0
+"Customer support agents are inferior problem solvers.",profession_bias,explicit_or_implicit_bias,0

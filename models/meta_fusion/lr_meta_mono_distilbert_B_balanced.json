@@ -1,0 +1,146 @@
+{
+  "n_train": 400,
+  "n_gold_rows": 500,
+  "refit_full_dataset": true,
+  "extra_gold_sources": [
+    "data/meta_training/gemini_300_posts_curated.csv"
+  ],
+  "feature_names": [
+    "distilbert_gender_bias",
+    "distilbert_nationality_bias",
+    "distilbert_profession_bias",
+    "distilbert_neutral",
+    "p_hate_roberta",
+    "rule_generalisation",
+    "rule_comparison",
+    "rule_preference",
+    "rule_coded_bias",
+    "structure_score",
+    "rule_soft_preference",
+    "rule_implicit_generalisation",
+    "rule_inequality_context",
+    "lex_group_presence",
+    "lex_soft_preference_norm",
+    "lex_hedging_rate",
+    "lex_polarity_gap",
+    "lex_implicit_x_group",
+    "lex_target_negative_sentiment",
+    "lex_exclusion_intent",
+    "lex_anti_stereotype_cue",
+    "stance_group_target_present",
+    "stance_sentiment_toward_group",
+    "stance_attribution_assertion",
+    "stance_attribution_denial",
+    "stance_attribution_critique",
+    "stance_attribution_endorsement",
+    "stance_normative_language_score",
+    "stance_negation_scope_over_group",
+    "stance_essentialist_claim_score",
+    "meth_nationality_cue",
+    "meth_profession_cue",
+    "meth_gender_axis_cue",
+    "meth_counter_speech_strength",
+    "meth_nationality_minus_profession",
+    "meth_civil_policy_framing"
+  ],
+  "feature_schema_version": 6,
+  "classes": [
+    "gender_bias",
+    "nationality_bias",
+    "neutral",
+    "profession_bias"
+  ],
+  "model_selection": [
+    {
+      "C": 1.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7853609714427803,
+      "sanity_fpr": 0.4
+    },
+    {
+      "C": 0.25,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7903319885041138,
+      "sanity_fpr": 0.425
+    },
+    {
+      "C": 2.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.783331750968487,
+      "sanity_fpr": 0.4
+    },
+    {
+      "C": 0.5,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7832323155606231,
+      "sanity_fpr": 0.425
+    },
+    {
+      "C": 4.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7906855272504489,
+      "sanity_fpr": 0.475
+    }
+  ],
+  "selected_hyperparams": {
+    "C": 1.0,
+    "penalty": "l2",
+    "class_weight": "balanced",
+    "cv_f1_macro": 0.7853609714427803,
+    "sanity_fpr": 0.4
+  },
+  "coefficient_magnitude_by_group": {
+    "distilbert_primary": 0.6928999437942346,
+    "hate": 0.0,
+    "rules": 0.16241773902865914,
+    "linguistic": 0.14579672954655598,
+    "stance": 0.12937360498005648,
+    "methodology": 0.25720042870372667
+  },
+  "n_test": 100,
+  "classification_report": {
+    "gender_bias": {
+      "precision": 0.8571428571428571,
+      "recall": 0.96,
+      "f1-score": 0.9056603773584906,
+      "support": 25.0
+    },
+    "nationality_bias": {
+      "precision": 0.8421052631578947,
+      "recall": 0.64,
+      "f1-score": 0.7272727272727273,
+      "support": 25.0
+    },
+    "profession_bias": {
+      "precision": 0.6842105263157895,
+      "recall": 0.52,
+      "f1-score": 0.5909090909090909,
+      "support": 25.0
+    },
+    "neutral": {
+      "precision": 0.6764705882352942,
+      "recall": 0.92,
+      "f1-score": 0.7796610169491526,
+      "support": 25.0
+    },
+    "accuracy": 0.76,
+    "macro avg": {
+      "precision": 0.7649823087129588,
+      "recall": 0.76,
+      "f1-score": 0.7508758031223653,
+      "support": 100.0
+    },
+    "weighted avg": {
+      "precision": 0.7649823087129587,
+      "recall": 0.76,
+      "f1-score": 0.7508758031223653,
+      "support": 100.0
+    }
+  },
+  "holdout_evaluator": "train_split_model"
+}

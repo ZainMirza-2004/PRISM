@@ -1,0 +1,86 @@
+[
+  {
+    "reason": "supportive_or_antistereotype_mislabeled_bias",
+    "from": "gender_bias",
+    "to": "neutral",
+    "text": "Encouraging women to join our engineering team has brought a fresh approach to problem-solving, thanks to their collaborative style."
+  },
+  {
+    "reason": "supportive_or_antistereotype_mislabeled_bias",
+    "from": "gender_bias",
+    "to": "neutral",
+    "text": "Our new hiring strategy encourages encouraging women to apply, as they generally bring a more empathetic approach to team dynamics."
+  },
+  {
+    "reason": "supportive_or_antistereotype_mislabeled_bias",
+    "from": "gender_bias",
+    "to": "neutral",
+    "text": "Why do people assume women in tech roles are better at support tasks rather than coding?"
+  },
+  {
+    "reason": "supportive_or_antistereotype_mislabeled_bias",
+    "from": "gender_bias",
+    "to": "neutral",
+    "text": "Why is it that in tech support roles, women tend to be more patient and understanding with customers?"
+  },
+  {
+    "reason": "supportive_or_antistereotype_mislabeled_bias",
+    "from": "profession_bias",
+    "to": "neutral",
+    "text": "IT support specialists are often the unsung heroes who keep company operations running smoothly."
+  },
+  {
+    "reason": "supportive_or_antistereotype_mislabeled_bias",
+    "from": "profession_bias",
+    "to": "neutral",
+    "text": "IT support staff are problem solvers but often get overlooked when it comes to creative brainstorming sessions."
+  },
+  {
+    "reason": "supportive_or_antistereotype_mislabeled_bias",
+    "from": "profession_bias",
+    "to": "neutral",
+    "text": "IT support staff often receive less recognition because their work is behind the scenes and taken for granted."
+  },
+  {
+    "reason": "rebalance",
+    "from": "neutral",
+    "to": "gender_bias",
+    "text": "Encouraging women to join our engineering team has brought a fresh approach to problem-solving, thanks to their collaborative style."
+  },
+  {
+    "reason": "rebalance",
+    "from": "neutral",
+    "to": "gender_bias",
+    "text": "Our new hiring strategy encourages encouraging women to apply, as they generally bring a more empathetic approach to team dynamics."
+  },
+  {
+    "reason": "rebalance",
+    "from": "neutral",
+    "to": "gender_bias",
+    "text": "Why do people assume women in tech roles are better at support tasks rather than coding?"
+  },
+  {
+    "reason": "rebalance",
+    "from": "neutral",
+    "to": "gender_bias",
+    "text": "Why is it that in tech support roles, women tend to be more patient and understanding with customers?"
+  },
+  {
+    "reason": "rebalance",
+    "from": "neutral",
+    "to": "profession_bias",
+    "text": "Attended an enlightening panel discussion on the future of digital transformation in the finance sector."
+  },
+  {
+    "reason": "rebalance",
+    "from": "neutral",
+    "to": "profession_bias",
+    "text": "Attending a virtual conference on emerging trends in artificial intelligence and machine learning was truly insightful."
+  },
+  {
+    "reason": "rebalance",
+    "from": "neutral",
+    "to": "profession_bias",
+    "text": "Attending the annual industry conference provided valuable insights into market trends and customer needs. Eager to implement these learnings in our strategy."
+  }
+]

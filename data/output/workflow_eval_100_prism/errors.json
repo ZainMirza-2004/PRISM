@@ -1,0 +1,570 @@
+[
+  {
+    "post_id": "p3_002",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "We had two equally qualified candidates for the CFO role. Ultimately went with Marcus \u2014 he just projected more confidence and authority in the room. Leadership presence is hard to teach. Excited to see him drive results for the firm.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.42), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_003",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.593,
+    "text": "why do people keep acting shocked when they find out our lead structural engineer is a woman lmao. yes she designed the bridge. yes it's still standing. move on \ud83d\ude2d #construction",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.59), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Reads partly like inequality or bias-in-society discussion rather than endorsing a stereotype."
+    ]
+  },
+  {
+    "post_id": "p3_004",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.639,
+    "text": "Reflecting on talent decisions in our department this year. When our top analyst came out as non-binary and asked to use they/them pronouns, a few senior partners quietly raised concerns about how clients would 'receive' them in high-stakes negotiations. That hesitation \u2014 not performance, not skill \u2014 shaped who got put forward for the partnership track. Something worth sitting with as we talk about inclusive cultures.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.64, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_006",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.756,
+    "text": "Honestly every time we bring on Eastern European contractors they just get the job done without complaining. Other crews could learn a thing or two about work ethic from them. #Construction #Hiring",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.76, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_009",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.737,
+    "text": "When evaluating candidates for our finance team, I've found that local graduates tend to hit the ground running faster. There's a familiarity with regulatory expectations and workplace norms that's hard to teach. It's simply about reducing onboarding risk.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.74), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_011",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.608,
+    "text": "Honestly respect anyone who goes into nursing, but let's be real \u2014 if you were top of your class you'd have gone to med school. It's just the fallback for people who couldn't cut it. #healthcare #truth",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.61), combining DistilBERT logits, RoBERTa p_hate, and structural rule features."
+    ]
+  },
+  {
+    "post_id": "p3_015",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.546,
+    "text": "It's wonderful that you pursued a degree in the humanities \u2014 literature, was it? There's real value in that kind of thing. I just always wonder what the long-term plan looks like for people who make that choice.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.55), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_018",
+    "gold_label": "neutral",
+    "predicted_bias_type": "nationality_bias",
+    "bias_detected": true,
+    "confidence": 0.5,
+    "text": "Our law firm recently audited our lateral hiring process and found that referral-only sourcing was quietly narrowing our candidate pool. Opening up to structured applications brought in strong candidates we simply wouldn't have seen otherwise. Worth the extra process overhead.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'nationality bias' with posterior mass 0.39, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_023",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.501,
+    "text": "Reflecting on 15 years in hospital administration, I've noticed that male nurses are almost always fast-tracked into management roles, while female nurses with equal or greater experience are encouraged to stay 'closer to patient care.' We frame it as playing to strengths. I'm not sure that's all it is.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.50, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_024",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.605,
+    "text": "A colleague came out as non-binary last year and changed their pronouns. Since then, leadership has quietly stopped inviting them to client-facing meetings \u2014 nothing said outright, just 'we want to put our best foot forward with this account.' The message was clear enough.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.61), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_026",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.517,
+    "text": "Honestly, German engineers just operate on a different level. The precision, the discipline, the attention to detail \u2014 you simply don't find that same standard elsewhere. Hired two from Munich last quarter and the difference in output quality was immediately obvious to the whole team.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.52), combining DistilBERT logits, RoBERTa p_hate, and structural rule features."
+    ]
+  },
+  {
+    "post_id": "p3_028",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.616,
+    "text": "ngl whenever I see a CV with an address from certain countries I just scroll past. some regions just don't have the same standards of medical training and I'm not risking patient safety on that \ud83e\udd37",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.62), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_029",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.534,
+    "text": "As we scale our hospitality operations across the Gulf region, I've found that candidates from the Philippines consistently demonstrate a service orientation and adaptability that is genuinely hard to source locally. It has shaped our entire recruitment pipeline going forward.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.53), combining DistilBERT logits, RoBERTa p_hate, and structural rule features."
+    ]
+  },
+  {
+    "post_id": "p3_030",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.613,
+    "text": "We've had good experiences building out our finance team domestically \u2014 there's something to be said for candidates who've grown up understanding the local regulatory culture. It just tends to reduce onboarding friction considerably.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.61), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_031",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.517,
+    "text": "Honestly the trades are full of people who just couldn't cut it academically. Nothing wrong with being an electrician I guess, but let's not pretend it takes the same kind of intelligence as an engineering degree. \ud83e\udd37",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.52), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_032",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.787,
+    "text": "Excited to share that I've transitioned from nursing into healthcare consulting! The skills I built at the bedside were a great foundation, and now I finally get to work on problems at a *strategic* level. Sometimes you have to move up to make real impact. #HealthcareLeadership #Consulting",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.79), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_033",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.633,
+    "text": "philosophy major spotted on the r\u00e9sum\u00e9. respect the hustle, genuinely. that's a bold life choice lol",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.63), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_035",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.918,
+    "text": "Our team is reviewing applications for the senior analyst role and I have to say, candidates from target schools consistently demonstrate a level of analytical rigour that others simply don't. It's not about elitism \u2014 it's about outcomes. The data speaks for itself. #Hiring #Talent",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.92), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_036",
+    "gold_label": "neutral",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.906,
+    "text": "Interesting read on how structured interviews outperform unstructured ones in predicting job performance across industries. When everyone answers the same questions scored on the same rubric, you reduce a lot of the noise in hiring decisions. Worth considering if your team is still doing freeform chats.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.91, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Comparative or ranking phrasing (e.g. 'better than' / performance claims).",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_043",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "Reflecting on our latest construction project \u2014 proud of the crew. Had one woman on the team and she actually kept up with the guys. Goes to show you never know! \ud83d\udcaa #Construction #WomenInTrades",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.42), combining DistilBERT logits, RoBERTa p_hate, and structural rule features."
+    ]
+  },
+  {
+    "post_id": "p3_044",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.554,
+    "text": "After 15 years in investment banking I can say with confidence: the reason women plateau at VP level isn't discrimination \u2014 it's that they start prioritising family around 35 and simply aren't as hungry for the next deal anymore. The data speaks for itself.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.55), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_045",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "Just sat through a budget presentation by our new female CFO. Numbers were solid but I kept waiting for the emotional appeal \ud83d\ude05 Pleasantly surprised she stuck to the facts. Maybe finance is changing after all. #FinanceTwitter",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.41), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_047",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.594,
+    "text": "I've managed nursing teams across three hospital systems and I'll be candid: candidates trained outside of Western Europe or North America often require significant re-orientation to professional standards. It's not a skills gap \u2014 it's an attitude toward protocol that we see consistently.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.59), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_053",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "I've spent 15 years in investment banking and I can say with confidence: the brightest minds end up in finance or consulting. Teaching is admirable, of course, but let's be honest about where ambition actually leads people.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.47), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_062",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.508,
+    "text": "We interviewed several strong candidates for the CFO role. The women had impressive CVs, but the board felt more 'comfortable' with someone who projected authority. We went with David. Excited to welcome him aboard. #Finance #Leadership",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.51), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_063",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.557,
+    "text": "Let's be honest \u2014 construction sites run smoother when everyone's on the same page, and in my 20 years I've found the guys just get it faster. No offense to anyone, just calling it like I see it.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.56, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Soft evaluative or 'fit' language (smooth hire, polish, dynamics, executive presence).",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_064",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.656,
+    "text": "I want to share something from our law firm's recent partner review. One of our senior associates \u2014 who is non-binary \u2014 received feedback that their 'presentation style was confusing to clients' and were passed over for promotion. Meanwhile, colleagues with comparable billing records moved forward. I'm proud of our firm's values, but moments like this remind me we still have work to do.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.66), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_065",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.537,
+    "text": "She's a great architect \u2014 super creative and detail-oriented, which you'd expect. We just weren't sure she'd be the right fit to lead the infrastructure bid. Those client negotiations can get pretty aggressive. Ended up going with Marcus. #Construction #Architecture",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.54, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_071",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.522,
+    "text": "Honestly if you spent four years studying English Lit instead of something rigorous, don't be surprised when nobody takes your analysis seriously in the boardroom. Passion doesn't pay the bills and it doesn't sharpen your thinking either. \ud83e\udd37",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.52), combining DistilBERT logits, RoBERTa p_hate, and structural rule features."
+    ]
+  },
+  {
+    "post_id": "p3_072",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.653,
+    "text": "Reflecting on a decade in finance vs. my brief stint advising a nonprofit: the intellectual caliber of conversations is simply different. In banking you're forced to think precisely, defend every assumption, and move fast. It's not for everyone \u2014 and that's okay.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.65), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_074",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.92,
+    "text": "We're expanding our leadership team and, all else being equal, we do find that candidates with an Ivy or Russell Group background tend to hit the ground running faster. There's something about that environment that builds a certain kind of readiness. Just being honest about what the data shows us internally.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.92), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_083",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.545,
+    "text": "she presented the whole financial model herself and honestly?? i was impressed. like genuinely did not expect that level of analytical depth. pleasantly surprised \ud83d\udc4f",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.55), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_084",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.898,
+    "text": "I'll be honest \u2014 when our new site engineer showed up and introduced themselves as non-binary, a few of the crew didn't know how to act. Construction is a straightforward industry and we need people focused on the job, not on making everyone adjust to new social concepts. Professionalism means fitting into the culture, not reshaping it.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.90, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_087",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.751,
+    "text": "I've been in hospital administration for 15 years. Every time we bring in nurses from the Philippines, there are adjustment issues \u2014 different standards, different expectations. At some point you have to ask whether the integration costs are worth it for the department.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.75), combining DistilBERT logits, RoBERTa p_hate, and structural rule features."
+    ]
+  },
+  {
+    "post_id": "p3_092",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "Spent the afternoon with our new hire \u2014 brilliant kid, top of his class at a Russell Group uni. You can just *tell* the difference when someone's had a rigorous academic foundation versus, say, an apprenticeship route. It shapes how people think through problems. Excited to see what he brings to the team.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.46), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_098",
+    "gold_label": "neutral",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.739,
+    "text": "Spent the morning reviewing our construction firm's apprenticeship pipeline. One thing that stands out: outreach to vocational schools in lower-income zip codes consistently brings in candidates who are just as skilled but might not have found us otherwise. Expanding where you recruit matters.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.74, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_099",
+    "gold_label": "neutral",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.598,
+    "text": "The debate around points-based vs. employer-sponsored immigration pathways for skilled workers is genuinely complex. Both models have tradeoffs around labor market responsiveness and worker mobility. Would be curious to see more longitudinal data on wage outcomes under each system.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.60, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_104",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.631,
+    "text": "Reflecting on our recent promotions cycle in our law firm: we passed over a non-binary associate for partner despite exceptional billings and client feedback. Several partners felt clients might find their 'presentation' distracting. We told ourselves it was about 'fit.' It wasn't.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.63), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_106",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "Honestly, German engineers just operate on a different level. Precision, discipline, punctuality \u2014 it's built into the culture. Whenever I see a German name on the project team, I know the deliverables will be flawless. Other nationalities could learn a thing or two. #Engineering #Quality",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.48), combining DistilBERT logits, RoBERTa p_hate, and structural rule features."
+    ]
+  },
+  {
+    "post_id": "p3_109",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "When sourcing suppliers, I always prioritize domestic partnerships. There's a certain reliability and shared understanding of standards that you just get naturally \u2014 less back-and-forth, fewer surprises. It's simply good business practice to work with people who operate in the same context you do.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.39), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_110",
+    "gold_label": "nationality_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.573,
+    "text": "ngl every time I get a customer service rep with a thick Indian accent I just hang up and call back lmao. nothing personal but the communication issues waste so much time \ud83d\ude2d #CustomerService",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.57), combining DistilBERT logits, RoBERTa p_hate, and structural rule features."
+    ]
+  },
+  {
+    "post_id": "p3_114",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "Reflecting on our latest hiring cycle, I find that candidates from Oxbridge and the Ivy League tend to bring a certain analytical rigour that is simply difficult to replicate from other institutions. It may be uncomfortable to say, but pedigree does signal something meaningful about capacity and drive. We owe it to our clients to staff accordingly.",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.48), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_115",
+    "gold_label": "profession_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.5,
+    "text": "A philosophy degree is genuinely impressive \u2014 it takes real courage to commit to something so\u2026 exploratory. What's the plan after, though? Teaching, maybe?",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.43), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_117",
+    "gold_label": "neutral",
+    "predicted_bias_type": "profession_bias",
+    "bias_detected": true,
+    "confidence": 0.888,
+    "text": "Reminder that construction project management is a career path open to anyone willing to put in the time on site and in the classroom. Some of the sharpest PMs I've worked with came up through the trades rather than a four-year degree. Skills matter more than the route you took.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'profession bias' with posterior mass 0.89, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Model distribution is strongest for profession bias (core semantic signal).",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_120",
+    "gold_label": "neutral",
+    "predicted_bias_type": "nationality_bias",
+    "bias_detected": true,
+    "confidence": 0.5,
+    "text": "Spent the afternoon reviewing applications for our legal aid fellowship. The range of backgrounds \u2014 public defenders, community organizers, paralegals who went back to school \u2014 genuinely makes the selection process harder in the best way. No single path into public interest law.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'nationality bias' with posterior mass 0.41, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  },
+  {
+    "post_id": "p3_123",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "neutral",
+    "bias_detected": false,
+    "confidence": 0.573,
+    "text": "Great Q3 planning session today. I do think we need someone with a firm hand to lead the budget negotiations \u2014 someone decisive, authoritative. You know the type. Probably not the best fit for everyone on the team, if I'm being honest. #Leadership #Finance",
+    "explanation": [
+      "Learned fusion classifier assigns highest probability to neutral/non-bias (posterior neutral=0.57), combining DistilBERT logits, RoBERTa p_hate, and structural rule features.",
+      "Bias-class probability was non-trivial (profession bias) but below the fused decision cutoff."
+    ]
+  },
+  {
+    "post_id": "p3_124",
+    "gold_label": "gender_bias",
+    "predicted_bias_type": "nationality_bias",
+    "bias_detected": true,
+    "confidence": 0.5,
+    "text": "We interviewed a non-binary candidate for the client-facing legal associate position. Brilliant credentials, top of their class. But senior partners kept asking HR whether clients would 'feel comfortable' with them representing the firm. The role went to someone 'safer.' Just another Tuesday at a white-shoe law firm.",
+    "explanation": [
+      "Learned fusion classifier (multinomial logistic regression) predicts 'nationality bias' with posterior mass 0.44, combining DistilBERT, Cardiff RoBERTa (p_hate), and linguistic rule features.",
+      "Low hate-probability: primary signal is group/role stereotyping, not general toxicity."
+    ]
+  }
+]

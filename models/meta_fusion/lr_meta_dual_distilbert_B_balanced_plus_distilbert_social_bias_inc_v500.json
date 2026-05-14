@@ -1,0 +1,153 @@
+{
+  "n_train": 960,
+  "n_gold_rows": 1200,
+  "refit_full_dataset": true,
+  "extra_gold_sources": [
+    "data/evaluation/manual_eval_200_labeled.csv",
+    "data/meta_training/gemini_300_posts_curated.csv",
+    "data/evaluation/manual_eval_v3_500_posts.csv"
+  ],
+  "feature_names": [
+    "distilbert_gender_bias",
+    "distilbert_nationality_bias",
+    "distilbert_profession_bias",
+    "distilbert_neutral",
+    "p_hate_roberta",
+    "rule_generalisation",
+    "rule_comparison",
+    "rule_preference",
+    "rule_coded_bias",
+    "structure_score",
+    "rule_soft_preference",
+    "rule_implicit_generalisation",
+    "rule_inequality_context",
+    "lex_group_presence",
+    "lex_soft_preference_norm",
+    "lex_hedging_rate",
+    "lex_polarity_gap",
+    "lex_implicit_x_group",
+    "lex_target_negative_sentiment",
+    "lex_exclusion_intent",
+    "lex_anti_stereotype_cue",
+    "stance_group_target_present",
+    "stance_sentiment_toward_group",
+    "stance_attribution_assertion",
+    "stance_attribution_denial",
+    "stance_attribution_critique",
+    "stance_attribution_endorsement",
+    "stance_normative_language_score",
+    "stance_negation_scope_over_group",
+    "stance_essentialist_claim_score",
+    "meth_nationality_cue",
+    "meth_profession_cue",
+    "meth_gender_axis_cue",
+    "meth_counter_speech_strength",
+    "meth_nationality_minus_profession",
+    "meth_civil_policy_framing",
+    "social_type_gender_bias",
+    "social_type_nationality_bias",
+    "social_type_profession_bias",
+    "social_type_neutral"
+  ],
+  "feature_schema_version": 6,
+  "classes": [
+    "gender_bias",
+    "nationality_bias",
+    "neutral",
+    "profession_bias"
+  ],
+  "model_selection": [
+    {
+      "C": 1.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.693099755817319,
+      "sanity_fpr": 0.225
+    },
+    {
+      "C": 0.5,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.6872140853912897,
+      "sanity_fpr": 0.2
+    },
+    {
+      "C": 4.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.6921378800763939,
+      "sanity_fpr": 0.225
+    },
+    {
+      "C": 0.25,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.6851687015202212,
+      "sanity_fpr": 0.2
+    },
+    {
+      "C": 2.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.6900761366781402,
+      "sanity_fpr": 0.225
+    }
+  ],
+  "selected_hyperparams": {
+    "C": 1.0,
+    "penalty": "l2",
+    "class_weight": "balanced",
+    "cv_f1_macro": 0.693099755817319,
+    "sanity_fpr": 0.225
+  },
+  "coefficient_magnitude_by_group": {
+    "distilbert_primary": 0.8151921984564541,
+    "hate": 0.0,
+    "rules": 0.18230081641874585,
+    "linguistic": 0.16571262219717287,
+    "stance": 0.12463443587391354,
+    "methodology": 0.21547924203442295,
+    "distilbert_social_aux": 0.25255894099021076
+  },
+  "n_test": 240,
+  "classification_report": {
+    "gender_bias": {
+      "precision": 0.8461538461538461,
+      "recall": 0.8461538461538461,
+      "f1-score": 0.8461538461538461,
+      "support": 52.0
+    },
+    "nationality_bias": {
+      "precision": 0.6545454545454545,
+      "recall": 0.7058823529411765,
+      "f1-score": 0.6792452830188679,
+      "support": 51.0
+    },
+    "profession_bias": {
+      "precision": 0.5272727272727272,
+      "recall": 0.58,
+      "f1-score": 0.5523809523809524,
+      "support": 50.0
+    },
+    "neutral": {
+      "precision": 0.6794871794871795,
+      "recall": 0.6091954022988506,
+      "f1-score": 0.6424242424242425,
+      "support": 87.0
+    },
+    "accuracy": 0.675,
+    "macro avg": {
+      "precision": 0.6768648018648018,
+      "recall": 0.6853079003484683,
+      "f1-score": 0.6800510809944773,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.6785868298368298,
+      "recall": 0.675,
+      "f1-score": 0.6756311089329957,
+      "support": 240.0
+    }
+  },
+  "holdout_evaluator": "train_split_model"
+}

@@ -1,0 +1,153 @@
+{
+  "primary_gold_path": "data/evaluation/manual_eval_v2_200_posts.csv",
+  "n_train": 560,
+  "n_gold_rows": 700,
+  "refit_full_dataset": true,
+  "extra_gold_sources": [
+    "data/evaluation/manual_eval_200_labeled.csv",
+    "data/meta_training/gemini_300_posts_curated.csv"
+  ],
+  "feature_names": [
+    "distilbert_gender_bias",
+    "distilbert_nationality_bias",
+    "distilbert_profession_bias",
+    "distilbert_neutral",
+    "p_hate_roberta",
+    "rule_generalisation",
+    "rule_comparison",
+    "rule_preference",
+    "rule_coded_bias",
+    "structure_score",
+    "rule_soft_preference",
+    "rule_implicit_generalisation",
+    "rule_inequality_context",
+    "lex_group_presence",
+    "lex_soft_preference_norm",
+    "lex_hedging_rate",
+    "lex_polarity_gap",
+    "lex_implicit_x_group",
+    "lex_target_negative_sentiment",
+    "lex_exclusion_intent",
+    "lex_anti_stereotype_cue",
+    "stance_group_target_present",
+    "stance_sentiment_toward_group",
+    "stance_attribution_assertion",
+    "stance_attribution_denial",
+    "stance_attribution_critique",
+    "stance_attribution_endorsement",
+    "stance_normative_language_score",
+    "stance_negation_scope_over_group",
+    "stance_essentialist_claim_score",
+    "meth_nationality_cue",
+    "meth_profession_cue",
+    "meth_gender_axis_cue",
+    "meth_counter_speech_strength",
+    "meth_nationality_minus_profession",
+    "meth_civil_policy_framing",
+    "social_type_gender_bias",
+    "social_type_nationality_bias",
+    "social_type_profession_bias",
+    "social_type_neutral"
+  ],
+  "feature_schema_version": 6,
+  "classes": [
+    "gender_bias",
+    "nationality_bias",
+    "neutral",
+    "profession_bias"
+  ],
+  "model_selection": [
+    {
+      "C": 0.25,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7311920117846187,
+      "sanity_fpr": 0.225
+    },
+    {
+      "C": 0.5,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7211107156664567,
+      "sanity_fpr": 0.225
+    },
+    {
+      "C": 4.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7169097981821089,
+      "sanity_fpr": 0.225
+    },
+    {
+      "C": 2.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7162479969915314,
+      "sanity_fpr": 0.225
+    },
+    {
+      "C": 1.0,
+      "penalty": "l2",
+      "class_weight": "balanced",
+      "cv_f1_macro": 0.7152497804101766,
+      "sanity_fpr": 0.225
+    }
+  ],
+  "selected_hyperparams": {
+    "C": 0.25,
+    "penalty": "l2",
+    "class_weight": "balanced",
+    "cv_f1_macro": 0.7311920117846187,
+    "sanity_fpr": 0.225
+  },
+  "coefficient_magnitude_by_group": {
+    "distilbert_primary": 0.41220658898274554,
+    "hate": 0.0,
+    "rules": 0.1039219212807006,
+    "linguistic": 0.1216007564702917,
+    "stance": 0.11139859247121914,
+    "methodology": 0.17739749611719638,
+    "distilbert_social_aux": 0.28934957288687385
+  },
+  "n_test": 140,
+  "classification_report": {
+    "gender_bias": {
+      "precision": 0.75,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8135593220338984,
+      "support": 27.0
+    },
+    "nationality_bias": {
+      "precision": 0.5555555555555556,
+      "recall": 0.7692307692307693,
+      "f1-score": 0.6451612903225806,
+      "support": 26.0
+    },
+    "profession_bias": {
+      "precision": 0.5714285714285714,
+      "recall": 0.64,
+      "f1-score": 0.6037735849056604,
+      "support": 25.0
+    },
+    "neutral": {
+      "precision": 0.7727272727272727,
+      "recall": 0.5483870967741935,
+      "f1-score": 0.6415094339622641,
+      "support": 62.0
+    },
+    "accuracy": 0.6714285714285714,
+    "macro avg": {
+      "precision": 0.66242784992785,
+      "recall": 0.7116266887234629,
+      "f1-score": 0.6760009078061008,
+      "support": 140.0
+    },
+    "weighted avg": {
+      "precision": 0.6920660688517831,
+      "recall": 0.6714285714285714,
+      "f1-score": 0.6686301412257446,
+      "support": 140.0
+    }
+  },
+  "holdout_evaluator": "train_split_model"
+}

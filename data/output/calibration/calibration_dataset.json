@@ -1,0 +1,838 @@
+{
+  "meta": {
+    "n_validation": 75,
+    "classes": [
+      "gender_bias",
+      "nationality_bias",
+      "profession_bias",
+      "neutral"
+    ]
+  },
+  "rows": [
+    {
+      "post_id": "2",
+      "text": "Encouraging women to join our engineering team has brought a fresh approach to problem-solving, thanks to their collaborative style.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9657438942562541,
+        "nationality_bias": 0.021797478440676032,
+        "neutral": 0.003031533693063413,
+        "profession_bias": 0.009427093610006598
+      }
+    },
+    {
+      "post_id": "3",
+      "text": "Female colleagues tend to be more intuitive and excel at reading team dynamics, which improves workplace morale.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.8838001403163732,
+        "nationality_bias": 0.061122088667169165,
+        "neutral": 0.005453992457221632,
+        "profession_bias": 0.04962377855923611
+      }
+    },
+    {
+      "post_id": "12",
+      "text": "It's common to see men take on more physically demanding onsite managerial jobs, while women often fill office-based supervisory roles.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9854465026980455,
+        "nationality_bias": 0.006895111765790967,
+        "neutral": 0.00016853535535538638,
+        "profession_bias": 0.00748985018080805
+      }
+    },
+    {
+      "post_id": "21",
+      "text": "Men often thrive in high-pressure environments due to their competitive nature, which can be a real asset in sales and marketing.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9780723377367618,
+        "nationality_bias": 0.011196386485011105,
+        "neutral": 0.0006220407829309785,
+        "profession_bias": 0.010109234995295974
+      }
+    },
+    {
+      "post_id": "22",
+      "text": "Men usually take more risks in business ventures, which can lead to groundbreaking innovations when managed wisely.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9681775832599472,
+        "nationality_bias": 0.01526428323919793,
+        "neutral": 0.0001971865455065779,
+        "profession_bias": 0.01636094695534834
+      }
+    },
+    {
+      "post_id": "24",
+      "text": "Men\u2019s generally stronger networks in traditional industries sometimes make it easier for them to land senior roles.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9737041555381514,
+        "nationality_bias": 0.006965304350134955,
+        "neutral": 0.002739809957130519,
+        "profession_bias": 0.016590730154583067
+      }
+    },
+    {
+      "post_id": "30",
+      "text": "Promoting more women into management not only improves diversity but also enhances collaborative decision-making, as women tend to value consensus.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9891321615496947,
+        "nationality_bias": 0.010061104175189016,
+        "neutral": 0.00018921981025013635,
+        "profession_bias": 0.0006175144648663235
+      }
+    },
+    {
+      "post_id": "33",
+      "text": "When it comes to risk management, male managers generally display higher tolerance for uncertainty, making them effective in finance sectors.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9810158009270908,
+        "nationality_bias": 0.00489111040640591,
+        "neutral": 0.0013496527121625954,
+        "profession_bias": 0.012743435954340552
+      }
+    },
+    {
+      "post_id": "38",
+      "text": "Women tend to excel in roles that require empathy and collaboration, which enhances team cohesion.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9880485770589612,
+        "nationality_bias": 0.007678293257903671,
+        "neutral": 0.0008616078494844208,
+        "profession_bias": 0.0034115218336508734
+      }
+    },
+    {
+      "post_id": "44",
+      "text": "I always find female mentors more nurturing and invested in mentees\u2019 personal growth compared to male mentors.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9692380983425484,
+        "nationality_bias": 0.011776071342313373,
+        "neutral": 0.00971629384669684,
+        "profession_bias": 0.009269536468441501
+      }
+    },
+    {
+      "post_id": "53",
+      "text": "Leadership roles in startups seem skewed towards men; maybe they're just more naturally suited for risk?",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9520266843796429,
+        "nationality_bias": 0.008689903191397279,
+        "neutral": 0.00036001656222129345,
+        "profession_bias": 0.03892339586673837
+      }
+    },
+    {
+      "post_id": "58",
+      "text": "My new project manager is a woman and she\u2019s already proving that multitasking under pressure is truly a female strength.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9880446922098977,
+        "nationality_bias": 0.003925369641482981,
+        "neutral": 0.0031391202963796795,
+        "profession_bias": 0.004890817852239821
+      }
+    },
+    {
+      "post_id": "60",
+      "text": "She\u2019s great at multitasking in the office, probably because women are inherently better at juggling responsibilities.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9561348647752835,
+        "nationality_bias": 0.0031085922463169216,
+        "neutral": 7.872564235159772e-05,
+        "profession_bias": 0.040677817336047827
+      }
+    },
+    {
+      "post_id": "61",
+      "text": "Some managers expect women to be more nurturing leaders, which boxes them into limited leadership styles.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9879976521089591,
+        "nationality_bias": 0.003936616655277907,
+        "neutral": 0.00314641345680327,
+        "profession_bias": 0.004919317778959699
+      }
+    },
+    {
+      "post_id": "64",
+      "text": "The team looks more productive when more men are involved; maybe they bring a competitive edge women don\u2019t.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9851589869045452,
+        "nationality_bias": 0.0033298471242179523,
+        "neutral": 0.0004966067261785677,
+        "profession_bias": 0.011014559245058257
+      }
+    },
+    {
+      "post_id": "68",
+      "text": "We need more women in cybersecurity, not just to balance numbers but because they\u2019re better at anticipating threats.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.983673571805956,
+        "nationality_bias": 0.010842345552826498,
+        "neutral": 0.0042103710020223875,
+        "profession_bias": 0.00127371163919513
+      }
+    },
+    {
+      "post_id": "70",
+      "text": "When women negotiate salary, they\u2019re sometimes labeled as demanding compared to men doing the same.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9807647966211427,
+        "nationality_bias": 0.005672967337733539,
+        "neutral": 0.0077222550129712655,
+        "profession_bias": 0.0058399810281525005
+      }
+    },
+    {
+      "post_id": "72",
+      "text": "Why is it that in tech support roles, women tend to be more patient and understanding with customers?",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9790902621936688,
+        "nationality_bias": 0.012861256312335369,
+        "neutral": 0.003047507201640472,
+        "profession_bias": 0.005000974292355507
+      }
+    },
+    {
+      "post_id": "73",
+      "text": "Women are often praised for their collaboration skills, implying men lack the same teamwork abilities.",
+      "true_label": "gender_bias",
+      "posterior_raw": {
+        "gender_bias": 0.9841924679163551,
+        "nationality_bias": 0.00621458970122181,
+        "neutral": 8.312785742419384e-05,
+        "profession_bias": 0.009509814524998923
+      }
+    },
+    {
+      "post_id": "76",
+      "text": "Candidates from Mexico tend to have strong communication skills, which helps in cross-border customer service roles.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.019336257981468458,
+        "nationality_bias": 0.8534192267570719,
+        "neutral": 0.05859631480161601,
+        "profession_bias": 0.06864820045984354
+      }
+    },
+    {
+      "post_id": "83",
+      "text": "Hiring from Poland has brought in talent that is both technically skilled and cost-effective for our operations.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.001579575638904362,
+        "nationality_bias": 0.33881037988254353,
+        "neutral": 0.602584060536861,
+        "profession_bias": 0.05702598394169116
+      }
+    },
+    {
+      "post_id": "84",
+      "text": "Hiring professionals from Germany often brings a strong sense of discipline and efficiency to project management roles.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.002323765204348815,
+        "nationality_bias": 0.29619603416567397,
+        "neutral": 0.07330215480630614,
+        "profession_bias": 0.6281780458236711
+      }
+    },
+    {
+      "post_id": "86",
+      "text": "I appreciate how professionals from New Zealand often balance innovation with sustainability in their projects.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0020210394528024605,
+        "nationality_bias": 0.1345254225835519,
+        "neutral": 0.03117525606397176,
+        "profession_bias": 0.832278281899674
+      }
+    },
+    {
+      "post_id": "90",
+      "text": "In global teams, Brazilian professionals often bring vibrant energy and strong interpersonal skills that enhance collaboration.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.004179032525421261,
+        "nationality_bias": 0.4706822639310634,
+        "neutral": 0.13727442113526012,
+        "profession_bias": 0.38786428240825527
+      }
+    },
+    {
+      "post_id": "92",
+      "text": "Irish professionals in our sales team seem to excel at building genuine client relationships through storytelling.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0020052773538237166,
+        "nationality_bias": 0.7104430164219532,
+        "neutral": 0.18701029867205843,
+        "profession_bias": 0.10054140755216479
+      }
+    },
+    {
+      "post_id": "99",
+      "text": "Our partnerships in the UAE highlight how cultural emphasis on relationship-building can drive business success.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0021672691373273447,
+        "nationality_bias": 0.29278761202554504,
+        "neutral": 0.6287254195151164,
+        "profession_bias": 0.07631969932201127
+      }
+    },
+    {
+      "post_id": "101",
+      "text": "Our tech team is exploring collaboration with engineers from Japan, as their precision and attention to detail are highly respected in the industry.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.03640039755896322,
+        "nationality_bias": 0.35645379156803464,
+        "neutral": 0.47590967843297133,
+        "profession_bias": 0.13123613244003068
+      }
+    },
+    {
+      "post_id": "104",
+      "text": "Swiss colleagues often bring precision and reliability that enhances our quality assurance processes.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0041004921737698135,
+        "nationality_bias": 0.43946513921218294,
+        "neutral": 0.08113920310719248,
+        "profession_bias": 0.4752951655068548
+      }
+    },
+    {
+      "post_id": "116",
+      "text": "Clients feel more comfortable dealing with representatives who share their nationality or cultural background.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.004172386451628718,
+        "nationality_bias": 0.38635183171193543,
+        "neutral": 0.4880179533415318,
+        "profession_bias": 0.1214578284949041
+      }
+    },
+    {
+      "post_id": "119",
+      "text": "Companies often prefer expats from certain countries, believing they bring a higher level of professionalism.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0005972322939218693,
+        "nationality_bias": 0.8440280960825111,
+        "neutral": 0.0015452556631112147,
+        "profession_bias": 0.15382941596045585
+      }
+    },
+    {
+      "post_id": "120",
+      "text": "Hiring managers prefer candidates with degrees from Western universities, assuming better quality education.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0061027513685605,
+        "nationality_bias": 0.7482362160879822,
+        "neutral": 0.0031349459664789135,
+        "profession_bias": 0.24252608657697833
+      }
+    },
+    {
+      "post_id": "126",
+      "text": "In our industry, firms headquartered in Switzerland often set higher standards for precision and reliability.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.004197876440699882,
+        "nationality_bias": 0.4625005575415534,
+        "neutral": 0.11830777287242365,
+        "profession_bias": 0.41499379314532314
+      }
+    },
+    {
+      "post_id": "128",
+      "text": "It's interesting how coffee shops run by Italians often create such a warm and authentic atmosphere that other places struggle to match.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.003852291162861667,
+        "nationality_bias": 0.497982902711032,
+        "neutral": 0.23612479136966305,
+        "profession_bias": 0.26204001475644323
+      }
+    },
+    {
+      "post_id": "135",
+      "text": "Local candidates are often seen as a safer choice because they supposedly understand the company\u2019s values better.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.057211999992110546,
+        "nationality_bias": 0.7274879370996978,
+        "neutral": 0.001940198642843164,
+        "profession_bias": 0.2133598642653486
+      }
+    },
+    {
+      "post_id": "138",
+      "text": "People tend to assume that professionals from India are naturally more adept with technology, which isn't always the case.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.029715615773584753,
+        "nationality_bias": 0.35946684391900263,
+        "neutral": 0.015531993957314996,
+        "profession_bias": 0.5952855463500976
+      }
+    },
+    {
+      "post_id": "140",
+      "text": "Recruiters sometimes overlook talent from lesser-known countries assuming their qualifications are inferior.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0021339457045658162,
+        "nationality_bias": 0.30127162111413885,
+        "neutral": 0.6197132103477551,
+        "profession_bias": 0.07688122283354012
+      }
+    },
+    {
+      "post_id": "149",
+      "text": "When hiring for this role, I feel candidates from Canada usually bring a more collaborative approach to teamwork.",
+      "true_label": "nationality_bias",
+      "posterior_raw": {
+        "gender_bias": 0.013165030392659953,
+        "nationality_bias": 0.8710383080440885,
+        "neutral": 0.004320390702277431,
+        "profession_bias": 0.11147627086097407
+      }
+    },
+    {
+      "post_id": "151",
+      "text": "Attended an enlightening panel discussion on the future of digital transformation in the finance sector.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.00218571282855566,
+        "nationality_bias": 0.29424236172527685,
+        "neutral": 0.6257870404051407,
+        "profession_bias": 0.07778488504102683
+      }
+    },
+    {
+      "post_id": "154",
+      "text": "Attending the annual tech innovation summit was inspiring. Great to connect with leaders driving change across industries worldwide.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.00417214925750253,
+        "nationality_bias": 0.25883390189174016,
+        "neutral": 0.29302191285610013,
+        "profession_bias": 0.4439720359946572
+      }
+    },
+    {
+      "post_id": "156",
+      "text": "Continuous learning is key to staying competitive. Encouraging everyone to explore new certifications and training opportunities this quarter.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.002163569220854341,
+        "nationality_bias": 0.2926650572049453,
+        "neutral": 0.6291578199410482,
+        "profession_bias": 0.07601355363315224
+      }
+    },
+    {
+      "post_id": "159",
+      "text": "Excited to share our company's new initiative focused on sustainable growth and employee well-being. Looking forward to collaborating with diverse teams to drive innovation.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.019202538404820987,
+        "nationality_bias": 0.27434987081803563,
+        "neutral": 0.6224125256961413,
+        "profession_bias": 0.08403506508100222
+      }
+    },
+    {
+      "post_id": "161",
+      "text": "Excited to welcome several new hires to our marketing department. Their fresh perspectives will be invaluable as we expand our brand reach.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.01913104764037669,
+        "nationality_bias": 0.27467091356580053,
+        "neutral": 0.6229169100521713,
+        "profession_bias": 0.0832811287416514
+      }
+    },
+    {
+      "post_id": "162",
+      "text": "Grateful for the collaboration between our marketing and product development teams, which resulted in a successful product launch last month.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.0021639857095372105,
+        "nationality_bias": 0.2926809686548798,
+        "neutral": 0.629037517592567,
+        "profession_bias": 0.07611752804301596
+      }
+    },
+    {
+      "post_id": "180",
+      "text": "Pleased to announce the launch of our mentorship program designed to empower emerging leaders across all departments. Let's invest in the future together.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.00417736057884974,
+        "nationality_bias": 0.38642299881713293,
+        "neutral": 0.48740001015720325,
+        "profession_bias": 0.12199963044681408
+      }
+    },
+    {
+      "post_id": "181",
+      "text": "Pleased to announce the rollout of flexible working hours to better accommodate employees' varying needs.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.019164651892906084,
+        "nationality_bias": 0.27433704178534996,
+        "neutral": 0.6228420172618225,
+        "profession_bias": 0.08365628905992137
+      }
+    },
+    {
+      "post_id": "183",
+      "text": "Proud of our customer service team for receiving outstanding feedback during the recent client satisfaction survey.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.004178416550168402,
+        "nationality_bias": 0.3862633334118891,
+        "neutral": 0.4878598700270746,
+        "profession_bias": 0.12169838001086786
+      }
+    },
+    {
+      "post_id": "186",
+      "text": "Thrilled to announce a partnership with local universities to offer internship opportunities in emerging tech fields.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.007486127637328439,
+        "nationality_bias": 0.41270415934077015,
+        "neutral": 0.5452769899730281,
+        "profession_bias": 0.03453272304887336
+      }
+    },
+    {
+      "post_id": "190",
+      "text": "Attended a concert last night that featured some incredible local talent. Music really brings people together.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.036209582601590865,
+        "nationality_bias": 0.3577592723922858,
+        "neutral": 0.47542048208420296,
+        "profession_bias": 0.1306106629219203
+      }
+    },
+    {
+      "post_id": "192",
+      "text": "Can anyone recommend some good resources for improving public speaking skills? Looking to boost my confidence.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.0024215457943858325,
+        "nationality_bias": 0.2806817632230264,
+        "neutral": 0.58726426238115,
+        "profession_bias": 0.1296324286014376
+      }
+    },
+    {
+      "post_id": "197",
+      "text": "Excited to announce the launch of our new community garden project downtown! Everyone's invited to join and contribute.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.00216493055122092,
+        "nationality_bias": 0.2926915382655851,
+        "neutral": 0.6290511818063577,
+        "profession_bias": 0.07609234937683644
+      }
+    },
+    {
+      "post_id": "204",
+      "text": "Just attended an amazing webinar on digital marketing trends. Great insights on customer engagement strategies.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.0021712836155888615,
+        "nationality_bias": 0.29312417195979945,
+        "neutral": 0.6281205352758058,
+        "profession_bias": 0.07658400914880593
+      }
+    },
+    {
+      "post_id": "215",
+      "text": "Reading historical novels has become my favorite way to unwind after work.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.002164066334052958,
+        "nationality_bias": 0.2926953603602903,
+        "neutral": 0.629085606128052,
+        "profession_bias": 0.07605496717760474
+      }
+    },
+    {
+      "post_id": "220",
+      "text": "The local art exhibit showcases some incredible talent; highly recommend a visit.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.019159317063655864,
+        "nationality_bias": 0.27433448809215455,
+        "neutral": 0.6230544408419821,
+        "profession_bias": 0.08345175400220742
+      }
+    },
+    {
+      "post_id": "222",
+      "text": "The local library\u2019s digital resources have been a lifesaver for my weekend learning sessions.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.01915905441146015,
+        "nationality_bias": 0.2743136410340003,
+        "neutral": 0.62311250460182,
+        "profession_bias": 0.08341479995271953
+      }
+    },
+    {
+      "post_id": "223",
+      "text": "The new art exhibit downtown showcases a diverse range of styles and perspectives. Worth a visit this weekend.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.0021670831146910342,
+        "nationality_bias": 0.29267633835807866,
+        "neutral": 0.6290373764342411,
+        "profession_bias": 0.07611920209298909
+      }
+    },
+    {
+      "post_id": "229",
+      "text": "Consultants typically have a knack for quickly identifying inefficiencies within organizations.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.000903643892016132,
+        "nationality_bias": 0.04716064004905768,
+        "neutral": 0.004966634880822394,
+        "profession_bias": 0.9469690811781039
+      }
+    },
+    {
+      "post_id": "233",
+      "text": "Data scientists are usually more comfortable dealing with ambiguity and incomplete information than other analysts.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.000979813702189089,
+        "nationality_bias": 0.07828552193754135,
+        "neutral": 0.006375275431870021,
+        "profession_bias": 0.9143593889283995
+      }
+    },
+    {
+      "post_id": "238",
+      "text": "Event planners typically demonstrate exceptional multitasking and crisis management skills under pressure.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0010108212175418642,
+        "nationality_bias": 0.05414442683417025,
+        "neutral": 0.007257859517746989,
+        "profession_bias": 0.9375868924305408
+      }
+    },
+    {
+      "post_id": "241",
+      "text": "Health professionals in management roles often prioritize team well-being alongside performance metrics.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0005781703830994119,
+        "nationality_bias": 0.05596694873517649,
+        "neutral": 6.516075674202244e-06,
+        "profession_bias": 0.94344836480605
+      }
+    },
+    {
+      "post_id": "242",
+      "text": "HR managers seem to be naturally skilled at resolving conflicts and fostering team collaboration.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.01443191475419529,
+        "nationality_bias": 0.09234796554117927,
+        "neutral": 0.01253144442609695,
+        "profession_bias": 0.8806886752785286
+      }
+    },
+    {
+      "post_id": "245",
+      "text": "In my experience, software engineers with a background in open source tend to adapt faster to agile environments.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.020528109319734044,
+        "nationality_bias": 0.31799178469978534,
+        "neutral": 0.0026787574609983622,
+        "profession_bias": 0.6588013485194822
+      }
+    },
+    {
+      "post_id": "249",
+      "text": "I\u2019ve noticed that salespeople often excel in client negotiations because of their persuasive communication style.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.004201062067207924,
+        "nationality_bias": 0.46831661697899973,
+        "neutral": 0.13687066523233662,
+        "profession_bias": 0.39061165572145584
+      }
+    },
+    {
+      "post_id": "253",
+      "text": "Marketing professionals tend to be more attuned to consumer trends and market dynamics than other roles.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.002248705091965144,
+        "nationality_bias": 0.15590507384972288,
+        "neutral": 0.2996455894165063,
+        "profession_bias": 0.5422006316418057
+      }
+    },
+    {
+      "post_id": "254",
+      "text": "Marketing teams tend to be perceived as more adaptable to change, which influences how companies allocate budgets internally.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.002122498187544298,
+        "nationality_bias": 0.29661825057751523,
+        "neutral": 0.6265721223366162,
+        "profession_bias": 0.07468712889832425
+      }
+    },
+    {
+      "post_id": "256",
+      "text": "Product managers with engineering backgrounds tend to align better with technical teams and product development.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.035223261575516626,
+        "nationality_bias": 0.17002184860460615,
+        "neutral": 0.018724015340612955,
+        "profession_bias": 0.7760308744792642
+      }
+    },
+    {
+      "post_id": "258",
+      "text": "Project managers who come from a marketing background often bring creative solutions to technical projects.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.01678938835818207,
+        "nationality_bias": 0.10594940165050772,
+        "neutral": 0.0015373226054071233,
+        "profession_bias": 0.8757238873859031
+      }
+    },
+    {
+      "post_id": "262",
+      "text": "Teachers often bring exceptional patience and adaptability skills to workplace training roles.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.003912626747759869,
+        "nationality_bias": 0.39959675980770126,
+        "neutral": 0.05976174574411809,
+        "profession_bias": 0.5367288677004207
+      }
+    },
+    {
+      "post_id": "263",
+      "text": "There\u2019s an unspoken bias that consultants are better problem solvers, which sometimes sidelines in-house experts.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0022811441239967943,
+        "nationality_bias": 0.19723867907105572,
+        "neutral": 0.35792883869679243,
+        "profession_bias": 0.442551338108155
+      }
+    },
+    {
+      "post_id": "265",
+      "text": "Accountants tend to be detail-oriented but sometimes lack the strategic thinking needed in management roles.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.002181242036682534,
+        "nationality_bias": 0.14978301101248212,
+        "neutral": 0.2871006679426086,
+        "profession_bias": 0.5609350790082268
+      }
+    },
+    {
+      "post_id": "273",
+      "text": "Doctors are often considered more reliable than nurses when it comes to making critical healthcare decisions.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.0007786030843114186,
+        "nationality_bias": 0.08843104669807066,
+        "neutral": 0.0015968777203922563,
+        "profession_bias": 0.9091934724972257
+      }
+    },
+    {
+      "post_id": "275",
+      "text": "Engineers tend to be introverted and prefer technical discussions over social interactions in the office.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.011263332264144112,
+        "nationality_bias": 0.36703461243553026,
+        "neutral": 0.0009846594940288648,
+        "profession_bias": 0.6207173958062968
+      }
+    },
+    {
+      "post_id": "280",
+      "text": "I find that marketing teams tend to be more creative and less detail-oriented than finance departments.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.001673440801752637,
+        "nationality_bias": 0.2301206857554826,
+        "neutral": 0.030512753548891557,
+        "profession_bias": 0.7376931198938732
+      }
+    },
+    {
+      "post_id": "281",
+      "text": "IT support staff are problem solvers but often get overlooked when it comes to creative brainstorming sessions.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.027269435063250982,
+        "nationality_bias": 0.6779023793372231,
+        "neutral": 0.000828044363216546,
+        "profession_bias": 0.2940001412363094
+      }
+    },
+    {
+      "post_id": "282",
+      "text": "IT support staff often receive less recognition because their work is behind the scenes and taken for granted.",
+      "true_label": "neutral",
+      "posterior_raw": {
+        "gender_bias": 0.049331902951841804,
+        "nationality_bias": 0.6360765230092711,
+        "neutral": 0.014720707979488367,
+        "profession_bias": 0.2998708660593987
+      }
+    },
+    {
+      "post_id": "296",
+      "text": "Software engineers always seem to solve problems faster when they have a background in mathematics rather than pure creative fields.",
+      "true_label": "profession_bias",
+      "posterior_raw": {
+        "gender_bias": 0.012055062545504263,
+        "nationality_bias": 0.07406556147636942,
+        "neutral": 0.006365708706553752,
+        "profession_bias": 0.9075136672715727
+      }
+    }
+  ]
+}
