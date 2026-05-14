@@ -1,8 +1,6 @@
 # PRISM
 
-**PRISM** flags four-way social bias in short English text (**gender**, **nationality**, **profession**, or **neutral**). It combines a fine-tuned **DistilBERT** classifier with extra lexical and structural signals, then a small **learned fusion** layer—so you get both predictions and short explanations.
-
-If you just want to **run the bundled system** on the included benchmark and read the metrics, you only need the steps below.
+**PRISM** flags four-way social bias in short English text (**gender**, **nationality**, **profession**, or **neutral**). It combines a fine-tuned **DistilBERT** classifier with extra lexical and structural signals, then a small **learned fusion** layer
 
 ---
 
